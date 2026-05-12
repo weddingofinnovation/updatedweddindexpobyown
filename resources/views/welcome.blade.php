@@ -19,37 +19,37 @@
             <div class="grid grid-cols-2 lg:grid-cols-4 gap-8 md:gap-x-12 md:gap-y-24">
                 <div style="opacity: 1; transform: none;">
                     <div class="flex flex-col items-start text-left">
-                        <div class="text-[24px] md:text-[32px] font-bold text-white mb-2 font-['expoSans'] leading-none">1,00,000+</div>
+                        <div class="text-[24px] md:text-[32px] font-bold text-white mb-2 font-['expoSans'] leading-none">10,000+</div>
                         <div class="text-[14px] md:text-[18px] text-white font-medium font-['expoSans'] leading-tight opacity-90">Footfall</div>
                     </div>
                 </div>
                 <div style="opacity: 1; transform: none;">
                     <div class="flex flex-col items-start text-left">
-                        <div class="text-[24px] md:text-[32px] font-bold text-white mb-2 font-['expoSans'] leading-none">8,000+</div>
+                        <div class="text-[24px] md:text-[32px] font-bold text-white mb-2 font-['expoSans'] leading-none">40+</div>
                         <div class="text-[14px] md:text-[18px] text-white font-medium font-['expoSans'] leading-tight opacity-90">Participating Companies</div>
                     </div>
                 </div>
                 <div style="opacity: 1; transform: none;">
                     <div class="flex flex-col items-start text-left">
-                        <div class="text-[24px] md:text-[32px] font-bold text-white mb-2 font-['expoSans'] leading-none">1,000+</div>
+                        <div class="text-[24px] md:text-[32px] font-bold text-white mb-2 font-['expoSans'] leading-none">100+</div>
                         <div class="text-[14px] md:text-[18px] text-white font-medium font-['expoSans'] leading-tight opacity-90">Speakers</div>
                     </div>
                 </div>
                 <div style="opacity: 1; transform: none;">
                     <div class="flex flex-col items-start text-left">
-                        <div class="text-[24px] md:text-[32px] font-bold text-white mb-2 font-['expoSans'] leading-none">500+</div>
+                        <div class="text-[24px] md:text-[32px] font-bold text-white mb-2 font-['expoSans'] leading-none">300+</div>
                         <div class="text-[14px] md:text-[18px] text-white font-medium font-['expoSans'] leading-tight opacity-90">Investors</div>
                     </div>
                 </div>
                 <div style="opacity: 1; transform: none;">
                     <div class="flex flex-col items-start text-left">
-                        <div class="text-[24px] md:text-[32px] font-bold text-white mb-2 font-['expoSans'] leading-none">400+</div>
+                        <div class="text-[24px] md:text-[32px] font-bold text-white mb-2 font-['expoSans'] leading-none">150+</div>
                         <div class="text-[14px] md:text-[18px] text-white font-medium font-['expoSans'] leading-tight opacity-90">Exhibitors</div>
                     </div>
                 </div>
                 <div style="opacity: 1; transform: none;">
                     <div class="flex flex-col items-start text-left">
-                        <div class="text-[24px] md:text-[32px] font-bold text-white mb-2 font-['expoSans'] leading-none">400+</div>
+                        <div class="text-[24px] md:text-[32px] font-bold text-white mb-2 font-['expoSans'] leading-none">20+</div>
                         <div class="text-[14px] md:text-[18px] text-white font-medium font-['expoSans'] leading-tight opacity-90">Sessions</div>
                     </div>
                 </div>
