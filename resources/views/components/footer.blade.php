@@ -172,7 +172,14 @@
         </nav>
 
         <div class="site-footer__legal">
-            <div class="rich-text"><p data-block-key="27for">© THE FINANCIAL TIMES LTD 2026. FT and ‘Financial Times’ are trademarks of The Financial Times Ltd. The Financial Times and its journalism are subject to a self-regulation regime under the <a href="https://aboutus.ft.com/company/our-standards/editorial-code" rel="nofollow noopener" target="_blank">FT Editorial Code of Practice</a>.</p></div>
+            <div class="rich-text">
+                <p data-block-key="27for">
+                
+            © 2026 The Exhibition Network Media Pvt. Ltd. All Rights Reserved. Wedding India Expo™ is a trademark property of <a href="#" rel="nofollow noopener" target="_blank">The Exhibition Network</a>. Unauthorized reproduction or use of any content, images, branding, or event material is strictly prohibited.
+            
+             
+            </p>
+            </div>
         </div>
 
         <div class="site-footer__nikkei-logo"></div>
