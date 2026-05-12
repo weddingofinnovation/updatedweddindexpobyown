@@ -7,7 +7,214 @@
 
     @livewireStyles
 </head>
+    <style>
+            body {
+        background-color: var(--bg-white);
+        color: var(--text-main);
+        font-family: sans-serif;
+        overflow-x: hidden;
+        -webkit-font-smoothing: antialiased;
+        }
 
+        .font-serif {
+        font-family: serif;
+        }
+
+        /* Editorial Hollow Text Effect */
+        .text-hollow {
+        color: transparent;
+        -webkit-text-stroke: 1px rgba(197, 168, 128, 0.4);
+        }
+
+        /* Light Glassmorphism / Editorial Cards */
+        .glass-panel {
+        background: rgba(255, 255, 255, 0.75);
+        backdrop-filter: blur(30px);
+        -webkit-backdrop-filter: blur(30px);
+        border: 1px solid rgba(255, 255, 255, 0.6);
+        box-shadow: 0 10px 40px -10px rgba(0, 0, 0, 0.05);
+        }
+
+        .editorial-card {
+        background: #FFFFFF;
+        border: 1px solid rgba(0, 0, 0, 0.03);
+        box-shadow: 0 20px 40px -20px rgba(0,0,0,0.03);
+        transition: all 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+        .editorial-card:hover {
+        box-shadow: 0 30px 60px -20px rgba(197, 168, 128, 0.15);
+        transform: translateY(-4px);
+        border-color: rgba(197, 168, 128, 0.2);
+        }
+
+        /* High Fashion Form Inputs */
+        .input-couture {
+        background: transparent;
+        border: none;
+        border-bottom: 1px solid rgba(0,0,0,0.1);
+        border-radius: 0;
+        padding: 12px 0;
+        width: 100%;
+        color: var(--text-main);
+        font-family: sans-serif;
+        transition: all 0.3s ease;
+        }
+        .input-couture:focus {
+        outline: none;
+        border-bottom: 1px solid var(--gold);
+        box-shadow: 0 1px 0 0 var(--gold);
+        }
+        .input-couture::placeholder {
+        color: #9CA3AF;
+        font-weight: 300;
+        letter-spacing: 0.05em;
+        }
+
+        /* Animations */
+        @keyframes marquee {
+        0% { transform: translateX(0%); }
+        100% { transform: translateX(-50%); }
+        }
+        .animate-marquee {
+        display: inline-block;
+        white-space: nowrap;
+        animation: marquee 45s linear infinite;
+        }
+
+        @keyframes float {
+        0% { transform: translateY(0px) scale(1); }
+        50% { transform: translateY(-15px) scale(1.02); }
+        100% { transform: translateY(0px) scale(1); }
+        }
+        .animate-float {
+        animation: float 14s ease-in-out infinite;
+        }
+        .animate-float-delayed {
+        animation: float 18s ease-in-out infinite 7s;
+        }
+
+        /* Stats Grid */
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            gap: 1.5rem;
+            width: 100%;
+            margin-top: 2rem;
+        }
+
+        @media (min-width: 768px) {
+            .stats-grid {
+                grid-template-columns: repeat(5, 1fr);
+            }
+        }
+
+        .img-zoom-container {
+        overflow: hidden;
+        }
+        .img-zoom {
+        transition: transform 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+        }
+        .img-zoom-container:hover .img-zoom {
+        transform: scale(1.05);
+        }
+
+        /* Mobile Sticky Bottom CTA Bar */
+        .sticky-mobile-cta {
+        @apply fixed bottom-0 left-0 right-0 bg-white/95 backdrop-blur-md p-4 border-t border-slate-100 z-50 shadow-[0_-10px_40px_-15px_rgba(0,0,0,0.1)];
+        @apply md:relative md:bg-transparent md:backdrop-blur-none md:p-0 md:border-none md:shadow-none md:z-auto;
+        }
+
+        @keyframes scroll-line {
+        0% { transform: translateY(-100%); }
+        50% { transform: translateY(100%); }
+        100% { transform: translateY(100%); }
+        }
+
+        .animate-scroll-line {
+        animation: scroll-line 2.5s cubic-bezier(0.15, 0, 0.45, 1) infinite;
+        }
+
+        .c-video-intro__overlay {
+            height: 100vh;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 1;
+            width: 100%;
+            pointer-events: none;
+            transition: all .5s linear;
+            background-color: transparent;
+            background-image: 
+                radial-gradient(#000 2%, transparent 40%), 
+                radial-gradient(#000 2%, transparent 40%);
+            background-size: 5px 5px, 5px 5px;
+            background-position: 0px 0px, 2.5px 2.5px;
+            background-repeat: repeat, repeat;
+            opacity: 1;
+        }
+
+        @media (min-width: 768px) {
+            .c-video-intro__overlay {
+                width: 50%;
+                mask-image: linear-gradient(to right, black 85%);
+            }
+        }
+
+        .heading-underline {
+            position: relative;
+            display: inline-block;
+        }
+
+        .heading-underline::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: 0px;
+            width: 100%;
+            height: 4px;
+            background-color: #FFB800;
+            z-index: -1;
+        }
+
+        /* Trix Editor Global Overrides */
+        .trix-content {
+            min-height: 350px;
+        }
+        .trix-content img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 0.75rem;
+        }
+
+        /* -----------new */
+        @font-face {
+            font-family: 'Metric';
+            src: url('/fonts/MetricWeb-Light.woff2') format('woff2');
+            font-weight: 300;
+        }
+
+        @font-face {
+            font-family: 'Metric';
+            src: url('/fonts/MetricWeb-Regular.woff2') format('woff2');
+            font-weight: 400;
+        }
+
+        @font-face {
+            font-family: 'Metric';
+            src: url('/fonts/MetricWeb-Medium.woff2') format('woff2');
+            font-weight: 500;
+        }
+
+        @font-face {
+            font-family: 'Metric';
+            src: url('/fonts/MetricWeb-Semibold.woff2') format('woff2');
+            font-weight: 600;
+        }
+
+        .metric-font {
+            font-family: 'Metric', sans-serif;
+        }
+    </style>
 <body>
 
     <x-header />
