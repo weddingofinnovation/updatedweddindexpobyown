@@ -14,8 +14,6 @@
         <a href="{{ route('login') }}">Login</a>
     </header> -->
 
-    @vite(['resources/css/app.css', 'resources/js/app.js', 'resources/css/theme.css'])
-
 <x-header />
 
 <div class="md:hidden fixed bottom-0 left-0 right-0 z-[90] bg-white/95 backdrop-blur-md border-t border-slate-100 p-3 shadow-[0_-10px_40px_-15px_rgba(0,0,0,0.1)]"><div class="flex gap-3 max-w-lg mx-auto"><a class="flex-1 bg-[#ED8B00] text-white py-3.5 rounded-xl text-[11px] font-black uppercase tracking-[0.15em] text-center shadow-lg shadow-orange-100 active:scale-95 transition-all" href="https://weddingindiaexpo.com/book/plans">Book Tickets</a><a class="flex-1 bg-black text-white py-3.5 rounded-xl text-[11px] font-black uppercase tracking-[0.15em] text-center shadow-lg shadow-black/10 active:scale-95 transition-all" href="https://weddingindiaexpo.com/register-now">Register Now</a></div></div>
