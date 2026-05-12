@@ -8,7 +8,53 @@
     @livewireStyles
 </head>
     <style>
-            body {
+
+        :root {
+        --gold: #C5A880;
+        --gold-dark: #A0825B;    
+        --gold-light: #E8D8C8;
+        
+        --purple-soft: #F3E8FF;
+        --orange-soft: #FFF0E6;
+        
+        --bg-white: #FFFFFF;
+        --bg-offwhite: #FAFAFA;
+        
+        --text-main: #1A1A1A;
+        --text-muted: #6B7280;
+
+        --popover: 0 0% 100%;
+        --popover-foreground: 222.2 84% 4.9%;
+        --border: 214.3 31.8% 91.4%;
+        --input: 214.3 31.8% 91.4%;
+        --ring: 222.2 84% 4.9%;
+        --radius: 0.5rem;
+        }
+
+        @theme {
+        --color-border: hsl(var(--border));
+        --color-input: hsl(var(--input));
+        --color-ring: hsl(var(--ring));
+        --color-background: hsl(var(--background));
+        --color-foreground: hsl(var(--foreground));
+        --color-primary: hsl(var(--primary));
+        --color-primary-foreground: hsl(var(--primary-foreground));
+        --color-secondary: hsl(var(--secondary));
+        --color-secondary-foreground: hsl(var(--secondary-foreground));
+        --color-muted: hsl(var(--muted));
+        --color-muted-foreground: hsl(var(--muted-foreground));
+        --color-accent: hsl(var(--accent));
+        --color-accent-foreground: hsl(var(--accent-foreground));
+        --color-destructive: hsl(var(--destructive));
+        --color-destructive-foreground: hsl(var(--destructive-foreground));
+        --color-popover: hsl(var(--popover));
+        --color-popover-foreground: hsl(var(--popover-foreground));
+        --color-card: hsl(var(--card));
+        --color-card-foreground: hsl(var(--card-foreground));
+        }
+
+
+        body {
         background-color: var(--bg-white);
         color: var(--text-main);
         font-family: sans-serif;
