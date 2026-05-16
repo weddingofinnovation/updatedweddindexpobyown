@@ -63,14 +63,14 @@
     <div class="row d-flex flex-wrap audience-page__tabs-section aos-init aos-animate" data-aos="fade-up">
         <div class="column xs-12 md-3">
             <ul class="tabs audience-page__tabs">
-                <li><button class="">Corporate</button></li>
+                <li><button class="is-active">Corporate</button></li>
                 <li><button class="">Consumer</button></li>
-                <li><button class="is-active">Sectors</button></li>
+                <li><button class="">Sectors</button></li>
             </ul>
         </div>
         
 
-<div class="column xs-12 md-8 tabs--content">
+<div class="column xs-12 md-8 tabs--content  is-shown">
     <div class="row flex-wrap d-flex">
         
         <div class="column xs-6 sm-4 aos-init aos-animate" data-aos="fade-up" data-aos-id="corpstat" data-corp-value="29%">
@@ -152,7 +152,7 @@
 </div>
 
         
-<div class="column xs-12 md-8 tabs--content is-shown">
+<div class="column xs-12 md-8 tabs--content">
     <div class="row flex-wrap d-flex aos-init aos-animate" data-aos="fade-up" data-aos-id="sectors-doughnut">
         <div class="column xs-12 md-6">
             <div class="sector-stats__chart-container">

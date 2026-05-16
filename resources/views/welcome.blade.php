@@ -95,21 +95,17 @@
 
     <x-audience />
 
-    <x-specifications />
-
     <x-category />
 
     <x-statics />
 
-    <x-conference />
-
     <x-sponsership />
 
-    <div class="bg-black overflow-hidden" style="background-color: black;">
+    <div class="bg overflow-hidden">
         <div class="lg:py-[100px] lg:px-[88px] px-5 py-10 speakers-bg relative">
             <div class="max-w-[1440px] mx-auto my-0">
-                <h2 class="lg:text-[2.5rem] text-2xl font-[700] font-montserratBold leading-[1.2] text-white m-0 mb-2">GFF 2025 Speakers</h2>
-                <p class="text-[1.125rem] text-white leading-[150%] max-w-[591px] tracking-[-0.36px] m-0 font-firaSansRegular">GFF 2025 featured the sharpest minds in fintech.</p>
+                <h2 class="lg:text-[2.5rem] text-2xl font-[700] font-montserratBold leading-[1.2] text-black m-0 mb-2">WIF 2026 Speakers</h2>
+                <p class="text-[1.125rem] text-black leading-[150%] max-w-[591px] tracking-[-0.36px] m-0 font-firaSansRegular">WIF 2026 featured the sharpest minds in fintech.</p>
                 <section class="max-w-[1440px] mx-auto my-0">
                     <div class="flex sm:flex-row flex-wrap mt-8 flex-col h-full gap-4 lg:gap-x-6 lg:gap-y-[54px]">
                         <div class="bg-white pb-0 box-border mobile:w-[calc(50%-10px)] lg:w-[calc(25%-18px)] w-full flex flex-col justify-between relative overflow-hidden parent-content transition-all duration-300 cursor-pointer group" style="opacity: 1; transform: none;">
@@ -168,13 +164,16 @@
         </div>
     </div>
 
+    <x-conference />
+
     <section class="bg-white py-12 md:py-20 px-4 md:px-6">
         <div class="max-w-7xl mx-auto overflow-hidden rounded-sm shadow-sm flex flex-col md:flex-row bg-[#F8F8F8]">
             <div class="w-full md:w-1/2 p-8 md:p-16 flex flex-col justify-center">
                 <h2 class="text-[24px] md:text-[36px] font-bold text-black mb-6 md:mb-8 font-['expoSans'] leading-tight"><span class="heading-underline">Beyond the Expo:</span> <br class="hidden md:block">Shaping the Future of Destination Weddings</h2>
                 <p class="text-[15px] md:text-[18px] text-black/80 text-justify font-normal font-['expoSans'] leading-relaxed">Wedding India Expo is not just a two-day exhibition — it is a platform designed to build long-term value for the destination wedding industry. As the industry evolves globally, the expo creates an ecosystem where venues, planners, designers, and service providers continue to connect, collaborate, and grow beyond the event itself. From international partnerships to new business opportunities, Wedding India Expo is where the future of luxury weddings begins.</p>
             </div>
-            <div class="w-full md:w-1/2 relative min-h-[350px] md:min-h-full overflow-hidden bg-gray-200"><img alt="Expo City Dubai Community" class="absolute inset-0 w-full h-full object-cover" src="https://www.expo2020dubai.com/-/media/expo2020/2021/home/homepage_district2020_800x450.jpg"></div>
+            <div class="w-full md:w-1/2 relative min-h-[350px] md:min-h-full overflow-hidden bg-gray-200">
+                <img alt="Expo City Dubai Community" class="absolute inset-0 w-full h-full object-cover" src="https://www.expo2020dubai.com/-/media/expo2020/2021/home/homepage_district2020_800x450.jpg"></div>
         </div>
     </section>
 
@@ -239,7 +238,9 @@
             <div class="mt-16"><a class="text-[14px] font-bold border-b border-black/20 pb-1 hover:border-black transition-all font-['expoSans'] uppercase tracking-wider" href="https://weddingindiaexpo.com/partners">View all partners</a></div>
         </div>
     </section>
-
+    
+    <x-specifications />
+    
     <section class="bg-white py-20 px-6 border-t border-black/5">
         <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-center gap-10 md:gap-20">
             <div class="w-48 md:w-64"><img alt="Wedding India Expo" class="w-full h-auto opacity-90" src="/logo.png"></div>
@@ -249,6 +250,173 @@
         </div>
     </section>
 
+    <section class="py-16">
+
+        <div class="max-w-[1200px] mx-auto px-4 text-center">
+
+            <!-- Heading -->
+            <h2 class="text-[60px] leading-[1.1] font-black text-black mb-8">
+                Have a Question About Your Visit to Show?
+            </h2>
+
+            <!-- Description -->
+            <p class="text-[24px] text-gray-700 leading-relaxed max-w-[950px] mx-auto mb-6">
+                Explore our FAQs to find quick answers and helpful information
+                to help you navigate our event with ease.
+                <br>
+                Still have questions?
+                <a href="/contact"
+                    class="text-red-600 hover:text-red-700 font-medium underline underline-offset-4 transition">
+                    Drop us a message here.
+                </a>
+            </p>
+
+        </div>
+        
+        <div class="max-w-[1200px] mx-auto px-4">
+
+            <div class="grid grid-cols-12 gap-6">
+
+                <!-- Left Sidebar -->
+                <div class="col-span-12 lg:col-span-2">
+
+                    <div class="space-y-3">
+
+                        <button
+                            class="w-full bg-[#c62828] text-white font-bold text-[18px] leading-tight rounded-xl py-4 px-5 text-center">
+                            General Event Information
+                        </button>
+
+                        <button
+                            class="w-full bg-[#e7e7e7] hover:bg-[#d9d9d9] text-black font-semibold text-[18px] rounded-xl py-4 px-5 transition">
+                            Visitor Registration
+                        </button>
+
+                        <button
+                            class="w-full bg-[#e7e7e7] hover:bg-[#d9d9d9] text-black font-semibold text-[18px] rounded-xl py-4 px-5 transition">
+                            For Exhibitors
+                        </button>
+
+                        <button
+                            class="w-full bg-[#e7e7e7] hover:bg-[#d9d9d9] text-black font-semibold text-[18px] rounded-xl py-4 px-5 transition">
+                            Travel & Accommodation
+                        </button>
+
+                        <button
+                            class="w-full bg-[#e7e7e7] hover:bg-[#d9d9d9] text-black font-semibold text-[18px] rounded-xl py-4 px-5 transition">
+                            Media
+                        </button>
+
+                    </div>
+
+                </div>
+
+                <!-- FAQ Content -->
+                <div class="col-span-12 lg:col-span-10">
+
+                    <div class="border border-gray-300 bg-white">
+
+                        <!-- FAQ Item -->
+                        <details class="group border-b border-gray-300">
+                            <summary
+                                class="flex items-center justify-between cursor-pointer list-none px-6 py-5 font-bold text-[18px]">
+
+                                <div class="flex items-center gap-4">
+                                    <span class="text-[#c62828] text-[24px] font-bold">
+                                        +
+                                    </span>
+
+                                    <span>
+                                        Is the event open to the public?
+                                    </span>
+                                </div>
+
+                            </summary>
+
+                            <div class="px-14 pb-5 text-gray-600 leading-7">
+                                Yes, the event is open for visitors, industry professionals,
+                                wedding planners, and families interested in wedding services.
+                            </div>
+                        </details>
+
+                        <!-- FAQ Item -->
+                        <details class="group border-b border-gray-300">
+                            <summary
+                                class="flex items-center justify-between cursor-pointer list-none px-6 py-5 font-bold text-[18px]">
+
+                                <div class="flex items-center gap-4">
+                                    <span class="text-[#c62828] text-[24px] font-bold">
+                                        +
+                                    </span>
+
+                                    <span>
+                                        When and where will the event be held at?
+                                    </span>
+                                </div>
+
+                            </summary>
+
+                            <div class="px-14 pb-5 text-gray-600 leading-7">
+                                The Wedding India Expo will be held at the designated venue
+                                announced on the official website.
+                            </div>
+                        </details>
+
+                        <!-- FAQ Item -->
+                        <details class="group border-b border-gray-300">
+                            <summary
+                                class="flex items-center justify-between cursor-pointer list-none px-6 py-5 font-bold text-[18px]">
+
+                                <div class="flex items-center gap-4">
+                                    <span class="text-[#c62828] text-[24px] font-bold">
+                                        +
+                                    </span>
+
+                                    <span>
+                                        How do I get to the Venue?
+                                    </span>
+                                </div>
+
+                            </summary>
+
+                            <div class="px-14 pb-5 text-gray-600 leading-7">
+                                You can reach the venue via cab, metro, personal vehicle,
+                                or public transport.
+                            </div>
+                        </details>
+
+                        <!-- FAQ Item -->
+                        <details class="group border-b border-gray-300">
+                            <summary
+                                class="flex items-center justify-between cursor-pointer list-none px-6 py-5 font-bold text-[18px]">
+
+                                <div class="flex items-center gap-4">
+                                    <span class="text-[#c62828] text-[24px] font-bold">
+                                        +
+                                    </span>
+
+                                    <span>
+                                        Are there any Admission Guidelines?
+                                    </span>
+                                </div>
+
+                            </summary>
+
+                            <div class="px-14 pb-5 text-gray-600 leading-7">
+                                Visitors are requested to carry valid registration
+                                confirmation and ID proof.
+                            </div>
+                        </details>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    
     <x-footer />
 
     @livewireScripts

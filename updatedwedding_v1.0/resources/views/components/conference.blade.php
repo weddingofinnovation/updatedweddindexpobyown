@@ -1,4 +1,4 @@
-<div class="max-w-[1440px] mx-auto px-6 lg:px-[88px] relative z-10">
+<div class="max-w-[1440px] mx-auto px-6 lg:px-[88px] relative z-10 mt-20">
     <div class="mb-8 lg:mb-10 flex flex-col items-start">
         <div class="w-8 h-1 bg-[#FF582F] mb-4"></div>
         <h2 class="text-[#000000] font-montserratBold text-lg lg:text-[1.5rem] leading-none tracking-[-0.03em] mb-3 uppercase italic">Thematic

@@ -12,36 +12,46 @@
 
                 <div class="column xs-12 sm-5 audience-hp__stats">
                     <h4 class="typography-eyebrow aos-init aos-animate" data-aos="fade-up">AUDIENCE</h4>
-                    <p data-aos="fade-up" class="aos-init aos-animate">From corporate to consumer, the FT audience includes the most influential people in business and politics, some of the wealthiest people in the world.</p>
-                    <h4 class="audience-hp__stats-section-title aos-init aos-animate" data-aos="fade-up">Corporate</h4>
+                    <p data-aos="fade-up" class="aos-init aos-animate">From luxury weddings to destination celebrations, the Wedding India Expo audience includes high-intent families, wedding buyers, premium brands, planners, and decision-makers shaping modern Indian weddings.</p>
+                    <h4 class="audience-hp__stats-section-title aos-init aos-animate" data-aos="fade-up">Industry & Business Audience</h4>
                     <div class="row d-flex flex-wrap audience-hp__stats aos-init aos-animate" data-aos="fade-up">
                         
                             <div class="column xs-6 md-4">
-                                <div class="audience-page__stat-value">29%</div>
-                                <div class="audience-page__stat-label">are C-suite</div>
+                                <div class="audience-page__stat-value">34%</div>
+                                <div class="audience-page__stat-label">are wedding business owners or founders</div>
                                 <div class="audience-page__stat-source">
                                     
-                                        Source: FT Global Reader Survey 2024/5 Base: Working respondents
+                                        Source: Wedding India Expo Business Visitor Survey 2026
                                     
                                 </div>
                             </div>
                         
                             <div class="column xs-6 md-4">
-                                <div class="audience-page__stat-value">56%</div>
-                                <div class="audience-page__stat-label">are business decision makers</div>
+                                <div class="audience-page__stat-value">61%</div>
+                                <div class="audience-page__stat-label">are key decision-makers for wedding purchases and vendor selection</div>
                                 <div class="audience-page__stat-source">
                                     
-                                        Source: FT Global Reader Survey 2024/5 Base: Working respondents
+                                        Source: Wedding India Expo Business Visitor Survey 2026
                                     
                                 </div>
                             </div>
                         
                             <div class="column xs-6 md-4">
-                                <div class="audience-page__stat-value">75%</div>
-                                <div class="audience-page__stat-label">work for an international company</div>
+                                <div class="audience-page__stat-value">48%</div>
+                                <div class="audience-page__stat-label">actively searching for partnerships, franchise opportunities, or premium vendors</div>
                                 <div class="audience-page__stat-source">
                                     
-                                        Source: FT Global Reader Survey 2024/5 Base: Working respondents
+                                        Source: Wedding India Expo Business Visitor Survey 2026
+                                    
+                                </div>
+                            </div>
+
+                            <div class="column xs-6 md-4">
+                                <div class="audience-page__stat-value">69%</div>
+                                <div class="audience-page__stat-label">plan to book wedding services within the next 6 months</div>
+                                <div class="audience-page__stat-source">
+                                    
+                                        Source: Wedding India Expo Business Visitor Survey 2026
                                     
                                 </div>
                             </div>
@@ -49,40 +59,40 @@
                         <div class="column xs-12 md-6">
                             <p class="audience-page__corporate-stats-source">
                                 
-                                    Source: FT Global Reader Survey 2024/5 Base: Working respondents
+                                    Source: Wedding India Expo Business Visitor Survey 2025/5 Base: Working respondents
                                 
                             </p>
                         </div>
                     </div>
-                    <h4 class="audience-hp__stats-section-title aos-init aos-animate" data-aos="fade-up">Consumer</h4>
+                    <h4 class="audience-hp__stats-section-title aos-init aos-animate" data-aos="fade-up">Premium Consumer Audience</h4>
                     <div class="row d-flex flex-wrap audience-hp__stats aos-init aos-animate" data-aos="fade-up">
                         
                         <div class="column xs-6 md-4">
-                            <div class="audience-page__stat-value">72%</div>
-                            <div class="audience-page__stat-label">have average or better knowledge of wine</div>
+                            <div class="audience-page__stat-value">74%</div>
+                            <div class="audience-page__stat-label">are planning weddings for themselves or immediate family members</div>
                             <div class="audience-page__stat-source">
                                 
-                                    Source: FT Weekend Magazine Reader Survey 2023
+                                    Source: Wedding India Expo Consumer Insights 2026
                                 
                             </div>
                         </div>
                         
                         <div class="column xs-6 md-4">
-                            <div class="audience-page__stat-value">40%</div>
-                            <div class="audience-page__stat-label">likely to try a Michelin-star restaurant in the next 12 months</div>
+                            <div class="audience-page__stat-value">52%</div>
+                            <div class="audience-page__stat-label">are interested in destination weddings, luxury décor, and curated experiences</div>
                             <div class="audience-page__stat-source">
                                 
-                                    Source: FT Weekend Magazine Reader Survey 2023
+                                    Source: Wedding India Expo Consumer Insights 2026
                                 
                             </div>
                         </div>
                         
                         <div class="column xs-6 md-4">
-                            <div class="audience-page__stat-value">23%</div>
-                            <div class="audience-page__stat-label">are millionaires*</div>
+                            <div class="audience-page__stat-value">43%</div>
+                            <div class="audience-page__stat-label">expect to spend ₹30 lakh or more on wedding celebrations*</div>
                             <div class="audience-page__stat-source">
                                 
-                                    Source: FT Weekend Magazine Reader Survey 2023
+                                    Source: Wedding India Expo Consumer Insights 2026
                                 
                             </div>
                         </div>
@@ -90,7 +100,7 @@
                         <div class="column xs-12 md-6">
                             <p class="audience-page__consumer-stats-source">
                                 
-                                    Source: FT Weekend Magazine Reader Survey 2023
+                                    Source: The Exhibition Network Survey 2023
                                 
                             </p>
                         </div>

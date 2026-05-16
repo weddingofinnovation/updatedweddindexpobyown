@@ -11,7 +11,7 @@
         <div class="c-video-intro__overlay"></div>
         <div class="relative z-10 h-full max-w-7xl mx-auto px-6 flex flex-col justify-center">
             <div class="max-w-xl animate-in fade-in slide-in-from-left duration-1000">
-                <h2 class="text-[16px] md:text-[22px] font-normal text-white mb-1 font-['expoSans'] opacity-90">7-9 August 2026 | New Delhi</h2>
+                <h2 class="text-[16px] md:text-[22px] font-normal text-white mb-1 font-['expoSans'] opacity-90">5-7 March 2027 | New Delhi</h2>
                 <h1 class="text-[24px] md:text-[42px] font-bold text-white mb-10 font-['expoSans'] leading-tight">India’s First International Destination Wedding Exhibition</h1><a href="#" class="inline-flex items-center gap-3 text-white text-[15px] md:text-[16px] font-bold hover:underline group pointer-events-auto">Where the World of Destination Weddings Meets India</a>
             </div>
         </div>
