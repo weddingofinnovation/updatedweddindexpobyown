@@ -119,6 +119,18 @@
 
                             <div class="space-y-4 border-top">
 
+
+                                <a href="{{route('event.intro', ['board' => 'exhibitor_list'])}}" class="block text-gray-700 hover:text-red-600">
+                                Weddding India TV
+                                </a>
+
+                                <a href="{{route('event.intro', ['board' => 'exhibitor_list'])}}" class="block text-gray-700 hover:text-red-600">
+                                Wedding Insider Talk
+                                </a>
+
+                                
+
+
                                 <a href="{{route('event.intro', ['board' => 'exhibitor_list'])}}" class="block text-gray-700 hover:text-red-600">
                                     Exhibitor List
                                 </a>
