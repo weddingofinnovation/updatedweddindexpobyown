@@ -7,7 +7,8 @@
 
 <nav class="w-full bg-white border-b border-gray-100 sticky top-0 z-[100] font-['expoSans',sans-serif] transition-all duration-500 ease-in-out translate-y-0 shadow-sm">
     <div class="max-w-[1400px] mx-auto px-4 md:px-6 h-16 lg:h-20 flex items-center justify-between">
-        <div class="flex items-center gap-2"><a class="flex items-center gap-3 group shrink-0" href="/"><img alt="Logo" class="h-10 lg:h-14 w-auto object-contain" src="/logo.png"></a>
+        <div class="flex items-center gap-2">
+            <a class="flex items-center gap-3 group shrink-0" href="/"><img alt="Logo" class="h-10 lg:h-14 w-auto object-contain" src="{{ asset('public/wedding_india.svg') }}"></a>
             <div class="hidden lg:flex items-center gap-2">
                 <div class="h-14 w-px bg-black"></div>
                 <div class="flex flex-col">
