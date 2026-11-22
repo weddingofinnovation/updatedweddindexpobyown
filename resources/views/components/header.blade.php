@@ -637,7 +637,7 @@
                 <div class="absolute -bottom-2 left-0 w-0 h-[2px] bg-[#ED8B00] transition-all duration-200 group-hover:w-full"></div>
             </a>            
 
-            <a class="text-[14px] font-black  uppercase tracking-wider text-gray-900 hover:text-[#ED8B00] transition-colors relative py-1 group" href="https://weddingindiaexpo.com/exhibitor/caterer">
+            <a class="text-[14px] font-black  uppercase tracking-wider text-gray-900 hover:text-[#ED8B00] transition-colors relative py-1 group" href="{{route('Caterer.promo', ['board'=> 'wedding-caterer'])}}">
                 <small>100 Cr</small> <br>Wedd Caterer
                 <div class="absolute -bottom-2 left-0 w-0 h-[2px] bg-[#ED8B00] transition-all duration-200 group-hover:w-full"></div>
              </a>
