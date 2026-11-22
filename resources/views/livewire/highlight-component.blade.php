@@ -388,9 +388,7 @@
         
                     <article class="pb-8">
         
-                        <span class="text-xs uppercase text-red-600 font-bold">
-                            Featured
-                        </span>
+                        <span class="text-xs uppercase text-red-600 font-bold">Featured</span>
         
                         <h3 class="mt-3 text-2xl font-bold leading-8 hover:text-red-600">
                             What is Destination Showcase Presentations program?
