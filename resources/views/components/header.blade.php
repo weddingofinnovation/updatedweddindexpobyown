@@ -297,14 +297,10 @@
 
                        
                         <!--<div class="flex flex-col gap-2 justify-start">-->
-
                         <!--    <h2 class="text-xs font-black tracking-widest text-slate-900 uppercase mb-2">MOST SEARCHED</h2>-->
-                            
                         <!--    <a href="{{ route('event.intro', ['board' => 'book-a-stand']) }}" class="">-->
-                            
                         <!--    <div class="group flex items-center gap-4 bg-red-700 hover:bg-red-800 text-white px-5 py-4 rounded-xl transition-all duration-300 hover:shadow-lg">-->
                         <!--        <div class="w-12 h-12 rounded-lg bg-white flex items-center justify-center text-red-700 shrink-0 relative">-->
-                            
                         <!--            <svg-->
                         <!--                class="w-7 h-7"-->
                         <!--                fill="none"-->
