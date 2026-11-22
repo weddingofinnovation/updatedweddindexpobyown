@@ -288,6 +288,10 @@
                             </h3>
 
                             <div class="space-y-4">
+                                <a href="{{route('visitor.details', ['board'=> 'wedding-planner-community'])}}" class="block text-gray-700 hover:text-red-600">
+                                    Wedding Planner & Wedding Designer Privaleges 
+                                </a>
+
                                 <a href="{{route('event.intro', ['board'=> 'dinning-deals'])}}" class="block text-gray-700 hover:text-red-600">
                                     Dinning Catering Experience
                                 </a>
