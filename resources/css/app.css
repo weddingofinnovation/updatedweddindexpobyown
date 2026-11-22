@@ -2,43 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
+.sidebar-item{
+
+    @apply flex items-center px-4 py-3 rounded-xl
+    text-gray-600 hover:bg-gray-100
+    hover:text-indigo-600 transition;
+
+}
+
+.active{
+
+    @apply bg-indigo-50 text-indigo-600 font-semibold;
+
+}
 
 
-@font-face {
-  font-family: 'expoSans';
-  src: url('https://www.expo2020dubai.com/-/media/css-and-js/visitorportal/fonts/ExpoSansStd-Light.woff2') format('woff2');
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'expoSans';
-  src: url('https://www.expo2020dubai.com/-/media/css-and-js/visitorportal/fonts/ExpoSansStd-Book.woff2') format('woff2');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'expoSans';
-  src: url('https://www.expo2020dubai.com/-/media/css-and-js/visitorportal/fonts/ExpoSansStd-Medium.woff2') format('woff2');
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'expoSans';
-  src: url('https://www.expo2020dubai.com/-/media/css-and-js/visitorportal/fonts/ExpoSansStd-SemiBold.woff2') format('woff2');
-  font-weight: 600;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'expoSans';
-  src: url('https://www.expo2020dubai.com/-/media/css-and-js/visitorportal/fonts/ExpoSansStd-Bold.woff2') format('woff2');
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-}
+
 
 :root {
   --gold: #C5A880;
@@ -88,7 +67,7 @@ body {
   background-color: var(--bg-white);
   color: var(--text-main);
   font-family: sans-serif;
-  overflow-x: hidden;
+  overflow-x: clip;
   -webkit-font-smoothing: antialiased;
 }
 

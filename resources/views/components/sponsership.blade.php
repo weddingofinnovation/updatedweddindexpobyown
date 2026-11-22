@@ -1,6 +1,6 @@
-<div class="container">
-    <div class="row">
-        <div class="column xs-12 md-8">
+<div class="max-w-7xl mx-auto px-6">
+    <div class="flex flex-wrap">
+        <div class="w-full md:w-2/3">
             <section class="section-block section-block--capabilities">
                 <h4 class="typography-eyebrow">OUR SERVICES</h4>
                 <h1 class="h1-heading">We combine our distinct commercial capabilities to power your brand.</h1>
@@ -10,10 +10,10 @@
 </div>
 
 
-<section class="container our-capabilities__hp-section">
+<section class="max-w-7xl mx-auto px-6 our-capabilities__hp-section mb-[105px] lg:mb-0">
 
 
-  <div class="capability-accordion">
+  <div class="capability-accordion flex flex-col lg:flex-row gap-6 lg:gap-0">
     
     
     

@@ -1,193 +1,326 @@
-<div class="row">
-    <div class="col-5 border-end">   
-        <!-- {{-- Category Section --}}
-        <x-businessform /> -->
+<main>
+    <div class="max-w-7xl mx-auto px-6 py-10">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-10">
+    
+            <!-- Left Side -->
+            <div class="pr-8">
+                <div x-data="{ active: 1 }" class="divide-y divide-gray-200">
 
-        <style>
-            .custom-accordion {
-                width: 100%;
-            }
-
-            .accordion-item-custom {
-                border-bottom: 1px solid #ddd;
-                padding: 12px 0;
-            }
-
-            .accordion-title {
-                width: 100%;
-                background: none;
-                border: none;
-                text-align: left;
-                font-size: 16px;
-                font-weight: 600;
-                cursor: pointer;
-                padding: 10px 0;
-                display: flex;
-                justify-content: space-between;
-                align-items: center;
-            }
-
-            .accordion-content {
-                display: none;
-                padding: 10px 0;
-                color: #555;
-                font-size: 14px;
-            }
-
-            .accordion-item-custom.active .accordion-content {
-                display: block;
-            }
-
-            .icon {
-                transition: 0.3s;
-            }
-
-            .accordion-item-custom.active .icon {
-                transform: rotate(180deg);
-            }
-
-            .icon {
-            width: 8px;
-            height: 8px;
-            border-right: 2px solid #333;
-            border-bottom: 2px solid #333;
-            transform: rotate(45deg);
-            transition: 0.3s;
-            }
-
-            .accordion-item-custom.active .icon {
-                transform: rotate(225deg);
-            }
-        </style>
-
-        <div class="custom-accordion pr-4">
-
-            <div class="accordion-item-custom">
-                <button class="accordion-title" onclick="toggleAccordion(this)">
-                    Benefits As an Exhibitor
-                    <span class="icon"></span>
-                </button>
-                <div class="accordion-content">
-                    Showcase your brand at  <span class="strong">Wedding India Expo 2026</span> and connect directly with serious buyers, wedding planners, and high-value customers.
-
-                    Gain strong brand visibility, generate quality leads, and build valuable business connections in a premium exhibition environment.
-
-                    This is your opportunity to  <strong>increase sales, expand reach, and grow your business faster</strong> in the wedding industry.
-                </div>
-            </div>
-
-            <div class="accordion-item-custom">
-                <button class="accordion-title" onclick="toggleAccordion(this)">
-                    Exhibitor Application
-                    <span class="icon"></span>
-                </button>
-                <div class="accordion-content">
-                    Join the Wedding India Expo 2026 by submitting your exhibitor application and become part of a premium wedding business platform.
-
-                    Fill out the form to showcase your brand, select your stall space, and connect with thousands of potential clients and industry professionals.
-
-                    Secure your participation early to ensure maximum visibility and the best placement at the expo.
-                </div>
-            </div>
-
-            <div class="accordion-item-custom">
-                <button class="accordion-title" onclick="toggleAccordion(this)">
-                    Individual Exhibitor Application
-                    <span class="icon"></span>
-                </button>
-                <div class="accordion-content">
-                    Apply as an individual exhibitor at Wedding India Expo 2026 and showcase your personal talent, services, or creative work to a wide audience.
-
-                    This category is ideal for freelancers, independent professionals, and small entrepreneurs looking to gain exposure, attract clients, and grow their brand presence.
-
-                    Fill out the application form to participate and connect directly with potential customers and industry partners.
-                </div>
-            </div>
-
-            <div class="accordion-item-custom">
-                <button class="accordion-title" onclick="toggleAccordion(this)">
-                    Request Free Stand
-                    <span class="icon"></span>
-                </button>
-                <div class="accordion-content">
-                    Submit your request to explore free or promotional exhibition space at Wedding India Expo 2026. This option is designed for emerging brands, startups, and selected partners looking to showcase their presence and gain exposure at a leading wedding industry platform. Fill out the form with your details, and our team will review your request and get back to you with available opportunities.
-                </div>
-            </div>
-
-            <div class="accordion-item-custom">
-                <button class="accordion-title" onclick="toggleAccordion(this)">
-                    New Product Showcase
-                    <span class="icon"></span>
-                </button>
-                <div class="accordion-content">
-                    Introduce your latest products at Wedding India Expo 2026 and present your innovations directly to a highly targeted wedding industry audience.
-
-                    This section is ideal for brands launching new collections, services, or exclusive offerings and looking to create strong market impact.
-
-                    Gain instant attention, attract potential buyers, and build early interest by showcasing your new products in a premium exhibition environment.
-                </div>
-            </div>
-
-            <div class="accordion-item-custom">
-                <button class="accordion-title" onclick="toggleAccordion(this)">
-                    Sponsorship Plan
-                    <span class="icon"></span>
-                </button>
-                <div class="accordion-content">
-                    Become a sponsor at Wedding India Expo 2026 and position your brand at the center of one of the most premium wedding industry events.
-
-                    Sponsorship gives your business maximum visibility through on-ground branding, digital promotions, and direct engagement with high-value exhibitors and visitors.
-
-                    It’s a powerful opportunity to strengthen brand awareness, build trust, and connect with a highly targeted audience.
-                </div>
-            </div>
-
-        </div>
-
-        <script>
-
-            function toggleAccordion(btn) {
-                const item = btn.parentElement;
-                item.classList.toggle("active");
-            }
-        </script>
-
-</div>
-
-    <div class="col-6">
-        <div class="container" style="max-width:700px; margin:auto;">
-
-            <h3 style="margin-bottom:5px;">Express your interest to join WEI 2026</h3>
-            <small style="margin-bottom:20px;">Fill in the details requested in the form below</small>
-
-                @if (session()->has('success'))
-                    <div style="color:green; margin-bottom:15px;">
-                        {{ session('success') }}
+                    <!-- Item 1 -->
+                    <div class="py-3">
+                
+                        <button
+                            @click="active = active === 1 ? 0 : 1"
+                            class="w-full flex justify-between items-center text-left">
+                
+                            <span class="text-lg font-semibold text-gray-800">
+                                Benefits As an Exhibitor
+                            </span>
+                
+                            <svg
+                                class="w-5 h-5 transition-transform duration-300"
+                                :class="{ 'rotate-180': active === 1 }"
+                                fill="none"
+                                stroke="currentColor"
+                                viewBox="0 0 24 24">
+                
+                                <path stroke-linecap="round"
+                                      stroke-linejoin="round"
+                                      stroke-width="2"
+                                      d="M19 9l-7 7-7-7"/>
+                            </svg>
+                
+                        </button>
+                
+                        <div
+                            x-show="active === 1"
+                            x-collapse
+                            class="pt-3 text-gray-600 leading-7">
+                
+                            Showcase your brand at <strong>Wedding India Expo 2027</strong> and connect directly with serious buyers, wedding planners, and high-value customers.
+                
+                            Gain strong brand visibility, generate quality leads, and build valuable business connections.
+                
+                            This is your opportunity to <strong>increase sales, expand your reach, and grow your business faster.</strong>
+                
+                        </div>
+                
                     </div>
-                @endif
-
-            <form wire:submit.prevent="submit">
-                <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label">Phone</label>
-                    <input type="phone" class="form-control" id="exampleFormControlInput1" placeholder="enter your phone" wire:model.lazy="phone">
-                    @error('phone') <span style="color:red;">{{ $message }}</span> @enderror
+                
+                    <!-- Item 2 -->
+                    <div class="py-3">
+                
+                        <button
+                            @click="active = active === 2 ? 0 : 2"
+                            class="w-full flex justify-between items-center text-left">
+                
+                            <span class="text-lg font-semibold text-gray-800">
+                                Exhibitor Application
+                            </span>
+                
+                            <svg
+                                class="w-5 h-5 transition-transform duration-300"
+                                :class="{ 'rotate-180': active === 2 }"
+                                fill="none"
+                                stroke="currentColor"
+                                viewBox="0 0 24 24">
+                
+                                <path stroke-linecap="round"
+                                      stroke-linejoin="round"
+                                      stroke-width="2"
+                                      d="M19 9l-7 7-7-7"/>
+                            </svg>
+                
+                        </button>
+                
+                        <div
+                            x-show="active === 2"
+                            x-collapse
+                            class="pt-3 text-gray-600 leading-7">
+                
+                            Join Wedding India Expo 2027 by submitting your exhibitor application and become part of a premium wedding business platform.
+                
+                        </div>
+                
+                    </div>
+                
+                    <!-- Item 3 -->
+                    <div class="py-3">
+                
+                        <button
+                            @click="active = active === 3 ? 0 : 3"
+                            class="w-full flex justify-between items-center text-left">
+                
+                            <span class="text-lg font-semibold text-gray-800">
+                                Individual Exhibitor Application
+                            </span>
+                
+                            <svg
+                                class="w-5 h-5 transition-transform duration-300"
+                                :class="{ 'rotate-180': active === 3 }"
+                                fill="none"
+                                stroke="currentColor"
+                                viewBox="0 0 24 24">
+                
+                                <path stroke-linecap="round"
+                                      stroke-linejoin="round"
+                                      stroke-width="2"
+                                      d="M19 9l-7 7-7-7"/>
+                            </svg>
+                
+                        </button>
+                
+                        <div
+                            x-show="active === 3"
+                            x-collapse
+                            class="pt-3 text-gray-600 leading-7">
+                
+                            Apply as an individual exhibitor and showcase your products and services to thousands of potential customers.
+                
+                        </div>
+                
+                    </div>
+                
+                    <!-- Item 4 -->
+                    <div class="py-3">
+                
+                        <button
+                            @click="active = active === 4 ? 0 : 4"
+                            class="w-full flex justify-between items-center text-left">
+                
+                            <span class="text-lg font-semibold text-gray-800">
+                                Request Free Stand
+                            </span>
+                
+                            <svg
+                                class="w-5 h-5 transition-transform duration-300"
+                                :class="{ 'rotate-180': active === 4 }"
+                                fill="none"
+                                stroke="currentColor"
+                                viewBox="0 0 24 24">
+                
+                                <path stroke-linecap="round"
+                                      stroke-linejoin="round"
+                                      stroke-width="2"
+                                      d="M19 9l-7 7-7-7"/>
+                            </svg>
+                
+                        </button>
+                
+                        <div
+                            x-show="active === 4"
+                            x-collapse
+                            class="pt-3 text-gray-600 leading-7">
+                
+                            Submit your request for promotional exhibition space. Our team will review your application.
+                
+                        </div>
+                
+                    </div>
+                
+                    <!-- Item 5 -->
+                    <div class="py-3">
+                
+                        <button
+                            @click="active = active === 5 ? 0 : 5"
+                            class="w-full flex justify-between items-center text-left">
+                
+                            <span class="text-lg font-semibold text-gray-800">
+                                New Product Showcase
+                            </span>
+                
+                            <svg
+                                class="w-5 h-5 transition-transform duration-300"
+                                :class="{ 'rotate-180': active === 5 }"
+                                fill="none"
+                                stroke="currentColor"
+                                viewBox="0 0 24 24">
+                
+                                <path stroke-linecap="round"
+                                      stroke-linejoin="round"
+                                      stroke-width="2"
+                                      d="M19 9l-7 7-7-7"/>
+                            </svg>
+                
+                        </button>
+                
+                        <div
+                            x-show="active === 5"
+                            x-collapse
+                            class="pt-3 text-gray-600 leading-7">
+                
+                            Launch your latest products and innovations before a highly targeted wedding industry audience.
+                
+                        </div>
+                
+                    </div>
+                
+                    <!-- Item 6 -->
+                    <div class="py-3">
+                
+                        <button
+                            @click="active = active === 6 ? 0 : 6"
+                            class="w-full flex justify-between items-center text-left">
+                
+                            <span class="text-lg font-semibold text-gray-800">
+                                Sponsorship Plan
+                            </span>
+                
+                            <svg
+                                class="w-5 h-5 transition-transform duration-300"
+                                :class="{ 'rotate-180': active === 6 }"
+                                fill="none"
+                                stroke="currentColor"
+                                viewBox="0 0 24 24">
+                
+                                <path stroke-linecap="round"
+                                      stroke-linejoin="round"
+                                      stroke-width="2"
+                                      d="M19 9l-7 7-7-7"/>
+                            </svg>
+                
+                        </button>
+                
+                        <div
+                            x-show="active === 6"
+                            x-collapse
+                            class="pt-3 text-gray-600 leading-7">
+                
+                            Become a sponsor and receive premium branding, digital promotion, and direct access to exhibitors and visitors.
+                
+                        </div>
+                
+                    </div>
+ 
                 </div>
-
-                <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" wire:model.lazy="email">
-                    @error('email') <span style="color:red;">{{ $message }}</span> @enderror
+            </div>
+    
+            <!-- Right Side -->
+    
+            <div>
+                <div class="max-w-xl">
+                    @if(session()->has('success'))
+    
+                            <div class="mt-6 rounded-lg bg-green-100 border border-green-300 text-green-700 p-4">
+                                {{ session('success') }}
+                            </div>
+    
+                        @else
+                            <h2 class="text-3xl font-bold text-gray-900">Express your interest</h2>
+                            <p class="mt-2 text-gray-500">Fill in the details requested in the form below.</p>
+    
+                            <form wire:submit.prevent="submit" class="mt-8 space-y-5">
+    
+                        <div>
+    
+                            <!--<label class="block text-sm font-medium text-gray-700 mb-2" style="margin:0 0 0 0;">-->
+                            <!--    Phone-->
+                            <!--</label>-->
+    
+                            <input
+                                type="text"
+                                wire:model.lazy="phone"
+                                placeholder="Enter your phone"
+                                class="w-full rounded-xl border border-gray-300 px-4 py-3 focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500">
+    
+                            @error('phone')
+                                <p class="text-red-500 text-sm mt-1">{{ $message }}</p>
+                            @enderror
+    
+                        </div>
+    
+                        <div>
+    
+                            <!--<label class="block text-sm font-medium text-gray-700 mb-2" style="margin:0 0 0 0;">-->
+                            <!--    Email-->
+                            <!--</label>-->
+    
+                            <input
+                                type="email"
+                                wire:model.lazy="email"
+                                placeholder="name@example.com"
+                                class="w-full rounded-xl border border-gray-300 px-4 py-3 focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500">
+    
+                            @error('email')
+                                <p class="text-red-500 text-sm mt-1">{{ $message }}</p>
+                            @enderror
+    
+                        </div>
+    
+                        <div>
+    
+                            <!--<label class="block text-sm font-medium text-gray-700 mb-2" style="margin:0 0 0 0;">-->
+                            <!--    Name-->
+                            <!--</label>-->
+    
+                            <input
+                                type="text"
+                                wire:model.lazy="name"
+                                placeholder="Enter your name"
+                                class="w-full rounded-xl border border-gray-300 px-4 py-3 focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500">
+    
+                            @error('name')
+                                <p class="text-red-500 text-sm mt-1">{{ $message }}</p>
+                            @enderror
+    
+                        </div>
+    
+                        <button
+                            type="submit"
+                            class="w-full rounded-xl bg-indigo-600 hover:bg-indigo-700 text-white py-3 font-semibold transition">
+    
+                            Submit Request
+    
+                        </button>
+    
+                    </form>
+                    @endif
                 </div>
-
-                <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label">Name</label>
-                    <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="enter your name" wire:model.lazy="name">
-                    @error('name') <span style="color:red;">{{ $message }}</span> @enderror
-                </div>
-
-                <button class="form-control btn btn-primary btn-sm">Submit</button>
-            </form>
+            </div>
     
         </div>
     </div>
-</div>
+    
+    
+    
+</main>

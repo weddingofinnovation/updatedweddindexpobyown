@@ -17,11 +17,12 @@
 </head>
 <body>
 
+
     <!-- HEADER -->
     <header   style="padding:10px; background:#99103d; color:#fff;">
         <div class="ml-10">
             <h4 class="mb-1">Wedding India Expo</h4>
-            <small>Participating in the Wedding India Expo 2026 gives your brand a powerful platform to connect, showcase, and grow in one of the fastest-growing wedding markets.</small>
+            <small>Participating in the Wedding India Expo 2027 gives your brand a powerful platform to connect, showcase, and grow in one of the fastest-growing wedding markets.</small>
         </div>
     </header>
 

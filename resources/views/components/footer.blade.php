@@ -133,7 +133,7 @@
             <ul class="site-footer__link-list">
                 
                     <li class="site-footer__link">
-                        <a href="https://help.ft.com/help/legal-privacy/privacy/" data-o-event="category:cta|action:click|href:https://help.ft.com/help/legal-privacy/privacy/" data-trackable="footer-link" data-gadl="Footer|Button - Link|https://help.ft.com/help/legal-privacy/privacy/">
+                        <a href="#" data-o-event="category:cta|action:click|href:https://help.ft.com/help/legal-privacy/privacy/" data-trackable="footer-link" data-gadl="Footer|Button - Link|https://help.ft.com/help/legal-privacy/privacy/">
                             Privacy Policy
                         </a>
                     </li>
@@ -151,19 +151,19 @@
                     </li>
                 
                     <li class="site-footer__link">
-                        <a href="https://help.ft.com/legal-privacy/cookies/" data-o-event="category:cta|action:click|href:https://help.ft.com/legal-privacy/cookies/" data-trackable="footer-link" data-gadl="Footer|Button - Link|https://help.ft.com/legal-privacy/cookies/">
+                        <a href="#" data-o-event="category:cta|action:click|href:https://help.ft.com/legal-privacy/cookies/" data-trackable="footer-link" data-gadl="Footer|Button - Link|https://help.ft.com/legal-privacy/cookies/">
                             Cookies
                         </a>
                     </li>
                 
                     <li class="site-footer__link">
-                        <a href="https://help.ft.com/help/legal/slavery-statement/" data-o-event="category:cta|action:click|href:https://help.ft.com/help/legal/slavery-statement/" data-trackable="footer-link" data-gadl="Footer|Button - Link|https://help.ft.com/help/legal/slavery-statement/">
+                        <a href="#" data-o-event="category:cta|action:click|href:https://help.ft.com/help/legal/slavery-statement/" data-trackable="footer-link" data-gadl="Footer|Button - Link|https://help.ft.com/help/legal/slavery-statement/">
                             Slavery statement &amp; policies
                         </a>
                     </li>
                 
                     <li class="site-footer__link">
-                        <a href="https://aboutus.ft.com/company/our-standards" data-o-event="category:cta|action:click|href:https://aboutus.ft.com/company/our-standards" data-trackable="footer-link" data-gadl="Footer|Button - Link|https://aboutus.ft.com/company/our-standards">
+                        <a href="#" data-o-event="category:cta|action:click|href:https://aboutus.ft.com/company/our-standards" data-trackable="footer-link" data-gadl="Footer|Button - Link|https://aboutus.ft.com/company/our-standards">
                             Reader Charter
                         </a>
                     </li>
@@ -175,9 +175,7 @@
             <div class="rich-text">
                 <p data-block-key="27for">
                 
-            © 2026 The Exhibition Network Media Pvt. Ltd. All Rights Reserved. Wedding India Expo™ is a trademark property of <a href="#" rel="nofollow noopener" target="_blank">The Exhibition Network</a>. Unauthorized reproduction or use of any content, images, branding, or event material is strictly prohibited.
-            
-             
+            © 2026 The Exhibition Network Media Pvt. Ltd. All Rights Reserved. Wedding India Expo™ is a trademark property of <a href="#" rel="nofollow noopener" target="_blank">The Exhibition Network</a>. Unauthorized reproduction or use of any content, images, branding, or event material is strictly prohibited
             </p>
             </div>
         </div>

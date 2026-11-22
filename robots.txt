@@ -1,0 +1,17 @@
+User-agent: *
+Disallow:
+
+Allow: /
+
+# Block admin/system areas (adjust to your Laravel routes)
+Disallow: /admin/
+Disallow: /login
+Disallow: /register
+Disallow: /password/
+Disallow: /storage/
+Disallow: /vendor/
+Disallow: /bootstrap/
+Disallow: /livewire/
+
+# Sitemap
+Sitemap: https://weddingindiaexpo.com/sitemap.xml
