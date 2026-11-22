@@ -281,15 +281,15 @@
                                 </a>
 
                                 <a href="{{route('event.intro', ['board'=> 'experiences'])}}" class="block text-gray-700 hover:text-red-600">
-                                    DExperiences
+                                    Promote your Brand & Products, Services
                                 </a>
 
                                 <a href="{{route('event.intro', ['board'=> 'founding-partner'])}}" class="block text-gray-700 hover:text-red-600">
-                                    Founding Partner
+                                    Join Community
                                 </a>
 
                                 <a href="{{route('event.intro', ['board'=> 'official-partner'])}}" class="block text-gray-700 hover:text-red-600">
-                                    Official Partner
+                                    Join Regional Roadshows
                                 </a>
 
                             </div>
