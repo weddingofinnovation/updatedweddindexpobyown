@@ -18,7 +18,7 @@ use App\Livewire\CrmImageComponent;
 use App\Livewire\CommunityComponent;
 use App\Livewire\WeddingindiaawardComponent;
 use App\Livewire\CatererComponent;
-use App\Livewire\HostedBuyerProgramComponent;
+use App\Livewire\HostedbuyerprogramComponent;
 
 use App\Models\User;
 
@@ -30,7 +30,7 @@ Route::get('/exhibitor/{board}', ExhibitorComponent::class)->name('front.exhibit
 
 Route::get('/the_event/{board}', AboutComponent::class)->name('event.intro');
 
-Route::get('/hosted_buyer_program/{board}', HostedBuyerProgramComponent::class)->name('HostedBuyerProgram.intro');
+Route::get('/hosted_buyer_program/{board}', HostedbuyerprogramComponent::class)->name('HostedBuyerProgram.intro');
 
 Route::get('/{board}/{location}/{title}', DestinationComponent::class)->name('destination.intro');
 Route::get('/visitor/{board}', VisitorComponent::class)->name('visitor.details');
