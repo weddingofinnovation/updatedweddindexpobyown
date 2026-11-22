@@ -549,10 +549,10 @@
                         
 
                         <!-- Column 4 -->
-                        <div class="space-y-4">
+                        <div class="space-y-1">
     <!-- Item 1: I want to Exhibit -->
     <a href="{{ route('event.intro', ['board' => 'book-a-stand']) }}" class="block">
-        <div class="group flex items-center gap-4 bg-red-700 hover:bg-red-800 text-white px-5 py-1 rounded-xl transition-all duration-300 hover:shadow-lg">
+        <div class="group flex items-center gap-4 bg-red-700 hover:bg-red-800 text-white px-5 py-4 rounded-xl transition-all duration-300 hover:shadow-lg">
             <div class="w-12 h-12 rounded-lg bg-white flex items-center justify-center text-red-700 shrink-0 relative">
                 <svg class="w-7 h-7" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"></path>
