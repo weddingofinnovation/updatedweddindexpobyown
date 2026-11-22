@@ -260,7 +260,7 @@
 
                             <div class="space-y-4 border-top">
 
-                                    <a href="{{route('event.intro', ['board'=> 'business-tours'])}}" class="block text-gray-700 hover:text-red-600">
+                                    <a href="{{route('visitor.details', ['board'=> 'wedding-business-tour'])}}" class="block text-gray-700 hover:text-red-600">
                                         Business Tours
                                     </a>
 
@@ -268,7 +268,7 @@
                                         Service Visitors
                                     </a>
 
-                                    <a href="{{route('event.intro', ['board'=> 'visitiing-india'])}}" class="block text-gray-700 hover:text-red-600">
+                                    <a href="{{route('visitor.details', ['board'=> 'wedding-roadshow'])}}" class="block text-gray-700 hover:text-red-600">
                                         Visiting India (Plan your Trip)
                                     </a>
 

@@ -35,7 +35,9 @@ Route::get('/hosted_buyer_program/{board}', HostedbuyerprogramComponent::class)-
 Route::get('/weddingindiatv/{board}', WeddingindiatvComponent::class)->name('weddingindiatv.intro');
 
 Route::get('/{board}/{location}/{title}', DestinationComponent::class)->name('destination.intro');
+
 Route::get('/visitor/{board}', VisitorComponent::class)->name('visitor.details');
+
 Route::get('/exhibitor/{board}', ExhibitorComponent::class)->name('exhibitor.service');
 Route::get('/key_highlights/{board}', HighlightComponent::class)->name('hightlights.promo');
 
