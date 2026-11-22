@@ -272,7 +272,7 @@
                                     Wedding Planner & Wedding Designer Privaleges 
                                 </a>
 
-                                <a href="{{route('event.intro', ['board'=> 'dinning-deals'])}}" class="block text-gray-700 hover:text-red-600">
+                                <a href="{{route('Caterer.promo', ['board'=> 'wedding-caterer'])}}" class="block text-gray-700 hover:text-red-600">
                                     Dinning Catering Experience
                                 </a>
 
