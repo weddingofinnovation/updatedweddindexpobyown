@@ -517,14 +517,6 @@
 
                             <div class="space-y-4 border-top">
                                 
-
-                                
-                                <a href="#" class="block text-gray-700 hover:text-red-600">
-                                    Destination Showcase
-                                </a>
-                                <a href="#" class="block text-gray-700 hover:text-red-600">
-                                  Hotel Planner Meetup
-                                </a>
                             </div>
                         </div>
 
@@ -538,8 +530,8 @@
                                     Hosted Buyer Meeting
                                 </a>
 
-                                <a href="{{route('event.intro', ['board'=> 'dinning-deals'])}}" class="block text-gray-700 hover:text-red-600">
-                                    Dinning Catering Experience
+                                <a href="{{route('Caterer.promo', ['board'=> 'wedding-caterer'])}}" class="block text-gray-700 hover:text-red-600">
+                                    Dinning Catering Experience 
                                 </a>
 
                                 <a href="{{route('event.intro', ['board'=> 'experiences'])}}" class="block text-gray-700 hover:text-red-600">
