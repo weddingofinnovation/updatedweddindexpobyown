@@ -15,6 +15,7 @@ use App\Livewire\VisitorComponent;
 use App\Livewire\WelcomeComponent;
 use App\Livewire\DestinationComponent;
 use App\Livewire\CrmImageComponent;
+use App\Livewire\CommunityComponent;
 
 use App\Models\User;
 
@@ -29,6 +30,10 @@ Route::get('/{board}/{location}/{title}', DestinationComponent::class)->name('de
 Route::get('/visitor/{board}', VisitorComponent::class)->name('visitor.details');
 Route::get('/exhibitor/{board}', ExhibitorComponent::class)->name('exhibitor.service');
 Route::get('/key_highlights/{board}', HighlightComponent::class)->name('hightlights.promo');
+
+Route::get('/wedding-venues-planners/{board}', CommunityComponent::class)->name('community.promo');
+
+
 Route::get('/media_centre/{board}', MediaComponent::class)->name('media.advertise');
 
 Route::get('/exhibitor', Businessform::class)->name('form.lead');
@@ -41,7 +46,7 @@ Route::get('/detailo', ExpoForm::class)->name('form.exhibitor');
 Route::view('profile', 'profile')
     ->middleware(['auth'])
     ->name('profile');
-    
+
 
 require __DIR__ . '/auth.php';
 
@@ -75,11 +80,9 @@ Route::middleware(['auth'])->group(function () {
 
     Route::get('/crm/{board}', DashboardComponent::class)
         ->name('dashboard.service');
-    
+
     Route::get('/crm/{board}/image', CrmImageComponent::class)
         ->name('dashboard.image');
-    
-
 });
 
 Route::post('/logout', function () {

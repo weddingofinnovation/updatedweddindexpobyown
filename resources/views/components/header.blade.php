@@ -648,7 +648,7 @@
             </div>
 
              
-             <a class="text-[14px] font-black uppercase tracking-wider text-gray-900 hover:text-[#ED8B00] transition-colors relative py-1 group" href="{{route('hightlights.promo', ['board' => 'destination-showcase-presentations'])}}">
+             <a class="text-[14px] font-black uppercase tracking-wider text-gray-900 hover:text-[#ED8B00] transition-colors relative py-1 group" href="{{route('community.promo', ['board' => 'destination-showcase-presentations'])}}">
                 <div class="text-[10px] font-bold  tracking-wide text-red-600">World's Best</div>Destination
                 <div class="absolute -bottom-2 left-0 w-0 h-[2px] bg-[#ED8B00] transition-all duration-200 group-hover:w-full"></div>
             </a>
