@@ -125,7 +125,8 @@
 
                 {{-- ===================================== IMAGE
                 ====================================== --}}
-                <img src="{{ $card['image'] }}" alt="{{ $card['title'] }}" class="absolute left-1/2 top-0 z-20 h-[190px] w-auto -translate-x-1/2 object-contain transition-transform duration-300":class="active? 'scale-110': 'scale-100'"/>
+                
+                <img src="{{ asset($card['image']) }}" alt="{{ $card['title'] }}" class="absolute left-1/2 top-0 z-20 h-[190px] w-auto -translate-x-1/2 object-contain transition-transform duration-300":class="active? 'scale-110': 'scale-100'"/>
 
                 {{-- ================== TEXT
                 ================ --}}
