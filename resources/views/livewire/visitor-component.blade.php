@@ -1,7 +1,7 @@
 <main>
     @if($board == 'wedding-business-tour')
-        <x-award1 />
+         <x-businesstour-component />
     @elseif($board == 'wedding-roadshow')
-        <x-weddingindiatv />
+        <x-businesstour-component />
     @endif
 </main>
