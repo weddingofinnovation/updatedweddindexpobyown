@@ -248,14 +248,6 @@
 
                             <div class="space-y-4 border-top">
 
-                                    <a href="{{route('event.intro', ['board'=> 'venue-map'])}}" class="block text-gray-700 hover:text-red-600">
-                                        Venue Map (How to get there)
-                                    </a>
-
-                                    <a href="{{route('event.intro', ['board'=> 'visitiing-india'])}}" class="block text-gray-700 hover:text-red-600">
-                                        Visiting India (Plan your Trip)
-                                    </a>
-
                                     <a href="{{route('event.intro', ['board'=> 'business-tours'])}}" class="block text-gray-700 hover:text-red-600">
                                         Business Tours
                                     </a>
@@ -263,6 +255,15 @@
                                     <a href="{{route('event.intro', ['board'=> 'business-tours'])}}" class="block text-gray-700 hover:text-red-600">
                                         Service Visitors
                                     </a>
+
+                                    <a href="{{route('event.intro', ['board'=> 'visitiing-india'])}}" class="block text-gray-700 hover:text-red-600">
+                                        Visiting India (Plan your Trip)
+                                    </a>
+
+                                     <a href="{{route('event.intro', ['board'=> 'venue-map'])}}" class="block text-gray-700 hover:text-red-600">
+                                        Venue MapHow to get there)
+                                    </a>
+
 
 
                             </div>

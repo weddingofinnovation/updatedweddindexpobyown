@@ -485,6 +485,8 @@
         </div>
 
     </section>
+
+    <x-promoteyourbrand />
     @elseif($board == 'exhibit')
     <x-exhibit />
     @elseif($board == 'whatis')
