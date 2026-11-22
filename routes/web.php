@@ -28,6 +28,7 @@ Route::get('/blog/{board}', BlogComponent::class)->name('blog.service');
 Route::get('/exhibitor/{board}', ExhibitorComponent::class)->name('front.exhibitor');
 
 Route::get('/the_event/{board}', AboutComponent::class)->name('event.intro');
+
 Route::get('/{board}/{location}/{title}', DestinationComponent::class)->name('destination.intro');
 Route::get('/visitor/{board}', VisitorComponent::class)->name('visitor.details');
 Route::get('/exhibitor/{board}', ExhibitorComponent::class)->name('exhibitor.service');
