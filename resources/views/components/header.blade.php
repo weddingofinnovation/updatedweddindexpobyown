@@ -470,7 +470,8 @@
                             opacity-0 invisible translate-y-4
                             group-hover:opacity-100 group-hover:visible group-hover:translate-y-0
                             transition-all duration-300 z-50">
-                    <div class="grid grid-cols-4 gap-10 p-10 my-5 mx-5">
+
+                    <div class="grid grid-cols-4 gap-5 p-10 my-5 mx-5">
                           <!-- Column 1 -->
                         <div>
                             <h3 class="text-[18px] font-bold text-red-700 mb-5 border-end">
@@ -546,58 +547,57 @@
                             
                         </div>
                         
-                        
-
                         <!-- Column 4 -->
                         <div class="space-y-1">
-    <!-- Item 1: I want to Exhibit -->
-    <a href="{{ route('event.intro', ['board' => 'book-a-stand']) }}" class="block">
-        <div class="group flex items-center gap-4 bg-red-700 hover:bg-red-800 text-white px-5 py-4 rounded-xl transition-all duration-300 hover:shadow-lg">
-            <div class="w-12 h-12 rounded-lg bg-white flex items-center justify-center text-red-700 shrink-0 relative">
-                <svg class="w-7 h-7" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"></path>
-                </svg>
-                <span class="absolute -top-1 -right-1 w-3 h-3 bg-white border-2 border-red-700 rounded-full"></span>
-            </div>
-            <div class="flex-1 flex flex-col justify-center space-y-0.5">
-                <h3 class="text-lg font-bold leading-tight">I want to Exhibit</h3>
-                <p class="text-sm text-white/90 font-normal leading-tight">Become an exhibitor</p>
-            </div>
-        </div>
-    </a>
+                            <!-- Item 1: I want to Exhibit -->
+                            <a href="{{ route('event.intro', ['board' => 'book-a-stand']) }}" class="block">
+                                <div class="group flex items-center gap-4 bg-red-700 hover:bg-red-800 text-white px-5 py-4 rounded-xl transition-all duration-300 hover:shadow-lg">
+                                    <div class="w-12 h-12 rounded-lg bg-white flex items-center justify-center text-red-700 shrink-0 relative">
+                                        <svg class="w-7 h-7" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"></path>
+                                        </svg>
+                                        <span class="absolute -top-1 -right-1 w-3 h-3 bg-white border-2 border-red-700 rounded-full"></span>
+                                    </div>
+                                    <div class="flex-1 flex flex-col justify-center space-y-0.5">
+                                        <h3 class="text-lg font-bold leading-tight">I want to Exhibit</h3>
+                                        <p class="text-sm text-white/90 font-normal leading-tight">Become an exhibitor</p>
+                                    </div>
+                                </div>
+                            </a>
 
-    <!-- Item 2: Advertising & Sponsorship -->
-    <a href="{{ route('event.intro', ['board' => 'advertising-sponsorship']) }}" class="block">
-        <div class="group flex items-center gap-4 bg-red-700 hover:bg-red-800 text-white px-5 py-4 rounded-xl transition-all duration-300 hover:shadow-lg">
-            <div class="w-12 h-12 rounded-lg bg-white flex items-center justify-center text-red-700 shrink-0 relative">
-                <svg class="w-7 h-7" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M11 5.882V19.24a1.76 1.76 0 01-3.417.592l-2.147-6.15M18 13a3 3 0 100-6M5.436 13.683A4.001 4.001 0 017 6h1.832c4.1 0 7.625-1.234 9.168-3v14c-1.543-1.766-5.067-3-9.168-3H7a3.988 3.988 0 01-1.564-.317z"></path>
-                </svg>
-                <span class="absolute -top-1 -right-1 w-3 h-3 bg-white border-2 border-red-700 rounded-full"></span>
-            </div>
-            <div class="flex-1 flex flex-col justify-center space-y-0.5">
-                <h3 class="text-lg font-bold leading-tight">Advertising & Sponsorship</h3>
-                <p class="text-sm text-white/90 font-normal leading-tight">Explore partnership opportunities</p>
-            </div>
-        </div>
-    </a>
+                            <!-- Item 2: Advertising & Sponsorship -->
+                            <a href="{{ route('event.intro', ['board' => 'advertising-sponsorship']) }}" class="block">
+                                <div class="group flex items-center gap-4 bg-red-700 hover:bg-red-800 text-white px-5 py-4 rounded-xl transition-all duration-300 hover:shadow-lg">
+                                    <div class="w-12 h-12 rounded-lg bg-white flex items-center justify-center text-red-700 shrink-0 relative">
+                                        <svg class="w-7 h-7" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M11 5.882V19.24a1.76 1.76 0 01-3.417.592l-2.147-6.15M18 13a3 3 0 100-6M5.436 13.683A4.001 4.001 0 017 6h1.832c4.1 0 7.625-1.234 9.168-3v14c-1.543-1.766-5.067-3-9.168-3H7a3.988 3.988 0 01-1.564-.317z"></path>
+                                        </svg>
+                                        <span class="absolute -top-1 -right-1 w-3 h-3 bg-white border-2 border-red-700 rounded-full"></span>
+                                    </div>
+                                    <div class="flex-1 flex flex-col justify-center space-y-0.5">
+                                        <h3 class="text-lg font-bold leading-tight">Advertising & Sponsor</h3>
+                                        <p class="text-sm text-white/90 font-normal leading-tight">Explore partnership opportunities</p>
+                                    </div>
+                                </div>
+                            </a>
 
-    <!-- Item 3: Download Brochure -->
-    <a href="{{ route('event.intro', ['board' => 'download-brochure']) }}" class="block">
-        <div class="group flex items-center gap-4 bg-red-700 hover:bg-red-800 text-white px-5 py-4 rounded-xl transition-all duration-300 hover:shadow-lg">
-            <div class="w-12 h-12 rounded-lg bg-white flex items-center justify-center text-red-700 shrink-0 relative">
-                <svg class="w-7 h-7" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
-                </svg>
-                <span class="absolute -top-1 -right-1 w-3 h-3 bg-white border-2 border-red-700 rounded-full"></span>
-            </div>
-            <div class="flex-1 flex flex-col justify-center space-y-0.5">
-                <h3 class="text-lg font-bold leading-tight">Download Brochure</h3>
-                <p class="text-sm text-white/90 font-normal leading-tight">Get event details & floor plans</p>
-            </div>
-        </div>
-    </a>
-</div>
+                            <!-- Item 3: Download Brochure -->
+                            <a href="{{ route('event.intro', ['board' => 'download-brochure']) }}" class="block">
+                                <div class="group flex items-center gap-4 bg-red-700 hover:bg-red-800 text-white px-5 py-4 rounded-xl transition-all duration-300 hover:shadow-lg">
+                                    <div class="w-12 h-12 rounded-lg bg-white flex items-center justify-center text-red-700 shrink-0 relative">
+                                        <svg class="w-7 h-7" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+                                        </svg>
+                                        <span class="absolute -top-1 -right-1 w-3 h-3 bg-white border-2 border-red-700 rounded-full"></span>
+                                    </div>
+                                    <div class="flex-1 flex flex-col justify-center space-y-0.5">
+                                        <h3 class="text-lg font-bold leading-tight">Download Brochure</h3>
+                                        <p class="text-sm text-white/90 font-normal leading-tight">Get event details & floor plans</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
                         <!--<div class="flex flex-col gap-2 justify-start">-->
 
                         <!--    <a href="{{route('event.intro', ['board'=> 'book-a-stand'])}}"-->

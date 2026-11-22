@@ -78,10 +78,10 @@
                 <!-- Section Header -->
                 <div class="mb-8">
                     <h2 class="text-3xl lg:text-4xl font-extrabold tracking-tight text-gray-900 mb-2">
-                        Our restaurants
+                        Our Wedding India Expo Food & Drink community
                     </h2>
                     <p class="text-gray-600 text-sm sm:text-base">
-                        Get to know the restaurants, cafés and food trucks of international food and drink that you will find at Wedding India Expo.
+                        Get to know the Wedding planners, caterers, veunes and professionals of international food and drink that you will find at Wedding India Expo.
                     </p>
                 </div>
 
@@ -99,19 +99,21 @@
                 <!-- 9-Card Showcase Grid -->
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
 
-                    <!-- Card 1: Mahou -->
-                    <div class="relative rounded-lg overflow-hidden shadow-sm h-80 group cursor-pointer border border-gray-100"
-                        x-show="activeFilter === 'All' || activeFilter === 'Bar'">
-                        <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=800&q=85"
-                            alt="Mahou"
-                            class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
-                        <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent"></div>
-                        <span class="absolute top-4 right-4 bg-white text-gray-900 text-xs font-bold px-3 py-1 rounded-full shadow-sm">Bar</span>
-                        <div class="absolute inset-x-0 bottom-6 text-center">
-                            <h3 class="text-3xl font-extrabold tracking-wide text-white uppercase drop-shadow-md">Mahou</h3>
-                            <div class="text-yellow-400 text-sm tracking-widest mt-1">★★★★★</div>
+                    @foreach($states as $state)
+                        <!-- Card 1: Mahou -->
+                        <div class="relative rounded-lg overflow-hidden shadow-sm h-80 group cursor-pointer border border-gray-100"
+                            x-show="activeFilter === 'All' || activeFilter === 'Bar'">
+                            <img src="{{ $state['image'] }}"
+                                alt="Mahou"
+                                class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent"></div>
+                            <span class="absolute top-4 right-4 bg-white text-gray-900 text-xs font-bold px-3 py-1 rounded-full shadow-sm">Bar</span>
+                            <div class="absolute inset-x-0 bottom-6 text-center">
+                                <h3 class="text-3xl font-extrabold tracking-wide text-white uppercase drop-shadow-md">{{ $state['name'] }}</h3>
+                                <div class="text-yellow-400 text-sm tracking-widest mt-1">★★★★★</div>
+                            </div>
                         </div>
-                    </div>
+                    @endforeach
 
                     <!-- Card 2: MásQmenos -->
                     <div class="relative rounded-lg overflow-hidden shadow-sm h-80 group cursor-pointer border border-gray-100"
@@ -247,63 +249,6 @@
             <!-- Include Alpine.js for interactive filter pills -->
             <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
 
-            <section class="max-w-7xl mx-auto px-4 py-12">
-                <div class="grid md:grid-cols-3 lg:grid-cols-4 gap-8">
-                    
-                        @foreach($states as $state)
-                            <article class="group">
-                    
-                                <a href="{{ route('destination.intro', ['board' => 'destination-weddings','location' => Str::slug($state['name']),'title' => Str::slug('Destination Wedding in '.$state['name'])]) }}" class="block">
-                        
-                                    <div class="relative overflow-hidden rounded-xl">
-                        
-                                        <img src="{{ $state['image'] }}"
-                                             alt="{{ $state['name'] }}"
-                                             class="w-full h-[330px] object-cover duration-500 group-hover:scale-110">
-                        
-                                        <div class="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent"></div>
-                                            
-                        
-                                        <div class="absolute bottom-0 left-0 right-0 p-6">
-                                            <h3 class="text-white text-2xl font-bold">
-                                                {{ $state['name'] }}
-                                            </h3>
-                                            <p class="text-white/80 text-sm mt-2">
-                                                Destination Wedding in {{ $state['name'] }}
-                                            </p>
-                                        </div>
-                                        
-                                        <div class="absolute bottom-28 left-5">
-                                            <div class="flex items-center gap-2">
-                                        
-                                                <div class="w-14 h-14 bg-white rounded-xl shadow-lg flex items-center justify-center">
-                                                    🏨
-                                                </div>
-                                        
-                                                <div class="w-14 h-14 bg-white rounded-xl shadow-lg flex items-center justify-center">
-                                                    💍
-                                                </div>
-                                        
-                                                <div class="w-14 h-14 bg-white rounded-xl shadow-lg flex items-center justify-center">
-                                                    🍽️
-                                                </div>
-                                        
-                                                <div class="w-14 h-14 bg-white rounded-xl shadow-lg flex items-center justify-center">
-                                                    🌸
-                                                </div>
-                                        
-                                            </div>
-                                        </div>
-                        
-                                    </div>
-                        
-                                </a>
-                        
-                            </article>
-                        @endforeach
-                    
-                    </div>
-            </section>
 
             <section class="max-w-7xl mx-auto px-4 py-12">
         
