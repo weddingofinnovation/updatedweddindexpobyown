@@ -497,15 +497,13 @@
     <x-planyourtrip />
     @elseif($board == 'servicevisitor')
     <x-servicevisitor />
-    @elseif($board == 'caterer')
-    <x-caterer />
+    
     @elseif($board == 'exhibitorservice')
     <x-exhibitorservice />
     @elseif($board == 'promoteyourbrand')
     <x-promoteyourbrand />
     @elseif($board == 'subcategory')
     <x-subcategory />
-    @elseif($board == 'award')
-     <x-award1 />
+    
     @endif
 </main>
