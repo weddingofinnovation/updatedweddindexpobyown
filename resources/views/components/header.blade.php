@@ -631,7 +631,7 @@
             <!--    <div class="absolute -bottom-2 left-0 w-0 h-[2px] bg-[#ED8B00] transition-all duration-200 group-hover:w-full"></div>-->
             <!-- </a>-->
 
-            <a class="text-[14px] font-black uppercase tracking-wider text-gray-900 hover:text-[#ED8B00] transition-colors relative py-1 group" href="https://weddingindiaexpo.com/key_highlights/women-in-wedding-business-forum">
+            <a class="text-[14px] font-black uppercase tracking-wider text-gray-900 hover:text-[#ED8B00] transition-colors relative py-1 group" href="{{route('WeddingIndiaAward.promo', ['board' => 'destination-showcase-presentations'])}}">
                 <div class="text-[10px] font-bold uppercase tracking-wide text-red-600">Nominate</div>Awards
                 <div class="absolute -bottom-2 left-0 w-0 h-[2px] bg-[#ED8B00] transition-all duration-200 group-hover:w-full"></div>
             </a>            

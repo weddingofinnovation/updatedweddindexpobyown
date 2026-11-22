@@ -16,6 +16,7 @@ use App\Livewire\WelcomeComponent;
 use App\Livewire\DestinationComponent;
 use App\Livewire\CrmImageComponent;
 use App\Livewire\CommunityComponent;
+use App\Livewire\WeddingindiaawardComponent;
 
 use App\Models\User;
 
@@ -32,6 +33,7 @@ Route::get('/exhibitor/{board}', ExhibitorComponent::class)->name('exhibitor.ser
 Route::get('/key_highlights/{board}', HighlightComponent::class)->name('hightlights.promo');
 
 Route::get('/wedding-venues-planners/{board}', CommunityComponent::class)->name('community.promo');
+Route::get('/wedding-india-award/{board}', WeddingindiaawardComponent::class)->name('WeddingIndiaAward.promo');
 
 
 Route::get('/media_centre/{board}', MediaComponent::class)->name('media.advertise');
