@@ -75,6 +75,240 @@
         
         
         @if($board == 'destination-showcase-presentations')
+            
+
+            <section class="max-w-7xl mx-auto px-4 py-12 bg-white font-sans text-gray-900" x-data="{ activeFilter: 'All' }">
+
+                <!-- Section Header -->
+                <div class="mb-8">
+                    <h2 class="text-3xl lg:text-4xl font-extrabold tracking-tight text-gray-900 mb-2">
+                        Our restaurants
+                    </h2>
+                    <p class="text-gray-600 text-sm sm:text-base">
+                        Get to know the restaurants, cafés and food trucks of international food and drink that you will find at Wedding India Expo.
+                    </p>
+                </div>
+
+                <!-- Filter Pills Bar -->
+                <div class="flex flex-wrap items-center gap-2 mb-10 bg-gray-50 p-2 rounded-full border border-gray-100 max-w-fit">
+                    <template x-for="category in ['All', 'Bar', 'Mediterranean', 'Burgers', 'Italian', 'Asian', 'Café', 'Grill', 'Basque']">
+                        <button @click="activeFilter = category"
+                            :class="activeFilter === category ? 'bg-black text-white shadow-sm' : 'bg-transparent text-gray-700 hover:bg-gray-200'"
+                            class="px-5 py-2 rounded-full text-sm font-semibold transition-colors focus:outline-none"
+                            x-text="category">
+                        </button>
+                    </template>
+                </div>
+
+                <!-- 9-Card Showcase Grid -->
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+                    <!-- Card 1: Mahou -->
+                    <div class="relative rounded-lg overflow-hidden shadow-sm h-80 group cursor-pointer border border-gray-100"
+                        x-show="activeFilter === 'All' || activeFilter === 'Bar'">
+                        <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=800&q=85"
+                            alt="Mahou"
+                            class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent"></div>
+                        <span class="absolute top-4 right-4 bg-white text-gray-900 text-xs font-bold px-3 py-1 rounded-full shadow-sm">Bar</span>
+                        <div class="absolute inset-x-0 bottom-6 text-center">
+                            <h3 class="text-3xl font-extrabold tracking-wide text-white uppercase drop-shadow-md">Mahou</h3>
+                            <div class="text-yellow-400 text-sm tracking-widest mt-1">★★★★★</div>
+                        </div>
+                    </div>
+
+                    <!-- Card 2: MásQmenos -->
+                    <div class="relative rounded-lg overflow-hidden shadow-sm h-80 group cursor-pointer border border-gray-100"
+                        x-show="activeFilter === 'All' || activeFilter === 'Bar' || activeFilter === 'Mediterranean'">
+                        <img src="https://images.unsplash.com/photo-1551024709-8f23befc6f87?auto=format&fit=crop&w=800&q=85"
+                            alt="MásQmenos"
+                            class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent"></div>
+                        <div class="absolute top-4 right-4 flex items-center space-x-1.5">
+                            <span class="bg-white text-gray-900 text-xs font-bold px-3 py-1 rounded-full shadow-sm">Bar</span>
+                            <span class="bg-white text-gray-900 text-xs font-bold px-3 py-1 rounded-full shadow-sm">Mediterranean</span>
+                        </div>
+                        <div class="absolute inset-x-0 bottom-6 text-center">
+                            <h3 class="text-2xl font-extrabold tracking-widest text-white uppercase drop-shadow-md">MÁS<span class="text-red-500">Q</span>MENOS</h3>
+                            <span class="text-[10px] tracking-widest text-white/90 uppercase block mt-1">• JAMÓN Y MÁS •</span>
+                        </div>
+                    </div>
+
+                    <!-- Card 3: Pepito Grillo -->
+                    <div class="relative rounded-lg overflow-hidden shadow-sm h-80 group cursor-pointer border border-gray-100"
+                        x-show="activeFilter === 'All' || activeFilter === 'Burgers'">
+                        <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=800&q=85"
+                            alt="Pepito Grillo"
+                            class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent"></div>
+                        <span class="absolute top-4 right-4 bg-white text-gray-900 text-xs font-bold px-3 py-1 rounded-full shadow-sm">Burgers</span>
+                        <div class="absolute inset-x-0 bottom-6 text-center">
+                            <div class="inline-block border-2 border-white px-4 py-2">
+                                <h3 class="text-lg font-extrabold tracking-widest text-white uppercase">PEPITO GRILLO</h3>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 4: Pasta Fresca (Italian) -->
+                    <div class="relative rounded-lg overflow-hidden shadow-sm h-80 group cursor-pointer border border-gray-100"
+                        x-show="activeFilter === 'All' || activeFilter === 'Italian'">
+                        <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=800&q=85"
+                            alt="Pasta Fresca"
+                            class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent"></div>
+                        <span class="absolute top-4 right-4 bg-white text-gray-900 text-xs font-bold px-3 py-1 rounded-full shadow-sm">Italian</span>
+                        <div class="absolute inset-x-0 bottom-6 text-center">
+                            <h3 class="text-2xl font-extrabold tracking-widest text-white uppercase drop-shadow-md">PASTA FRESCA</h3>
+                        </div>
+                    </div>
+
+                    <!-- Card 5: Sushi y Nikkei -->
+                    <div class="relative rounded-lg overflow-hidden shadow-sm h-80 group cursor-pointer border border-gray-100"
+                        x-show="activeFilter === 'All' || activeFilter === 'Bar' || activeFilter === 'Asian'">
+                        <img src="https://images.unsplash.com/photo-1579871494447-9811cf80d66c?auto=format&fit=crop&w=800&q=85"
+                            alt="Sushi y Nikkei"
+                            class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent"></div>
+                        <div class="absolute top-4 right-4 flex items-center space-x-1.5">
+                            <span class="bg-white text-gray-900 text-xs font-bold px-3 py-1 rounded-full shadow-sm">Bar</span>
+                            <span class="bg-white text-gray-900 text-xs font-bold px-3 py-1 rounded-full shadow-sm">Asian</span>
+                        </div>
+                        <div class="absolute inset-x-0 bottom-6 text-center">
+                            <h3 class="text-2xl font-extrabold tracking-widest text-white uppercase drop-shadow-md">SUSHI Y NIKKEI</h3>
+                            <span class="text-xs tracking-wider text-white/90 uppercase block mt-1">• JAPÓN FUSIÓN •</span>
+                        </div>
+                    </div>
+
+                    <!-- Card 6: Arroces de Autor -->
+                    <div class="relative rounded-lg overflow-hidden shadow-sm h-80 group cursor-pointer border border-gray-100"
+                        x-show="activeFilter === 'All' || activeFilter === 'Bar' || activeFilter === 'Mediterranean'">
+                        <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=800&q=85"
+                            alt="Arroces de Autor"
+                            class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent"></div>
+                        <div class="absolute top-4 right-4 flex items-center space-x-1.5">
+                            <span class="bg-white text-gray-900 text-xs font-bold px-3 py-1 rounded-full shadow-sm">Bar</span>
+                            <span class="bg-white text-gray-900 text-xs font-bold px-3 py-1 rounded-full shadow-sm">Mediterranean</span>
+                        </div>
+                        <div class="absolute inset-x-0 bottom-6 text-center">
+                            <h3 class="text-2xl font-extrabold tracking-widest text-white uppercase drop-shadow-md">ARROCES DE AUTOR</h3>
+                            <span class="text-xs tracking-wider text-white/90 uppercase block mt-1">• PAELLA VALENCIANA •</span>
+                        </div>
+                    </div>
+
+                    <!-- Card 7: Brunch & Deli -->
+                    <div class="relative rounded-lg overflow-hidden shadow-sm h-80 group cursor-pointer border border-gray-100"
+                        x-show="activeFilter === 'All' || activeFilter === 'Café'">
+                        <img src="https://images.unsplash.com/photo-1533089860892-a7c6f0a88666?auto=format&fit=crop&w=800&q=85"
+                            alt="Brunch & Deli"
+                            class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent"></div>
+                        <span class="absolute top-4 right-4 bg-white text-gray-900 text-xs font-bold px-3 py-1 rounded-full shadow-sm">Café</span>
+                        <div class="absolute inset-x-0 bottom-6 text-center">
+                            <h3 class="text-2xl font-extrabold tracking-widest text-white uppercase drop-shadow-md">BRUNCH & DELI</h3>
+                            <span class="text-xs tracking-wider text-white/90 uppercase block mt-1">• DESAYUNOS Y MÁS •</span>
+                        </div>
+                    </div>
+
+                    <!-- Card 8: Asador Vasco -->
+                    <div class="relative rounded-lg overflow-hidden shadow-sm h-80 group cursor-pointer border border-gray-100"
+                        x-show="activeFilter === 'All' || activeFilter === 'Bar' || activeFilter === 'Grill'">
+                        <img src="https://images.unsplash.com/photo-1598103442097-8b74394b95c6?auto=format&fit=crop&w=800&q=85"
+                            alt="Asador Vasco"
+                            class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent"></div>
+                        <div class="absolute top-4 right-4 flex items-center space-x-1.5">
+                            <span class="bg-white text-gray-900 text-xs font-bold px-3 py-1 rounded-full shadow-sm">Bar</span>
+                            <span class="bg-white text-gray-900 text-xs font-bold px-3 py-1 rounded-full shadow-sm">Grill</span>
+                        </div>
+                        <div class="absolute inset-x-0 bottom-6 text-center">
+                            <h3 class="text-2xl font-extrabold tracking-widest text-white uppercase drop-shadow-md">ASADOR VASCO</h3>
+                            <span class="text-xs tracking-wider text-white/90 uppercase block mt-1">• CARNE A LA BRASA •</span>
+                        </div>
+                    </div>
+
+                    <!-- Card 9: Pintxo Pote -->
+                    <div class="relative rounded-lg overflow-hidden shadow-sm h-80 group cursor-pointer border border-gray-100"
+                        x-show="activeFilter === 'All' || activeFilter === 'Bar' || activeFilter === 'Basque'">
+                        <img src="https://images.unsplash.com/photo-1541544741938-0af808871cc0?auto=format&fit=crop&w=800&q=85"
+                            alt="Pintxo Pote"
+                            class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent"></div>
+                        <div class="absolute top-4 right-4 flex items-center space-x-1.5">
+                            <span class="bg-white text-gray-900 text-xs font-bold px-3 py-1 rounded-full shadow-sm">Bar</span>
+                            <span class="bg-white text-gray-900 text-xs font-bold px-3 py-1 rounded-full shadow-sm">Basque</span>
+                        </div>
+                        <div class="absolute inset-x-0 bottom-6 text-center">
+                            <h3 class="text-2xl font-extrabold tracking-widest text-white uppercase drop-shadow-md">PINTXO POTE</h3>
+                            <span class="text-xs tracking-wider text-white/90 uppercase block mt-1">• TAPAS VARIADAS •</span>
+                        </div>
+                    </div>
+
+                </div>
+
+            </section>
+
+            <!-- Include Alpine.js for interactive filter pills -->
+            <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+
+            <section class="max-w-7xl mx-auto px-4 py-12">
+                <div class="grid md:grid-cols-3 lg:grid-cols-4 gap-8">
+                    
+                        @foreach($states as $state)
+                            <article class="group">
+                    
+                                <a href="{{ route('destination.intro', ['board' => 'destination-weddings','location' => Str::slug($state['name']),'title' => Str::slug('Destination Wedding in '.$state['name'])]) }}" class="block">
+                        
+                                    <div class="relative overflow-hidden rounded-xl">
+                        
+                                        <img src="{{ $state['image'] }}"
+                                             alt="{{ $state['name'] }}"
+                                             class="w-full h-[330px] object-cover duration-500 group-hover:scale-110">
+                        
+                                        <div class="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent"></div>
+                                            
+                        
+                                        <div class="absolute bottom-0 left-0 right-0 p-6">
+                                            <h3 class="text-white text-2xl font-bold">
+                                                {{ $state['name'] }}
+                                            </h3>
+                                            <p class="text-white/80 text-sm mt-2">
+                                                Destination Wedding in {{ $state['name'] }}
+                                            </p>
+                                        </div>
+                                        
+                                        <div class="absolute bottom-28 left-5">
+                                            <div class="flex items-center gap-2">
+                                        
+                                                <div class="w-14 h-14 bg-white rounded-xl shadow-lg flex items-center justify-center">
+                                                    🏨
+                                                </div>
+                                        
+                                                <div class="w-14 h-14 bg-white rounded-xl shadow-lg flex items-center justify-center">
+                                                    💍
+                                                </div>
+                                        
+                                                <div class="w-14 h-14 bg-white rounded-xl shadow-lg flex items-center justify-center">
+                                                    🍽️
+                                                </div>
+                                        
+                                                <div class="w-14 h-14 bg-white rounded-xl shadow-lg flex items-center justify-center">
+                                                    🌸
+                                                </div>
+                                        
+                                            </div>
+                                        </div>
+                        
+                                    </div>
+                        
+                                </a>
+                        
+                            </article>
+                        @endforeach
+                    
+                    </div>
+            </section>
+
             <section class="max-w-7xl mx-auto px-4 py-12">
         
               <div class="grid grid-cols-1 lg:grid-cols-3 gap-10">
@@ -146,8 +380,6 @@
         
                     </div>
                     
-                        
-        
                 </div>
         
                 <!-- Sidebar -->
@@ -174,237 +406,6 @@
         
               </div>
         
-            </section>
-            <section class="max-w-7xl mx-auto px-4 py-12 bg-white font-sans text-gray-900" x-data="{ activeFilter: 'All' }">
-
-    <!-- Section Header -->
-    <div class="mb-8">
-        <h2 class="text-3xl lg:text-4xl font-extrabold tracking-tight text-gray-900 mb-2">
-            Our restaurants
-        </h2>
-        <p class="text-gray-600 text-sm sm:text-base">
-            Get to know the restaurants, cafés and food trucks of international food and drink that you will find at Wedding India Expo.
-        </p>
-    </div>
-
-    <!-- Filter Pills Bar -->
-    <div class="flex flex-wrap items-center gap-2 mb-10 bg-gray-50 p-2 rounded-full border border-gray-100 max-w-fit">
-        <template x-for="category in ['All', 'Bar', 'Mediterranean', 'Burgers', 'Italian', 'Asian', 'Café', 'Grill', 'Basque']">
-            <button @click="activeFilter = category"
-                :class="activeFilter === category ? 'bg-black text-white shadow-sm' : 'bg-transparent text-gray-700 hover:bg-gray-200'"
-                class="px-5 py-2 rounded-full text-sm font-semibold transition-colors focus:outline-none"
-                x-text="category">
-            </button>
-        </template>
-    </div>
-
-    <!-- 9-Card Showcase Grid -->
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-
-        <!-- Card 1: Mahou -->
-        <div class="relative rounded-lg overflow-hidden shadow-sm h-80 group cursor-pointer border border-gray-100"
-            x-show="activeFilter === 'All' || activeFilter === 'Bar'">
-            <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=800&q=85"
-                alt="Mahou"
-                class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
-            <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent"></div>
-            <span class="absolute top-4 right-4 bg-white text-gray-900 text-xs font-bold px-3 py-1 rounded-full shadow-sm">Bar</span>
-            <div class="absolute inset-x-0 bottom-6 text-center">
-                <h3 class="text-3xl font-extrabold tracking-wide text-white uppercase drop-shadow-md">Mahou</h3>
-                <div class="text-yellow-400 text-sm tracking-widest mt-1">★★★★★</div>
-            </div>
-        </div>
-
-        <!-- Card 2: MásQmenos -->
-        <div class="relative rounded-lg overflow-hidden shadow-sm h-80 group cursor-pointer border border-gray-100"
-            x-show="activeFilter === 'All' || activeFilter === 'Bar' || activeFilter === 'Mediterranean'">
-            <img src="https://images.unsplash.com/photo-1551024709-8f23befc6f87?auto=format&fit=crop&w=800&q=85"
-                alt="MásQmenos"
-                class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
-            <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent"></div>
-            <div class="absolute top-4 right-4 flex items-center space-x-1.5">
-                <span class="bg-white text-gray-900 text-xs font-bold px-3 py-1 rounded-full shadow-sm">Bar</span>
-                <span class="bg-white text-gray-900 text-xs font-bold px-3 py-1 rounded-full shadow-sm">Mediterranean</span>
-            </div>
-            <div class="absolute inset-x-0 bottom-6 text-center">
-                <h3 class="text-2xl font-extrabold tracking-widest text-white uppercase drop-shadow-md">MÁS<span class="text-red-500">Q</span>MENOS</h3>
-                <span class="text-[10px] tracking-widest text-white/90 uppercase block mt-1">• JAMÓN Y MÁS •</span>
-            </div>
-        </div>
-
-        <!-- Card 3: Pepito Grillo -->
-        <div class="relative rounded-lg overflow-hidden shadow-sm h-80 group cursor-pointer border border-gray-100"
-            x-show="activeFilter === 'All' || activeFilter === 'Burgers'">
-            <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=800&q=85"
-                alt="Pepito Grillo"
-                class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
-            <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent"></div>
-            <span class="absolute top-4 right-4 bg-white text-gray-900 text-xs font-bold px-3 py-1 rounded-full shadow-sm">Burgers</span>
-            <div class="absolute inset-x-0 bottom-6 text-center">
-                <div class="inline-block border-2 border-white px-4 py-2">
-                    <h3 class="text-lg font-extrabold tracking-widest text-white uppercase">PEPITO GRILLO</h3>
-                </div>
-            </div>
-        </div>
-
-        <!-- Card 4: Pasta Fresca (Italian) -->
-        <div class="relative rounded-lg overflow-hidden shadow-sm h-80 group cursor-pointer border border-gray-100"
-            x-show="activeFilter === 'All' || activeFilter === 'Italian'">
-            <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=800&q=85"
-                alt="Pasta Fresca"
-                class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
-            <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent"></div>
-            <span class="absolute top-4 right-4 bg-white text-gray-900 text-xs font-bold px-3 py-1 rounded-full shadow-sm">Italian</span>
-            <div class="absolute inset-x-0 bottom-6 text-center">
-                <h3 class="text-2xl font-extrabold tracking-widest text-white uppercase drop-shadow-md">PASTA FRESCA</h3>
-            </div>
-        </div>
-
-        <!-- Card 5: Sushi y Nikkei -->
-        <div class="relative rounded-lg overflow-hidden shadow-sm h-80 group cursor-pointer border border-gray-100"
-            x-show="activeFilter === 'All' || activeFilter === 'Bar' || activeFilter === 'Asian'">
-            <img src="https://images.unsplash.com/photo-1579871494447-9811cf80d66c?auto=format&fit=crop&w=800&q=85"
-                alt="Sushi y Nikkei"
-                class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
-            <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent"></div>
-            <div class="absolute top-4 right-4 flex items-center space-x-1.5">
-                <span class="bg-white text-gray-900 text-xs font-bold px-3 py-1 rounded-full shadow-sm">Bar</span>
-                <span class="bg-white text-gray-900 text-xs font-bold px-3 py-1 rounded-full shadow-sm">Asian</span>
-            </div>
-            <div class="absolute inset-x-0 bottom-6 text-center">
-                <h3 class="text-2xl font-extrabold tracking-widest text-white uppercase drop-shadow-md">SUSHI Y NIKKEI</h3>
-                <span class="text-xs tracking-wider text-white/90 uppercase block mt-1">• JAPÓN FUSIÓN •</span>
-            </div>
-        </div>
-
-        <!-- Card 6: Arroces de Autor -->
-        <div class="relative rounded-lg overflow-hidden shadow-sm h-80 group cursor-pointer border border-gray-100"
-            x-show="activeFilter === 'All' || activeFilter === 'Bar' || activeFilter === 'Mediterranean'">
-            <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=800&q=85"
-                alt="Arroces de Autor"
-                class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
-            <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent"></div>
-            <div class="absolute top-4 right-4 flex items-center space-x-1.5">
-                <span class="bg-white text-gray-900 text-xs font-bold px-3 py-1 rounded-full shadow-sm">Bar</span>
-                <span class="bg-white text-gray-900 text-xs font-bold px-3 py-1 rounded-full shadow-sm">Mediterranean</span>
-            </div>
-            <div class="absolute inset-x-0 bottom-6 text-center">
-                <h3 class="text-2xl font-extrabold tracking-widest text-white uppercase drop-shadow-md">ARROCES DE AUTOR</h3>
-                <span class="text-xs tracking-wider text-white/90 uppercase block mt-1">• PAELLA VALENCIANA •</span>
-            </div>
-        </div>
-
-        <!-- Card 7: Brunch & Deli -->
-        <div class="relative rounded-lg overflow-hidden shadow-sm h-80 group cursor-pointer border border-gray-100"
-            x-show="activeFilter === 'All' || activeFilter === 'Café'">
-            <img src="https://images.unsplash.com/photo-1533089860892-a7c6f0a88666?auto=format&fit=crop&w=800&q=85"
-                alt="Brunch & Deli"
-                class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
-            <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent"></div>
-            <span class="absolute top-4 right-4 bg-white text-gray-900 text-xs font-bold px-3 py-1 rounded-full shadow-sm">Café</span>
-            <div class="absolute inset-x-0 bottom-6 text-center">
-                <h3 class="text-2xl font-extrabold tracking-widest text-white uppercase drop-shadow-md">BRUNCH & DELI</h3>
-                <span class="text-xs tracking-wider text-white/90 uppercase block mt-1">• DESAYUNOS Y MÁS •</span>
-            </div>
-        </div>
-
-        <!-- Card 8: Asador Vasco -->
-        <div class="relative rounded-lg overflow-hidden shadow-sm h-80 group cursor-pointer border border-gray-100"
-            x-show="activeFilter === 'All' || activeFilter === 'Bar' || activeFilter === 'Grill'">
-            <img src="https://images.unsplash.com/photo-1598103442097-8b74394b95c6?auto=format&fit=crop&w=800&q=85"
-                alt="Asador Vasco"
-                class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
-            <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent"></div>
-            <div class="absolute top-4 right-4 flex items-center space-x-1.5">
-                <span class="bg-white text-gray-900 text-xs font-bold px-3 py-1 rounded-full shadow-sm">Bar</span>
-                <span class="bg-white text-gray-900 text-xs font-bold px-3 py-1 rounded-full shadow-sm">Grill</span>
-            </div>
-            <div class="absolute inset-x-0 bottom-6 text-center">
-                <h3 class="text-2xl font-extrabold tracking-widest text-white uppercase drop-shadow-md">ASADOR VASCO</h3>
-                <span class="text-xs tracking-wider text-white/90 uppercase block mt-1">• CARNE A LA BRASA •</span>
-            </div>
-        </div>
-
-        <!-- Card 9: Pintxo Pote -->
-        <div class="relative rounded-lg overflow-hidden shadow-sm h-80 group cursor-pointer border border-gray-100"
-            x-show="activeFilter === 'All' || activeFilter === 'Bar' || activeFilter === 'Basque'">
-            <img src="https://images.unsplash.com/photo-1541544741938-0af808871cc0?auto=format&fit=crop&w=800&q=85"
-                alt="Pintxo Pote"
-                class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
-            <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent"></div>
-            <div class="absolute top-4 right-4 flex items-center space-x-1.5">
-                <span class="bg-white text-gray-900 text-xs font-bold px-3 py-1 rounded-full shadow-sm">Bar</span>
-                <span class="bg-white text-gray-900 text-xs font-bold px-3 py-1 rounded-full shadow-sm">Basque</span>
-            </div>
-            <div class="absolute inset-x-0 bottom-6 text-center">
-                <h3 class="text-2xl font-extrabold tracking-widest text-white uppercase drop-shadow-md">PINTXO POTE</h3>
-                <span class="text-xs tracking-wider text-white/90 uppercase block mt-1">• TAPAS VARIADAS •</span>
-            </div>
-        </div>
-
-    </div>
-
-</section>
-
-<!-- Include Alpine.js for interactive filter pills -->
-<script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
-
-            <section class="max-w-7xl mx-auto px-4 py-12">
-                <div class="grid md:grid-cols-3 lg:grid-cols-4 gap-8">
-                    
-                        @foreach($states as $state)
-                            <article class="group">
-                    
-                                <a href="{{ route('destination.intro', ['board' => 'destination-weddings','location' => Str::slug($state['name']),'title' => Str::slug('Destination Wedding in '.$state['name'])]) }}" class="block">
-                        
-                                    <div class="relative overflow-hidden rounded-xl">
-                        
-                                        <img src="{{ $state['image'] }}"
-                                             alt="{{ $state['name'] }}"
-                                             class="w-full h-[330px] object-cover duration-500 group-hover:scale-110">
-                        
-                                        <div class="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent"></div>
-                                            
-                        
-                                        <div class="absolute bottom-0 left-0 right-0 p-6">
-                                            <h3 class="text-white text-2xl font-bold">
-                                                {{ $state['name'] }}
-                                            </h3>
-                                            <p class="text-white/80 text-sm mt-2">
-                                                Destination Wedding in {{ $state['name'] }}
-                                            </p>
-                                        </div>
-                                        
-                                        <div class="absolute bottom-28 left-5">
-                                            <div class="flex items-center gap-2">
-                                        
-                                                <div class="w-14 h-14 bg-white rounded-xl shadow-lg flex items-center justify-center">
-                                                    🏨
-                                                </div>
-                                        
-                                                <div class="w-14 h-14 bg-white rounded-xl shadow-lg flex items-center justify-center">
-                                                    💍
-                                                </div>
-                                        
-                                                <div class="w-14 h-14 bg-white rounded-xl shadow-lg flex items-center justify-center">
-                                                    🍽️
-                                                </div>
-                                        
-                                                <div class="w-14 h-14 bg-white rounded-xl shadow-lg flex items-center justify-center">
-                                                    🌸
-                                                </div>
-                                        
-                                            </div>
-                                        </div>
-                        
-                                    </div>
-                        
-                                </a>
-                        
-                            </article>
-                        @endforeach
-                    
-                    </div>
             </section>
         @elseif($board == 'become-a-tourism-partner')
             <section class="relative overflow-hidden bg-gradient-to-r from-red-700 via-rose-600 to-orange-500 py-20">
