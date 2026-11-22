@@ -17,6 +17,8 @@
     <meta name="keywords"
         content="Wedding India Expo 2027, Wedding Expo Delhi, Wedding Exhibition India, Bridal Expo Delhi, Wedding Planner Expo, Wedding Decor Exhibition, Wedding Vendors India, Wedding Trade Show, Wedding Industry Expo, Yashobhoomi Expo, Wedding Event Delhi, Bridal Fashion Expo, Upcoming Wedding India Expo 2027, luxury wedding India Expo, wedding ethnic expo, Upcoming Wedding Expo">
 
+
+        
     <meta name="author" content="The Exhibition Network">
     <meta name="robots" content="index,follow,max-image-preview:large,max-video-preview:-1,max-snippet:-1">
     <link rel="canonical" href="{{ url()->current() }}">
