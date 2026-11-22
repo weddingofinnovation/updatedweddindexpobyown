@@ -12,9 +12,9 @@ class VisitorComponent extends Component
     {
         $this->board = $board;
     }
-    
+
     public function render()
     {
-        return view('livewire.visitor-component');
+        return view('livewire.visitor-component')->layout('layouts.front');
     }
 }
