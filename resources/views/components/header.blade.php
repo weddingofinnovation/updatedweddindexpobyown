@@ -233,7 +233,7 @@
                                         Tickets & Registration
                                     </a>
 
-                                    <a href="{{route('event.intro', ['board'=> 'hosted-buyer-program'])}}" class="block text-gray-700 hover:text-red-600">
+                                    <a href="{{route('HostedBuyerProgram.intro', ['board'=> 'hosted-buyer-meeting'])}}" class="block text-gray-700 hover:text-red-600">
                                         Hosted Buyer Program
                                     </a>
 
@@ -534,9 +534,7 @@
                             <div class="space-y-4 border-top">
                                 
 
-                                <a href="#" class="block text-gray-700 hover:text-red-600">
-                                    Hosted Buyer Meeting
-                                </a>
+                                
                                 <a href="#" class="block text-gray-700 hover:text-red-600">
                                     Destination Showcase
                                 </a>
@@ -552,6 +550,10 @@
                                 Privilages
                             </h3>
                             <div class="space-y-4">
+                                <a href="{{route('HostedBuyerProgram.intro', ['board'=> 'hosted-buyer-meeting'])}}" class="block text-gray-700 hover:text-red-600">
+                                    Hosted Buyer Meeting
+                                </a>
+
                                 <a href="{{route('event.intro', ['board'=> 'dinning-deals'])}}" class="block text-gray-700 hover:text-red-600">
                                     Dinning Catering Experience
                                 </a>

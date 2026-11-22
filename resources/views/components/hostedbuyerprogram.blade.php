@@ -9,7 +9,7 @@
             <!-- Left Editorial Headline -->
             <div class="lg:col-span-8 p-8 sm:p-12 lg:pt-7 lg:px-16 lg:pb-14">
                 <div class="flex flex-wrap items-center justify-between gap-4 mb-8 lg:mb-12">
-                    <span class="bg-[#FF5500] text-white text-[11px] font-semibold tracking-widest uppercase px-5 py-2 rounded-full shadow-md">
+                    <span class="bg-[#FF5500] text-black text-[11px] font-semibold tracking-widest uppercase px-5 py-2 rounded-full shadow-md">
                         FOUNDING MEMBER • HOSTED BUYER PROGRAM
                     </span>
                     <span class="text-xs font-semibold uppercase tracking-widest text-neutral-400 lg:text-[#0A0A0A]">
