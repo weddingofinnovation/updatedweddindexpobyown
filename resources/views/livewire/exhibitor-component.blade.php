@@ -503,7 +503,6 @@
     @elseif($board == 'promoteyourbrand')
     <x-promoteyourbrand />
     @elseif($board == 'subcategory')
-    <x-subcategory />
-    
+     <x-subcategory />
     @endif
 </main>
