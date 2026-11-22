@@ -130,26 +130,6 @@
 
                                 
 
-
-                                <a href="{{route('event.intro', ['board' => 'exhibitor_list'])}}" class="block text-gray-700 hover:text-red-600">
-                                    Exhibitor List
-                                </a>
-
-                                <a href="{{route('event.intro', ['board' => 'show_segments'])}}" class="block text-gray-700 hover:text-red-600">
-                                    Show Segments
-                                </a>
-
-                                <a href="{{route('event.intro', ['board' => 'sponsors'])}}" class="block text-gray-700 hover:text-red-600">
-                                    Sponsors
-                                </a>
-
-                                <a href="{{route('event.intro', ['board'=> 'supporting_organisation'])}}" class="block text-gray-700 hover:text-red-600">
-                                    Supporting Organisation
-                                </a>
-
-                                <a href="{{route('event.intro', ['board' => 'media_knowledge_partners'])}}" class="block text-gray-700 hover:text-red-600">
-                                    Media & Knowledge Partners
-                                </a>
                             </div>
                         </div>
 
