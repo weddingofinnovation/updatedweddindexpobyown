@@ -207,6 +207,7 @@
                             opacity-0 invisible translate-y-4
                             group-hover:opacity-100 group-hover:visible group-hover:translate-y-0
                             transition-all duration-300 z-50">
+                            
                     <div class="grid grid-cols-4 gap-10 p-10 my-5 mx-5">
                           <!-- Column 1 -->
                         <div>
@@ -215,16 +216,30 @@
                             </h3>
 
                             <div class="space-y-4">
-                                <a href="{{route('event.intro', ['board'=> 'why-visit'])}}" class="block text-gray-700 hover:text-red-600">
-                                    Why Visit
-                                </a>
+                                
+                                    <a href="{{route('event.intro', ['board'=> 'why-visit'])}}" class="block text-gray-700 hover:text-red-600">
+                                        Tickets & Registration
+                                    </a>
 
-                                <a href="{{route('event.intro', ['board'=> 'hosted-buyer-program'])}}" class="block text-gray-700 hover:text-red-600">
-                                    Hosted Buyer Program
-                                </a>
+                                    <a href="{{route('event.intro', ['board'=> 'hosted-buyer-program'])}}" class="block text-gray-700 hover:text-red-600">
+                                        Hosted Buyer Program
+                                    </a>
+
+                                    <a href="{{route('event.intro', ['board'=> 'hosted-buyer-program'])}}" class="block text-gray-700 hover:text-red-600">
+                                        Areas (Sectors) of Interest
+                                    </a>
+
+                                    <a href="{{route('event.intro', ['board'=> 'why-visit'])}}" class="block text-gray-700 hover:text-red-600">
+                                        Why Visit
+                                    </a>
+
                             </div>
                         </div>
 
+
+
+
+                        
                         <!-- Column 2 -->
                         <div>
                             <h3 class="text-[18px] font-bold text-red-700 mb-5">
