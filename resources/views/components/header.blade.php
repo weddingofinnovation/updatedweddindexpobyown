@@ -120,7 +120,7 @@
                             <div class="space-y-4 border-top">
 
 
-                                <a href="{{route('event.intro', ['board' => 'exhibitor_list'])}}" class="block text-gray-700 hover:text-red-600">
+                                <a href="{{route('weddingindiatv.intro', ['board' => 'exhibitor_list'])}}" class="block text-gray-700 hover:text-red-600">
                                 Weddding India TV
                                 </a>
 

@@ -1,0 +1,3 @@
+<main>
+    <x-weddingindiatv />
+</main>
