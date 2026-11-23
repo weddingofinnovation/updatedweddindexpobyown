@@ -402,7 +402,12 @@
     <livewire:faq-component />
 
     <x-newsletter />
-    <x-advertisethought />
+    
+    <div class="absolute top-28 right-10 w-[480px] h-[320px] rounded-full bg-gradient-to-tr from-[#FF5500]/20 via-amber-500/10 to-transparent blur-[110px] pointer-events-none z-0"></div>
+        <div class="relative z-10 p-8 sm:p-12 lg:pt-7 lg:px-16 lg:pb-14">
+            <x-advertisethought />
+        </div>
+    </div>
 
 
     @php

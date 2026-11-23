@@ -1,7 +1,5 @@
 
-<div class="absolute top-28 right-10 w-[480px] h-[320px] rounded-full bg-gradient-to-tr from-[#FF5500]/20 via-amber-500/10 to-transparent blur-[110px] pointer-events-none z-0"></div>
 
-    <div class="relative z-10 p-8 sm:p-12 lg:pt-7 lg:px-16 lg:pb-14">
     <div class="max-w-4xl">
         <h1 class="text-3xl sm:text-5xl lg:text-[3.5rem] font-medium tracking-[-0.035em] leading-[1.06]">
             <span class="block text-white lg:text-[#0A0A0A]">How India Is Becoming</span>
