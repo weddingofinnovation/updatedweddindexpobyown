@@ -3,7 +3,7 @@
 namespace App\Livewire;
 
 use Livewire\Component;
-use App\Models\Blog;
+use App\Models\Article;
 
 class BlogdetailComponent extends Component
 {
@@ -16,7 +16,7 @@ class BlogdetailComponent extends Component
 
     public function render()
     {
-        $article = Blog::where('slug', $this->slug)->first();
+        $article = Article::where('slug', $this->slug)->first();
 
         return view('livewire.blogdetail-component', ['article' => $article])->layout('layouts.front');
     }
