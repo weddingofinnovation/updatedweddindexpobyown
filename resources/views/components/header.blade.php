@@ -276,7 +276,7 @@
                                     Dinning Catering Experience
                                 </a>
 
-                                <a href="{{route('event.intro', ['board'=> 'experiences'])}}" class="block text-gray-700 hover:text-red-600">
+                                <a href="{{route('visitor.details', ['board'=> 'promote-your-business'])}}" class="block text-gray-700 hover:text-red-600">
                                     Promote your Brand & Products, Services
                                 </a>
 

@@ -13,5 +13,7 @@
         <x-howtogetthere />
     @elseif($board == 'service-visitor')
         <x-servicevisitor />
+    @elseif($board == 'promote-your-business')
+        <x-promoteyourbrand />
     @endif
 </main>
