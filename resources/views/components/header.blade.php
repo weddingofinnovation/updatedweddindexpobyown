@@ -406,7 +406,7 @@
 
                                 </a>
 
-                                <a href="{{ route('visitor.details', ['board' => 'exhibit-with-us']) }}" class="group flex items-center gap-4 bg-red-700 hover:bg-red-800 text-white px-5 py-4 rounded-xl transition-all duration-300 hover:shadow-lg">
+                                <a href="{{ route('exhibitor.service', ['board' => 'exhibit-with-us']) }}" class="group flex items-center gap-4 bg-red-700 hover:bg-red-800 text-white px-5 py-4 rounded-xl transition-all duration-300 hover:shadow-lg">
 
                                     <div class="w-12 h-12 rounded-lg bg-white flex items-center justify-center text-red-700 shrink-0 relative">
 
