@@ -9,5 +9,4 @@
             From heritage palace buyouts in Rajasthan and Himalayan riverfront resorts to multi-cuisine artisanal catering and bespoke bridal couture—inside the B2B ecosystem powering Wedding India Expo 2027 at Yashobhoomi, New Delhi.
         </p>
     </div>
-    </div>
-</div>
+  
