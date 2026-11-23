@@ -410,7 +410,7 @@
         <x-newsletter />
     
         
-    @elseif($board == 'slug')
+    @else
     
       @php 
         $detailsarticles = DB::table('articles')->limit('1')->get();
