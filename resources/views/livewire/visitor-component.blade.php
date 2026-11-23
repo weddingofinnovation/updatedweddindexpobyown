@@ -5,6 +5,7 @@
         <x-businesstour />
     @elseif($board == 'wedding-planner-community')
         <x-weddingcommunity />
-    
+    @elseif($board == 'tickets')
+        <x-tickets />
     @endif
 </main>
