@@ -1,6 +1,6 @@
 <main>
 
-<div class="h1 py-5 px-8 sm:px-12 lg:px-16 text-white text-lg font-semibold tracking-wider uppercase bg-[#FF5500] border-b border-white/15">
+<div class="h1 py-5 px-8 sm:px-12 lg:px-16 text-white text-lg font-semibold tracking-wider uppercase  border-b border-white/15">
     business
 </div>
 <!-- Alpine.js for zero-backend interactivity (Progress bar, Live Poll, Quick Lead Drawer) -->
