@@ -57,7 +57,7 @@
         
         </div>
     <!-- 2. Author & Direct Conversion Strip (Placed Below Image So It Is Always Visible) -->
-        <div class="w-full px-6 sm:px-10 lg:px-16 py-6 bg-[#141414] border-t border-white/15 flex flex-col md:flex-row md:items-center justify-between gap-5">
+        <div class="w-full px-6 sm:px-10 lg:px-16 py-0 bg-[#141414] border-t border-white/15 flex flex-col md:flex-row md:items-center justify-between gap-5">
             
             <!-- Author & Event Info -->
             <div class="flex items-center gap-4">
@@ -103,12 +103,8 @@
             <!-- Section 1 -->
             <div id="section-1" class="space-y-4 pt-2">
                 <span class="text-xs font-mono font-bold text-[#FF5500] uppercase tracking-widest">01 / STATE TOURISM & VENUE INFRASTRUCTURE</span>
-                <h2 class="text-2xl sm:text-3xl font-medium text-white tracking-tight">
-                    {{ $articles->excerpt }}
-                </h2>
-                <p>
-                    {{ $articles->content }}
-                </p>
+                <h2 class="text-2xl sm:text-3xl font-medium text-white tracking-tight">{{ $articles->excerpt }}</h2>
+                <p>{{ $articles->content }}</p>
             </div>
 
             <!-- Inline Dual-Image Visual Grid with Gradient Overlays -->
