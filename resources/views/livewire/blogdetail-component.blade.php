@@ -30,7 +30,7 @@
                         <span>1,245 Views</span>
                     </div>
                     
-                    {{$details-> content}}
+                    {{$details}}
                 @endforeach
             </div>
         </section>
