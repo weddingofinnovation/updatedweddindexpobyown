@@ -248,11 +248,11 @@
                                         Service Visitors
                                     </a>
 
-                                    <a href="{{route('visitor.details', ['board'=> 'wedding-roadshow'])}}" class="block text-gray-700 hover:text-red-600">
+                                    <a href="{{route('visitor.details', ['board'=> 'plan-your-visit'])}}" class="block text-gray-700 hover:text-red-600">
                                         Visiting India (Plan your Trip)
                                     </a>
 
-                                     <a href="{{route('event.intro', ['board'=> 'venue-map'])}}" class="block text-gray-700 hover:text-red-600">
+                                     <a href="{{route('visitor.details', ['board'=> 'how-to-get-there'])}}" class="block text-gray-700 hover:text-red-600">
                                         How to get there
                                     </a>
 
