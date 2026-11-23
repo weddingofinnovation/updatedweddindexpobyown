@@ -6,6 +6,9 @@ use Illuminate\Database\Eloquent\Model;
 
 class ArticleFaq extends Model
 {
+    protected $table = 'article_faq';
+
+
     protected $fillable = [
         'user_id',
         'article_id',

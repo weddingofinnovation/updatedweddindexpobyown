@@ -1,8 +1,5 @@
 <main>
-     @php 
-        $detailsarticles = DB::table('articles')->limit('1')->get();
-      @endphp
-      
+    
       <div class="bg-gray-50 min-h-screen">
 
         <!-- Hero -->
