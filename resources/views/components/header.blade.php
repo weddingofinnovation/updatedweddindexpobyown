@@ -221,7 +221,7 @@
                                         Areas (Sectors) of Interest
                                     </a>
 
-                                    <a href="{{route('event.intro', ['board'=> 'why-visit'])}}" class="block text-gray-700 hover:text-red-600">
+                                    <a href="{{route('visitor.details', ['board'=> 'why-should-you-visit'])}}" class="block text-gray-700 hover:text-red-600">
                                         Why Visit
                                     </a>
 
