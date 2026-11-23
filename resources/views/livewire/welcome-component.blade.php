@@ -403,7 +403,7 @@
 
     <x-newsletter />
 
-    <div class="relative z-10 p-8 sm:p-12 lg:pt-7 lg:px-16 lg:pb-14 bg-[#F9D034]">
+    <div class="relative z-10 p-8 sm:p-12 lg:pt-7 lg:px-16 lg:pb-14 bg-black">
         <x-advertisethought />
     </div>
     
