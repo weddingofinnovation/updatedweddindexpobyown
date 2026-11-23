@@ -1,10 +1,10 @@
 <style>
     .site-footer {
-        background: #262a33;
+        background: rgb(0 0 0 / var(--tw-bg-opacity, 1));;
         color: #fff;
         padding: 32px 0;
     }
-
+    
     @media (min-width: 1023px) {
         .site-footer {
             padding: 100px 0 190px 0;
