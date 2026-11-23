@@ -16,7 +16,9 @@ class BlogdetailComponent extends Component
 
     public function render()
     {
-        $articles = Article::where('slug', $this->slug)->first();
+        $articles = Article::where('slug', $this->slug)->firstOrFail();
+
+        dd($articles);
 
         return view('livewire.blogdetail-component', ['articles' => $articles])->layout('layouts.front');
     }
