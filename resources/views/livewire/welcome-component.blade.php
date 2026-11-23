@@ -402,6 +402,8 @@
     <livewire:faq-component />
 
     <x-newsletter />
+    <x-advertisethought />
+
 
     @php
     $faqSchema = [
