@@ -18,8 +18,6 @@ class BlogdetailComponent extends Component
     {
         $articles = Article::where('slug', $this->slug)->first();
 
-      
-
         return view('livewire.blogdetail-component', ['articles' => $articles])->layout('layouts.front');
     }
 }
