@@ -58,7 +58,7 @@
                     </div>
                 </div>
             </div>
-        @elseif($board == 'show_segments')
+        @elseif($board == 'areas-sectors-of-interest')
             <section class="bg-[#f5f5f5] py-20">
                 <div class="max-w-[1280px] mx-auto px-4">
     

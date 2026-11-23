@@ -21,6 +21,7 @@ use App\Livewire\CatererComponent;
 use App\Livewire\HostedbuyerprogramComponent;
 use App\Livewire\WeddingindiatvComponent;
 use App\Livewire\BlogdetailComponent;
+//use App\Livewire\WikiArticleEditorComponent;
 
 use App\Models\User;
 
@@ -30,7 +31,7 @@ Route::get('/', WelcomeComponent::class)->name('welcome.main');
 Route::get('/blog', BlogComponent::class)->name('blog.service');
 
 Route::get('/blog/{slug}', BlogdetailComponent::class)->name('blogdetail.service');
-
+//Route::get('/wiki/{slug?}', WikiArticleEditorComponent::class)->name('wiki.show');
 
 Route::get('/exhibitor/{board}', ExhibitorComponent::class)->name('front.exhibitor');
 

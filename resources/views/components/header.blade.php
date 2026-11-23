@@ -217,7 +217,7 @@
                                         Hosted Buyer Program
                                     </a>
 
-                                    <a href="{{route('event.intro', ['board'=> 'hosted-buyer-program'])}}" class="block text-gray-700 hover:text-red-600">
+                                    <a href="{{route('event.intro', ['board'=> 'areas-sectors-of-interest'])}}" class="block text-gray-700 hover:text-red-600">
                                         Areas (Sectors) of Interest
                                     </a>
 
