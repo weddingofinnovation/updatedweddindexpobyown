@@ -14,7 +14,7 @@
                     Wedding Business
                 </span>
                 
-                @foreach($articles as $details )
+                
                     <h1 class="text-5xl font-bold mt-5 leading-tight">
                         {{$details->title}}
                     </h1>
@@ -28,7 +28,7 @@
                     </div>
                     
                     {{$details}}
-                @endforeach
+                
             </div>
         </section>
     
