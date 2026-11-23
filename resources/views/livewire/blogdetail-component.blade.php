@@ -16,7 +16,7 @@
                 
                 
                     <h1 class="text-5xl font-bold mt-5 leading-tight">
-                        {{$details->title}}
+                        {{$articles->title}}
                     </h1>
                 
                 
@@ -27,7 +27,7 @@
                         <span>1,245 Views</span>
                     </div>
                     
-                    {{$details}}
+                    {{$articles->content}}
                 
             </div>
         </section>
