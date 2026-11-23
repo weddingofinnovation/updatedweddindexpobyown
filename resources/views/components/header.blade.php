@@ -209,7 +209,7 @@
 
                             <div class="space-y-4">
 
-                                    <a href="{{route('visitor.details', ['board'=> 'tickets'])}}" class="block text-gray-700 hover:text-red-600">
+                                    <a href="{{route('visitor.details', ['board'=> 'tickets-registration'])}}" class="block text-gray-700 hover:text-red-600">
                                         Tickets & Registration
                                     </a>
 
