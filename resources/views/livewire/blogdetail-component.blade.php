@@ -19,7 +19,7 @@
                 
                 @foreach($articles as $details )
                     <h1 class="text-5xl font-bold mt-5 leading-tight">
-                        {{$details -> title}}
+                        {{$details}}
                     </h1>
                 
                 
