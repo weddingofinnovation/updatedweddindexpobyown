@@ -104,7 +104,7 @@
             <div id="section-1" class="space-y-4 pt-2">
                 <span class="text-xs font-mono font-bold text-[#FF5500] uppercase tracking-widest">01 / STATE TOURISM & VENUE INFRASTRUCTURE</span>
                 <h2 class="text-2xl sm:text-3xl font-medium text-white tracking-tight">
-                    Why State-Wise Destination Circuits Are Outpacing Overseas Venues
+                    {{ $articles->excerpt }}
                 </h2>
                 <p>
                     {{ $articles->content }}
