@@ -390,36 +390,7 @@
                     </span>
                 </div>
 
-                <!-- Article Title (Sliced across White & Dark Horizon) -->
-                <div class="max-w-4xl">
-                    <h1 class="text-3xl sm:text-5xl lg:text-[3.5rem] font-medium tracking-[-0.035em] leading-[1.06]">
-                        <span class="block text-white lg:text-[#0A0A0A]">How India Is Becoming</span>
-                        <span class="block text-white mt-1">The World’s #1 Destination For ₹100 Cr Weddings.</span>
-                    </h1>
-                    <p class="text-base sm:text-lg text-neutral-400 mt-6 leading-relaxed max-w-3xl">
-                        From heritage palace buyouts in Rajasthan and Himalayan riverfront resorts to multi-cuisine artisanal catering and bespoke bridal couture—inside the B2B ecosystem powering Wedding India Expo 2027 at Yashobhoomi, New Delhi.
-                    </p>
-                </div>
-
-                <!-- Author, Date & Share Strip -->
-                <div class="mt-10 pt-6 border-t border-white/15 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
-                    <div class="flex items-center gap-4">
-                        <div class="w-11 h-11 bg-white text-[#0A0A0A] font-bold text-sm flex items-center justify-center border border-white/20">
-                            WIE
-                        </div>
-                        <div>
-                            <p class="text-sm font-semibold text-white">Editorial Desk • Wedding India TV</p>
-                            <p class="text-xs text-neutral-400">New Delhi • Pre-Expo Industry Briefing (March 5–7, 2027)</p>
-                        </div>
-                    </div>
-
-                    <div class="flex items-center gap-2">
-                        <span class="text-[11px] uppercase tracking-widest text-neutral-500 mr-2">Share:</span>
-                        <a href="#share-linkedin" class="px-3.5 py-1.5 rounded-full bg-[#1A1A1A] border border-white/15 hover:border-[#FF5500] text-xs font-semibold uppercase tracking-wider transition">LinkedIn</a>
-                        <a href="#share-whatsapp" class="px-3.5 py-1.5 rounded-full bg-[#1A1A1A] border border-white/15 hover:border-[#FF5500] text-xs font-semibold uppercase tracking-wider transition">WhatsApp</a>
-                        <a href="#copy-link" class="px-3.5 py-1.5 rounded-full bg-[#1A1A1A] border border-white/15 hover:border-[#FF5500] text-xs font-semibold uppercase tracking-wider transition">Copy Link</a>
-                    </div>
-                </div>
+               
             </div>
         </header>
 
@@ -669,6 +640,36 @@
             </div>
         </div>
 
+         <!-- Article Title (Sliced across White & Dark Horizon) -->
+                <div class="max-w-4xl">
+                    <h1 class="text-3xl sm:text-5xl lg:text-[3.5rem] font-medium tracking-[-0.035em] leading-[1.06]">
+                        <span class="block text-white lg:text-[#0A0A0A]">How India Is Becoming</span>
+                        <span class="block text-white mt-1">The World’s #1 Destination For ₹100 Cr Weddings.</span>
+                    </h1>
+                    <p class="text-base sm:text-lg text-neutral-400 mt-6 leading-relaxed max-w-3xl">
+                        From heritage palace buyouts in Rajasthan and Himalayan riverfront resorts to multi-cuisine artisanal catering and bespoke bridal couture—inside the B2B ecosystem powering Wedding India Expo 2027 at Yashobhoomi, New Delhi.
+                    </p>
+                </div>
+
+                <!-- Author, Date & Share Strip -->
+                <div class="mt-10 pt-6 border-t border-white/15 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+                    <div class="flex items-center gap-4">
+                        <div class="w-11 h-11 bg-white text-[#0A0A0A] font-bold text-sm flex items-center justify-center border border-white/20">
+                            WIE
+                        </div>
+                        <div>
+                            <p class="text-sm font-semibold text-white">Editorial Desk • Wedding India TV</p>
+                            <p class="text-xs text-neutral-400">New Delhi • Pre-Expo Industry Briefing (March 5–7, 2027)</p>
+                        </div>
+                    </div>
+
+                    <div class="flex items-center gap-2">
+                        <span class="text-[11px] uppercase tracking-widest text-neutral-500 mr-2">Share:</span>
+                        <a href="#share-linkedin" class="px-3.5 py-1.5 rounded-full bg-[#1A1A1A] border border-white/15 hover:border-[#FF5500] text-xs font-semibold uppercase tracking-wider transition">LinkedIn</a>
+                        <a href="#share-whatsapp" class="px-3.5 py-1.5 rounded-full bg-[#1A1A1A] border border-white/15 hover:border-[#FF5500] text-xs font-semibold uppercase tracking-wider transition">WhatsApp</a>
+                        <a href="#copy-link" class="px-3.5 py-1.5 rounded-full bg-[#1A1A1A] border border-white/15 hover:border-[#FF5500] text-xs font-semibold uppercase tracking-wider transition">Copy Link</a>
+                    </div>
+                </div>
     </article>
 
 </main>
