@@ -16,7 +16,7 @@ class BlogdetailComponent extends Component
 
     public function render()
     {
-        $articles = Article::where('slug', $this->slug)->firstOrFail();
+        $articles = Article::where('slug', $this->slug)->first();
 
         dd($articles);
 
