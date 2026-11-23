@@ -11,5 +11,7 @@
         <x-planyourtrip />
     @elseif($board == 'how-to-get-there')
         <x-howtogetthere />
+    @elseif($board == 'service-visitor')
+        <x-servicevisitor />
     @endif
 </main>

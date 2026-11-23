@@ -662,8 +662,7 @@
     <x-howtogetthere />
     @elseif($board == 'planyourtrip')
     <x-planyourtrip />
-    @elseif($board == 'servicevisitor')
-    <x-servicevisitor />
+    
     
     @elseif($board == 'exhibitorservice')
     <x-exhibitorservice />

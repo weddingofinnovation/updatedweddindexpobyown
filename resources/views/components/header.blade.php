@@ -244,7 +244,7 @@
                                         Business Tours
                                     </a>
 
-                                    <a href="{{route('event.intro', ['board'=> 'business-tours'])}}" class="block text-gray-700 hover:text-red-600">
+                                    <a href="{{route('visitor.details', ['board'=> 'service-visitor'])}}" class="block text-gray-700 hover:text-red-600">
                                         Service Visitors
                                     </a>
 
