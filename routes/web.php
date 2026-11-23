@@ -20,13 +20,16 @@ use App\Livewire\WeddingindiaawardComponent;
 use App\Livewire\CatererComponent;
 use App\Livewire\HostedbuyerprogramComponent;
 use App\Livewire\WeddingindiatvComponent;
+use App\Livewire\BlogDetailComponent;
 
 use App\Models\User;
 
 // Route::view('/', 'welcome');
 Route::get('/', WelcomeComponent::class)->name('welcome.main');
 
-Route::get('/blog/{board}', BlogComponent::class)->name('blog.service');
+Route::get('/blog', BlogComponent::class)->name('blog.service');
+
+Route::get('/blog/{slug}', BlogDetailComponent::class)->name('blogdetail.service');
 
 
 Route::get('/exhibitor/{board}', ExhibitorComponent::class)->name('front.exhibitor');
