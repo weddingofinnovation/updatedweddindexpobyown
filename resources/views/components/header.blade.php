@@ -534,10 +534,7 @@
                                     Dinning Catering Experience 
                                 </a>
 
-                                <a href="{{route('event.intro', ['board'=> 'experiences'])}}" class="block text-gray-700 hover:text-red-600">
-                                    Experiences
-                                </a>
-
+                               
                                 <a href="{{route('exhibitor.service', ['board'=> 'founding-partner'])}}" class="block text-gray-700 hover:text-red-600">
                                     Founding Partner
                                 </a>

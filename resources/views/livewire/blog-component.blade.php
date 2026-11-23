@@ -241,7 +241,7 @@
                     <!-- Card -->
                     <article class="group">
             
-                        <a href="#" class="block">
+                        <a href="{{ route('blog.service', ['board' => $article->slug]) }}" class="block">
             
                             <div class="relative overflow-hidden">
             
@@ -591,7 +591,6 @@
         </div>
     
         <!-- Related -->
-    
         <section class="bg-white py-16">
     
             <div class="max-w-7xl mx-auto px-6">
@@ -632,6 +631,6 @@
     
         </section>
     
-    </div>
+      </div>
     @endif
 </main>

@@ -25,7 +25,9 @@ use App\Models\User;
 
 // Route::view('/', 'welcome');
 Route::get('/', WelcomeComponent::class)->name('welcome.main');
+
 Route::get('/blog/{board}', BlogComponent::class)->name('blog.service');
+
 
 Route::get('/exhibitor/{board}', ExhibitorComponent::class)->name('front.exhibitor');
 
