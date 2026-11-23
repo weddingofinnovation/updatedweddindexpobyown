@@ -17,7 +17,7 @@
                     Wedding Business
                 </span>
                 
-                @foreach($article as $details )
+                @foreach($articles as $details )
                     <h1 class="text-5xl font-bold mt-5 leading-tight">
                         {{$details -> title}}
                     </h1>
