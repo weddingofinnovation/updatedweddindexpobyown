@@ -107,7 +107,7 @@
                     Why State-Wise Destination Circuits Are Outpacing Overseas Venues
                 </h2>
                 <p>
-                    With direct international connectivity into New Delhi, Jaipur, Udaipur, Goa, and Kochi, Indian hospitality groups now offer complete 200-to-350-key palace and resort buyouts paired with seamless guest logistics. State tourism boards are actively collaborating with wedding planners to streamline heritage venue permissions and showcase circuits across Uttarakhand, Madhya Pradesh, and Kerala.
+                    {{ $articles->content }}
                 </p>
             </div>
 
