@@ -280,7 +280,7 @@
                                     Promote your Brand & Products, Services
                                 </a>
 
-                                <a href="{{route('event.intro', ['board'=> 'founding-partner'])}}" class="block text-gray-700 hover:text-red-600">
+                                <a href="{{route('visitor.details', ['board'=> 'join-community'])}}" class="block text-gray-700 hover:text-red-600">
                                     Join Community
                                 </a>
 
