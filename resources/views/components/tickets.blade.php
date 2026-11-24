@@ -136,7 +136,7 @@
                     Please enter your Full Name, Phone / WhatsApp number, and Email address to open the next form.
                 </p>
 
-                <form wire:submit.prevent="submitStepOne">
+                <form wire:submit.prevent="submit">
                     <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
                         <div>
                             <label class="block text-xs font-bold uppercase tracking-wider text-neutral-700 mb-2">Full Name *</label>
