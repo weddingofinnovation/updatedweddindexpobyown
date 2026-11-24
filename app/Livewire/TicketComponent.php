@@ -41,7 +41,7 @@ class TicketComponent extends Component
 
     public function render()
     {
-        return view('components.ticket');
+        return view('livewire.ticket-component');
     }
 }
 
