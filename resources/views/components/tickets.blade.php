@@ -68,8 +68,7 @@
         }
     }"
     id="tickets-registration"
-    class="w-full max-w-[1280px] mx-auto bg-[#111111] text-white border-t border-white/15"
->
+    class="w-full max-w-[1280px] mx-auto bg-[#111111] text-white border-t border-white/15">
 
     <!-- 1. Split-Horizon Hero Header -->
     <div class="relative bg-[#111111] border-b border-white/15 overflow-hidden">
@@ -107,7 +106,7 @@
                         <span class="text-neutral-300">/</span>
                         <span :class="step === 2 ? 'text-[#FF5500]' : 'text-neutral-500'">02. Ticket & Solutions</span>
                     </div>
-                    <p class="text-xs text-neutral-600 mt-3 leading-relaxed">
+                    <p class="text-sm text-neutral-600 mt-3 leading-relaxed">
                         Help Center: <strong class="text-[#0A0A0A]">999-185-6776</strong> • team@weddingindiaexpo.com
                     </p>
                 </div>
@@ -137,38 +136,45 @@
                     Please enter your Full Name, Phone / WhatsApp number, and Email address to open the next form.
                 </p>
 
-                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-                    <div>
-                        <label class="block text-xs font-bold uppercase tracking-wider text-neutral-700 mb-2">Full Name *</label>
-                        <input
-                            type="text"
-                            x-model="fullName"
-                            placeholder="Enter your full name"
-                            class="w-full bg-neutral-100 border border-black/15 px-4 py-3.5 text-sm focus:outline-none focus:border-[#FF5500]"
-                        />
-                    </div>
+                <form wire:submit.prevent="submitStepOne">
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                        <div>
+                            <label class="block text-xs font-bold uppercase tracking-wider text-neutral-700 mb-2">Full Name *</label>
+                            <input
+                                type="text"
+                                x-model="fullName"
+                                wire:model.lazy="fullName"
+                                placeholder="Enter your full name"
+                                class="w-full bg-neutral-100 border border-black/15 px-4 py-3.5 text-sm focus:outline-none focus:border-[#FF5500]"
+                            />
+                        </div>
 
-                    <div>
-                        <label class="block text-xs font-bold uppercase tracking-wider text-neutral-700 mb-2">Phone / WhatsApp *</label>
-                        <input
-                            type="tel"
-                            x-model="phone"
-                            placeholder="+91 999-185-6776"
-                            class="w-full bg-neutral-100 border border-black/15 px-4 py-3.5 text-sm focus:outline-none focus:border-[#FF5500]"
-                        />
-                    </div>
+                        <div>
+                            <label class="block text-xs font-bold uppercase tracking-wider text-neutral-700 mb-2">Phone / WhatsApp *</label>
+                            <input
+                                type="tel"
+                                x-model="phone"
+                                wire:model.lazy="phone"
+                                placeholder="+91 012-456-7890"
+                                class="w-full bg-neutral-100 border border-black/15 px-4 py-3.5 text-sm focus:outline-none focus:border-[#FF5500]"
+                            />
+                        </div>
 
-                    <div>
-                        <label class="block text-xs font-bold uppercase tracking-wider text-neutral-700 mb-2">Email Address *</label>
-                        <input
-                            type="email"
-                            x-model="email"
-                            placeholder="you@company.com"
-                            class="w-full bg-neutral-100 border border-black/15 px-4 py-3.5 text-sm focus:outline-none focus:border-[#FF5500]"
-                        />
+                        <div>
+                            <label class="block text-xs font-bold uppercase tracking-wider text-neutral-700 mb-2">Email Address *</label>
+                            <input
+                                type="email"
+                                x-model="email"
+                                wire:model.lazy="email"
+                                placeholder="you@company.com"
+                                class="w-full bg-neutral-100 border border-black/15 px-4 py-3.5 text-sm focus:outline-none focus:border-[#FF5500]"
+                            />
+                        </div>
                     </div>
-                </div>
+                </form>
 
+                {{$submitStepOne}}
+                
                 <div class="pt-4 flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-t border-black/10">
                     <span class="text-xs text-neutral-600">
                         Next step: Choose entry tickets, meeting lounge access, award nominations & community tools.
@@ -176,8 +182,7 @@
                     <button
                         type="button"
                         @click="goToStepTwo()"
-                        class="inline-flex items-center justify-center gap-3 bg-[#111111] hover:bg-[#FF5500] text-white px-8 py-4 text-xs sm:text-sm font-bold uppercase tracking-wider transition-colors duration-300 cursor-pointer"
-                    >
+                        class="inline-flex items-center justify-center gap-3 bg-[#111111] hover:bg-[#FF5500] text-white px-8 py-4 text-xs sm:text-sm font-bold uppercase tracking-wider transition-colors duration-300 cursor-pointer">
                         <span>Continue To Ticket & Details Form</span>
                         <svg class="w-4 h-4 text-[#FF5500]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M17 7L7 17M17 17H7V7"/>
@@ -359,6 +364,9 @@
     </div>
 
 </section>
+
+
+
 
 <!-- <section class="relative w-full min-h-[199px] overflow-hidden bg-[#0D3B66] flex items-center">
 
