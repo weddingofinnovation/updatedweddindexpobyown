@@ -173,7 +173,7 @@
                     </div>
                 </form>
 
-                {{$submitStepOne}}
+                
                 
                 <div class="pt-4 flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-t border-black/10">
                     <span class="text-xs text-neutral-600">
