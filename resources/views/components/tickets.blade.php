@@ -373,7 +373,6 @@
     </div>
 
 </section>
-<livewire:visitformticket-component />
 
 
 
