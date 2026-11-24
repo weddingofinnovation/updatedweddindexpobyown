@@ -4,7 +4,7 @@ namespace App\Livewire;
 
 use Livewire\Component;
 
-class ExhibitorWithUsComponent extends Component
+class ExhibitwithusComponent extends Component
 {
     public $board;
     
@@ -14,6 +14,6 @@ class ExhibitorWithUsComponent extends Component
     }
     public function render()
     {
-        return view('livewire.exhibitorwithus-component')->layout('layouts.front');
+        return view('livewire.exhibitwithus-component')->layout('layouts.front');
     }
 }
