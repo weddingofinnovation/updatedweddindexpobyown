@@ -22,7 +22,7 @@ use App\Livewire\HostedbuyerprogramComponent;
 use App\Livewire\WeddingindiatvComponent;
 use App\Livewire\BlogdetailComponent;
 use App\Livewire\TicketComponent;
-Use App\Livewire\ExhibitorWithUsComponent;
+Use App\Livewire\ExhibitorwithusComponent;
 //use App\Livewire\WikiArticleEditorComponent;
 
 use App\Models\User;
