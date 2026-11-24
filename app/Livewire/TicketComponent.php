@@ -26,12 +26,12 @@ class TicketComponent extends Component
             'email' => 'required|email|max:255',
         ]);
 
-        $newEnquiry = new Lead();
-        $newEnquiry->name = $this->name;
-        $newEnquiry->phone = $this->phone;
-        $newEnquiry->email = $this->email;
+        // $newEnquiry = new Lead();
+        // $newEnquiry->name = $this->name;
+        // $newEnquiry->phone = $this->phone;
+        // $newEnquiry->email = $this->email;
 
-        dd($newEnquiry);
+        
         
         // You can perform any additional logic here, such as saving the data to the database
 
