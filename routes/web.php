@@ -41,7 +41,7 @@ Route::get('/the_event/{board}', AboutComponent::class)->name('event.intro');
 
 //form
 Route::get('/visitorticketinquiry', TicketComponent::class)->name('ticket.plan');
-Route::get('/visitorticketinquiry', ExhibitorwithusComponent::class)->name('ticket.plan');
+Route::get('/exhibitor-with-us', ExhibitorwithusComponent::class)->name('exhibit.plan');
 
 Route::get('/hosted_buyer_program/{board}', HostedbuyerprogramComponent::class)->name('HostedBuyerProgram.intro');
 Route::get('/weddingindiatv/{board}', WeddingindiatvComponent::class)->name('weddingindiatv.intro');
