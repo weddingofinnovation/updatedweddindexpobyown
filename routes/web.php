@@ -22,6 +22,7 @@ use App\Livewire\HostedbuyerprogramComponent;
 use App\Livewire\WeddingindiatvComponent;
 use App\Livewire\BlogdetailComponent;
 use App\Livewire\TicketComponent;
+Use App\Livewire\ExhibitorWithUsComponent;
 //use App\Livewire\WikiArticleEditorComponent;
 
 use App\Models\User;
@@ -40,6 +41,7 @@ Route::get('/the_event/{board}', AboutComponent::class)->name('event.intro');
 
 //form
 Route::get('/visitorticketinquiry', TicketComponent::class)->name('ticket.plan');
+Route::get('/visitorticketinquiry', ExhibitorwithusComponent::class)->name('ticket.plan');
 
 Route::get('/hosted_buyer_program/{board}', HostedbuyerprogramComponent::class)->name('HostedBuyerProgram.intro');
 Route::get('/weddingindiatv/{board}', WeddingindiatvComponent::class)->name('weddingindiatv.intro');
