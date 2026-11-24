@@ -142,53 +142,62 @@
                             <label class="block text-xs font-bold uppercase tracking-wider text-neutral-700 mb-2">Full Name *</label>
                             <input
                                 type="text"
-                                x-model="fullName"
+                                
                                 wire:model.lazy="fullName"
                                 placeholder="Enter your full name"
                                 class="w-full bg-neutral-100 border border-black/15 px-4 py-3.5 text-sm focus:outline-none focus:border-[#FF5500]"
                             />
+                            @error('fullName')
+                                <span class="text-red-500">{{ $message }}</span>
+                            @enderror
                         </div>
 
                         <div>
                             <label class="block text-xs font-bold uppercase tracking-wider text-neutral-700 mb-2">Phone / WhatsApp *</label>
                             <input
                                 type="tel"
-                                x-model="phone"
+                                
                                 wire:model.lazy="phone"
                                 placeholder="+91 012-456-7890"
                                 class="w-full bg-neutral-100 border border-black/15 px-4 py-3.5 text-sm focus:outline-none focus:border-[#FF5500]"
                             />
+                            @error('phone')
+                <span class="text-red-500">{{ $message }}</span>
+            @enderror
                         </div>
 
                         <div>
                             <label class="block text-xs font-bold uppercase tracking-wider text-neutral-700 mb-2">Email Address *</label>
                             <input
                                 type="email"
-                                x-model="email"
+                               
                                 wire:model.lazy="email"
                                 placeholder="you@company.com"
                                 class="w-full bg-neutral-100 border border-black/15 px-4 py-3.5 text-sm focus:outline-none focus:border-[#FF5500]"
                             />
+                            @error('email')
+                <span class="text-red-500">{{ $message }}</span>
+            @enderror
                         </div>
+
+
+                    </div>
+                    <div class="pt-4 flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-t border-black/10">
+                        <span class="text-xs text-neutral-600">
+                            Next step: Choose entry tickets, meeting lounge access, award nominations & community tools.
+                        </span>
+                        <button
+                            type="submit"
+                            
+                            class="inline-flex items-center justify-center gap-3 bg-[#111111] hover:bg-[#FF5500] text-white px-8 py-4 text-xs sm:text-sm font-bold uppercase tracking-wider transition-colors duration-300 cursor-pointer">
+                            <span>Continue To Ticket & Details Form</span>
+                            <svg class="w-4 h-4 text-[#FF5500]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M17 7L7 17M17 17H7V7"/>
+                            </svg>
+                        </button>
                     </div>
                 </form>
 
-                
-                
-                <div class="pt-4 flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-t border-black/10">
-                    <span class="text-xs text-neutral-600">
-                        Next step: Choose entry tickets, meeting lounge access, award nominations & community tools.
-                    </span>
-                    <button
-                        type="button"
-                        @click="goToStepTwo()"
-                        class="inline-flex items-center justify-center gap-3 bg-[#111111] hover:bg-[#FF5500] text-white px-8 py-4 text-xs sm:text-sm font-bold uppercase tracking-wider transition-colors duration-300 cursor-pointer">
-                        <span>Continue To Ticket & Details Form</span>
-                        <svg class="w-4 h-4 text-[#FF5500]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M17 7L7 17M17 17H7V7"/>
-                        </svg>
-                    </button>
-                </div>
             </div>
 
             <!-- STEP 2: Show Tickets, Meeting Access, Award Nomination & Community / Marketing Solutions -->
