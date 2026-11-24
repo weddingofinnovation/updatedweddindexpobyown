@@ -136,18 +136,18 @@
                     Please enter your Full Name, Phone / WhatsApp number, and Email address to open the next form.
                 </p>
 
-                <form wire:submit.prevent="submit">
+                <form wire:submit.prevent="submitStepOne">
                     <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
                         <div>
                             <label class="block text-xs font-bold uppercase tracking-wider text-neutral-700 mb-2">Full Name *</label>
                             <input
                                 type="text"
                                 
-                                wire:model.lazy="fullName"
+                                wire:model.lazy="name"
                                 placeholder="Enter your full name"
                                 class="w-full bg-neutral-100 border border-black/15 px-4 py-3.5 text-sm focus:outline-none focus:border-[#FF5500]"
                             />
-                            @error('fullName')
+                            @error('name')
                                 <span class="text-red-500">{{ $message }}</span>
                             @enderror
                         </div>

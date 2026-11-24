@@ -2,11 +2,15 @@
 
 namespace App\Livewire;
 
+use App\Models\Lead;
 use Livewire\Component;
 
 class TicketComponent extends Component
 {
     public $activeTab = 'corporate';
+    public $name;
+    public $phone;
+    public $email;
 
     public function changeTab($tab)
     {
@@ -17,12 +21,17 @@ class TicketComponent extends Component
     {
         // Validate the input fields
         $this->validate([
-            'fullName' => 'required|string|max:255',
+            'name' => 'required|string|max:255',
             'phone' => 'required|string|max:20',
             'email' => 'required|email|max:255',
         ]);
 
-        
+        $newEnquiry = new Lead();
+        $newEnquiry->name = $this->name;
+        $newEnquiry->phone = $this->phone;
+        $newEnquiry->email = $this->email;
+
+        dd($newEnquiry);
         
         // You can perform any additional logic here, such as saving the data to the database
 
