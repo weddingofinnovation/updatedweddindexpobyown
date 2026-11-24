@@ -2,41 +2,108 @@
 
 namespace App\Livewire;
 
+use App\Mail\TicketRegistrationConfirmed;
 use App\Models\Lead;
+use Illuminate\Support\Facades\Mail;
 use Livewire\Component;
 
 class TicketComponent extends Component
 {
-    public $activeTab = 'corporate';
-    public $name;
-    public $phone;
-    public $email;
+    public int $step = 1;
+    public string $activeTab = 'corporate';
 
-    public function changeTab($tab)
+    // Step 1 fields
+    public string $name = '';
+    public string $phone = '';
+    public string $email = '';
+
+    // Step 2 fields
+    public string $ticketType = '100 Cr Wedding Food & Tasting Pass';
+    public string $role = 'Wedding Planner';
+    public string $company = '';
+    public string $cityState = '';
+    public string $nominateAwards = 'Yes — Nominate For Recognition';
+    public array $communityTools = ['Join as Founding Partner'];
+    public string $notes = '';
+
+    public bool $submitted = false;
+
+    public function changeTab(string $tab): void
     {
         $this->activeTab = $tab;
     }
 
-    public function submitStepOne()
+    public function toggleTool(string $tool): void
     {
-        // Validate the input fields
+        if (in_array($tool, $this->communityTools, true)) {
+            $this->communityTools = array_values(array_diff($this->communityTools, [$tool]));
+        } else {
+            $this->communityTools[] = $tool;
+        }
+    }
+
+    public function submitStepOne(): void
+    {
         $this->validate([
-            'name' => 'required|string|max:255',
+            'name'  => 'required|string|max:255',
             'phone' => 'required|string|max:20',
             'email' => 'required|email|max:255',
         ]);
 
-        // $newEnquiry = new Lead();
-        // $newEnquiry->name = $this->name;
-        // $newEnquiry->phone = $this->phone;
-        // $newEnquiry->email = $this->email;
+        Lead::updateOrCreate(
+            ['email' => $this->email],
+            [
+                'name'  => $this->name,
+                'phone' => $this->phone,
+            ]
+        );
 
-        
-        
-        // You can perform any additional logic here, such as saving the data to the database
+        $this->step = 2;
+        $this->dispatch('stepOneCompleted'); // Livewire 3 syntax (replaces $this->emit)
+    }
 
-        // For demonstration purposes, we'll just emit an event to indicate that step one is complete
-        $this->emit('stepOneCompleted');
+    public function backToStepOne(): void
+    {
+        $this->step = 1;
+    }
+
+    public function submit(): void
+    {
+        $validated = $this->validate([
+            'name'           => 'required|string|max:255',
+            'phone'          => 'required|string|max:20',
+            'email'          => 'required|email|max:255',
+            'ticketType'     => 'required|string|max:255',
+            'role'           => 'required|string|max:255',
+            'company'        => 'required|string|max:255',
+            'cityState'      => 'required|string|max:255',
+            'nominateAwards' => 'nullable|string|max:255',
+            'communityTools' => 'nullable|array',
+            'notes'          => 'nullable|string|max:3000',
+        ]);
+
+        $lead = Lead::updateOrCreate(
+            ['email' => $validated['email']],
+            [
+                'name'  => $validated['name'],
+                'phone' => $validated['phone'],
+            ]
+        );
+
+        // Uncomment once your Mailable is ready:
+        // Mail::to($lead->email)->cc('team@weddingindiaexpo.com')->send(new TicketRegistrationConfirmed($lead));
+
+        $this->submitted = true;
+    }
+
+    public function resetForm(): void
+    {
+        $this->reset(['name', 'phone', 'email', 'company', 'cityState', 'notes', 'submitted']);
+        $this->ticketType = '100 Cr Wedding Food & Tasting Pass';
+        $this->role = 'Wedding Planner';
+        $this->nominateAwards = 'Yes — Nominate For Recognition';
+        $this->communityTools = ['Join as Founding Partner'];
+        $this->step = 1;
     }
 
     public function render()
@@ -44,4 +111,3 @@ class TicketComponent extends Component
         return view('livewire.ticket-component');
     }
 }
-
