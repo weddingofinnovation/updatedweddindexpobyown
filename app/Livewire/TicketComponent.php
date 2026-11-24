@@ -32,7 +32,7 @@ class TicketComponent extends Component
 
     public function render()
     {
-        return view('livewire.ticket-component');
+        return view('livewire.component.ticket');
     }
 }
 

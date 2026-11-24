@@ -37,6 +37,9 @@ Route::get('/exhibitor/{board}', ExhibitorComponent::class)->name('front.exhibit
 
 Route::get('/the_event/{board}', AboutComponent::class)->name('event.intro');
 
+//form
+Route::get('/the_event/{board}', TicketComponent::class)->name('event.intro');
+
 Route::get('/hosted_buyer_program/{board}', HostedbuyerprogramComponent::class)->name('HostedBuyerProgram.intro');
 Route::get('/weddingindiatv/{board}', WeddingindiatvComponent::class)->name('weddingindiatv.intro');
 

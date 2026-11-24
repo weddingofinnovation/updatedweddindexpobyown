@@ -35,10 +35,7 @@
     </style>
 </head>
 
-
-<livewire:visitformticket-component />
-
-
+<livewire:livewire/visitformticket-component />
 
 <!-- <section class="relative w-full min-h-[199px] overflow-hidden bg-[#0D3B66] flex items-center">
 
