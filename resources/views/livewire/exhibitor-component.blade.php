@@ -37,176 +37,175 @@
 
 <main>
     @if($board == 'visitor_profile')
-    <section class="py-16 bg-gradient-to-b from-rose-50 to-white">
-        <div class="max-w-7xl mx-auto px-6">
+        <section class="py-16 bg-gradient-to-b from-rose-50 to-white">
+            <div class="max-w-7xl mx-auto px-6">
 
-            <div class="text-center mb-12">
-                <span class="inline-block bg-rose-100 text-rose-700 px-4 py-1 rounded-full text-sm font-semibold">
-                    Visitor Profile
-                </span>
+                <div class="text-center mb-12">
+                    <span class="inline-block bg-rose-100 text-rose-700 px-4 py-1 rounded-full text-sm font-semibold">
+                        Visitor Profile
+                    </span>
 
-                <h2 class="mt-4 text-4xl font-bold text-gray-900">
-                    Who Will Visit Wedding India Expo?
-                </h2>
+                    <h2 class="mt-4 text-4xl font-bold text-gray-900">
+                        Who Will Visit Wedding India Expo?
+                    </h2>
 
-                <p class="mt-4 text-lg text-gray-600 max-w-3xl mx-auto">
-                    Connect with India's most influential wedding professionals, hospitality leaders,
-                    tourism partners, luxury brands, and families planning unforgettable destination weddings.
-                </p>
+                    <p class="mt-4 text-lg text-gray-600 max-w-3xl mx-auto">
+                        Connect with India's most influential wedding professionals, hospitality leaders,
+                        tourism partners, luxury brands, and families planning unforgettable destination weddings.
+                    </p>
+                </div>
+
+                <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+
+                    <!-- Card -->
+                    <div class="bg-white rounded-2xl shadow hover:shadow-xl transition p-6 text-center">
+                        <div class="w-16 h-16 mx-auto bg-rose-100 rounded-full flex items-center justify-center text-rose-600">
+                            💍
+                        </div>
+                        <h3 class="mt-4 font-semibold text-gray-800">
+                            Wedding Planners
+                        </h3>
+                        <p class="text-sm text-gray-500 mt-2">
+                            Destination Wedding Specialists
+                        </p>
+                    </div>
+
+                    <div class="bg-white rounded-2xl shadow hover:shadow-xl transition p-6 text-center">
+                        <div class="w-16 h-16 mx-auto bg-blue-100 rounded-full flex items-center justify-center text-blue-600">
+                            🏨
+                        </div>
+                        <h3 class="mt-4 font-semibold text-gray-800">
+                            Hotels & Resorts
+                        </h3>
+                        <p class="text-sm text-gray-500 mt-2">
+                            Wedding Venues
+                        </p>
+                    </div>
+
+                    <div class="bg-white rounded-2xl shadow hover:shadow-xl transition p-6 text-center">
+                        <div class="w-16 h-16 mx-auto bg-green-100 rounded-full flex items-center justify-center text-green-600">
+                            🌍
+                        </div>
+                        <h3 class="mt-4 font-semibold text-gray-800">
+                            Tourism Boards
+                        </h3>
+                        <p class="text-sm text-gray-500 mt-2">
+                            Convention Bureaus
+                        </p>
+                    </div>
+
+                    <div class="bg-white rounded-2xl shadow hover:shadow-xl transition p-6 text-center">
+                        <div class="w-16 h-16 mx-auto bg-sky-100 rounded-full flex items-center justify-center text-sky-600">
+                            ✈️
+                        </div>
+                        <h3 class="mt-4 font-semibold text-gray-800">
+                            Airlines
+                        </h3>
+                        <p class="text-sm text-gray-500 mt-2">
+                            Travel Companies
+                        </p>
+                    </div>
+
+                    <div class="bg-white rounded-2xl shadow hover:shadow-xl transition p-6 text-center">
+                        <div class="w-16 h-16 mx-auto bg-amber-100 rounded-full flex items-center justify-center text-amber-600">
+                            🍽️
+                        </div>
+                        <h3 class="mt-4 font-semibold text-gray-800">
+                            Caterers
+                        </h3>
+                        <p class="text-sm text-gray-500 mt-2">
+                            Luxury Hospitality Brands
+                        </p>
+                    </div>
+
+                    <div class="bg-white rounded-2xl shadow hover:shadow-xl transition p-6 text-center">
+                        <div class="w-16 h-16 mx-auto bg-purple-100 rounded-full flex items-center justify-center text-purple-600">
+                            🎉
+                        </div>
+                        <h3 class="mt-4 font-semibold text-gray-800">
+                            Decor Companies
+                        </h3>
+                        <p class="text-sm text-gray-500 mt-2">
+                            Event Production
+                        </p>
+                    </div>
+
+                    <div class="bg-white rounded-2xl shadow hover:shadow-xl transition p-6 text-center">
+                        <div class="w-16 h-16 mx-auto bg-pink-100 rounded-full flex items-center justify-center text-pink-600">
+                            📸
+                        </div>
+                        <h3 class="mt-4 font-semibold text-gray-800">
+                            Photography
+                        </h3>
+                        <p class="text-sm text-gray-500 mt-2">
+                            Entertainment Professionals
+                        </p>
+                    </div>
+
+                    <div class="bg-white rounded-2xl shadow hover:shadow-xl transition p-6 text-center">
+                        <div class="w-16 h-16 mx-auto bg-yellow-100 rounded-full flex items-center justify-center text-yellow-600">
+                            👗
+                        </div>
+                        <h3 class="mt-4 font-semibold text-gray-800">
+                            Bridal Fashion
+                        </h3>
+                        <p class="text-sm text-gray-500 mt-2">
+                            Jewellery Brands
+                        </p>
+                    </div>
+
+                    <div class="bg-white rounded-2xl shadow hover:shadow-xl transition p-6 text-center">
+                        <div class="w-16 h-16 mx-auto bg-indigo-100 rounded-full flex items-center justify-center text-indigo-600">
+                            💻
+                        </div>
+                        <h3 class="mt-4 font-semibold text-gray-800">
+                            Wedding Technology
+                        </h3>
+                        <p class="text-sm text-gray-500 mt-2">
+                            Digital Solutions
+                        </p>
+                    </div>
+
+                    <div class="bg-white rounded-2xl shadow hover:shadow-xl transition p-6 text-center">
+                        <div class="w-16 h-16 mx-auto bg-red-100 rounded-full flex items-center justify-center text-red-600">
+                            ❤️
+                        </div>
+                        <h3 class="mt-4 font-semibold text-gray-800">
+                            Couples & Families
+                        </h3>
+                        <p class="text-sm text-gray-500 mt-2">
+                            Wedding Planning
+                        </p>
+                    </div>
+
+                    <div class="bg-white rounded-2xl shadow hover:shadow-xl transition p-6 text-center">
+                        <div class="w-16 h-16 mx-auto bg-cyan-100 rounded-full flex items-center justify-center text-cyan-600">
+                            🤝
+                        </div>
+                        <h3 class="mt-4 font-semibold text-gray-800">
+                            Corporate Buyers
+                        </h3>
+                        <p class="text-sm text-gray-500 mt-2">
+                            Event Procurement
+                        </p>
+                    </div>
+
+                    <div class="bg-white rounded-2xl shadow hover:shadow-xl transition p-6 text-center">
+                        <div class="w-16 h-16 mx-auto bg-emerald-100 rounded-full flex items-center justify-center text-emerald-600">
+                            ✨
+                        </div>
+                        <h3 class="mt-4 font-semibold text-gray-800">
+                            Luxury Lifestyle
+                        </h3>
+                        <p class="text-sm text-gray-500 mt-2">
+                            Premium Buyers
+                        </p>
+                    </div>
+
+                </div>
+
             </div>
-
-            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-
-                <!-- Card -->
-                <div class="bg-white rounded-2xl shadow hover:shadow-xl transition p-6 text-center">
-                    <div class="w-16 h-16 mx-auto bg-rose-100 rounded-full flex items-center justify-center text-rose-600">
-                        💍
-                    </div>
-                    <h3 class="mt-4 font-semibold text-gray-800">
-                        Wedding Planners
-                    </h3>
-                    <p class="text-sm text-gray-500 mt-2">
-                        Destination Wedding Specialists
-                    </p>
-                </div>
-
-                <div class="bg-white rounded-2xl shadow hover:shadow-xl transition p-6 text-center">
-                    <div class="w-16 h-16 mx-auto bg-blue-100 rounded-full flex items-center justify-center text-blue-600">
-                        🏨
-                    </div>
-                    <h3 class="mt-4 font-semibold text-gray-800">
-                        Hotels & Resorts
-                    </h3>
-                    <p class="text-sm text-gray-500 mt-2">
-                        Wedding Venues
-                    </p>
-                </div>
-
-                <div class="bg-white rounded-2xl shadow hover:shadow-xl transition p-6 text-center">
-                    <div class="w-16 h-16 mx-auto bg-green-100 rounded-full flex items-center justify-center text-green-600">
-                        🌍
-                    </div>
-                    <h3 class="mt-4 font-semibold text-gray-800">
-                        Tourism Boards
-                    </h3>
-                    <p class="text-sm text-gray-500 mt-2">
-                        Convention Bureaus
-                    </p>
-                </div>
-
-                <div class="bg-white rounded-2xl shadow hover:shadow-xl transition p-6 text-center">
-                    <div class="w-16 h-16 mx-auto bg-sky-100 rounded-full flex items-center justify-center text-sky-600">
-                        ✈️
-                    </div>
-                    <h3 class="mt-4 font-semibold text-gray-800">
-                        Airlines
-                    </h3>
-                    <p class="text-sm text-gray-500 mt-2">
-                        Travel Companies
-                    </p>
-                </div>
-
-                <div class="bg-white rounded-2xl shadow hover:shadow-xl transition p-6 text-center">
-                    <div class="w-16 h-16 mx-auto bg-amber-100 rounded-full flex items-center justify-center text-amber-600">
-                        🍽️
-                    </div>
-                    <h3 class="mt-4 font-semibold text-gray-800">
-                        Caterers
-                    </h3>
-                    <p class="text-sm text-gray-500 mt-2">
-                        Luxury Hospitality Brands
-                    </p>
-                </div>
-
-                <div class="bg-white rounded-2xl shadow hover:shadow-xl transition p-6 text-center">
-                    <div class="w-16 h-16 mx-auto bg-purple-100 rounded-full flex items-center justify-center text-purple-600">
-                        🎉
-                    </div>
-                    <h3 class="mt-4 font-semibold text-gray-800">
-                        Decor Companies
-                    </h3>
-                    <p class="text-sm text-gray-500 mt-2">
-                        Event Production
-                    </p>
-                </div>
-
-                <div class="bg-white rounded-2xl shadow hover:shadow-xl transition p-6 text-center">
-                    <div class="w-16 h-16 mx-auto bg-pink-100 rounded-full flex items-center justify-center text-pink-600">
-                        📸
-                    </div>
-                    <h3 class="mt-4 font-semibold text-gray-800">
-                        Photography
-                    </h3>
-                    <p class="text-sm text-gray-500 mt-2">
-                        Entertainment Professionals
-                    </p>
-                </div>
-
-                <div class="bg-white rounded-2xl shadow hover:shadow-xl transition p-6 text-center">
-                    <div class="w-16 h-16 mx-auto bg-yellow-100 rounded-full flex items-center justify-center text-yellow-600">
-                        👗
-                    </div>
-                    <h3 class="mt-4 font-semibold text-gray-800">
-                        Bridal Fashion
-                    </h3>
-                    <p class="text-sm text-gray-500 mt-2">
-                        Jewellery Brands
-                    </p>
-                </div>
-
-                <div class="bg-white rounded-2xl shadow hover:shadow-xl transition p-6 text-center">
-                    <div class="w-16 h-16 mx-auto bg-indigo-100 rounded-full flex items-center justify-center text-indigo-600">
-                        💻
-                    </div>
-                    <h3 class="mt-4 font-semibold text-gray-800">
-                        Wedding Technology
-                    </h3>
-                    <p class="text-sm text-gray-500 mt-2">
-                        Digital Solutions
-                    </p>
-                </div>
-
-                <div class="bg-white rounded-2xl shadow hover:shadow-xl transition p-6 text-center">
-                    <div class="w-16 h-16 mx-auto bg-red-100 rounded-full flex items-center justify-center text-red-600">
-                        ❤️
-                    </div>
-                    <h3 class="mt-4 font-semibold text-gray-800">
-                        Couples & Families
-                    </h3>
-                    <p class="text-sm text-gray-500 mt-2">
-                        Wedding Planning
-                    </p>
-                </div>
-
-                <div class="bg-white rounded-2xl shadow hover:shadow-xl transition p-6 text-center">
-                    <div class="w-16 h-16 mx-auto bg-cyan-100 rounded-full flex items-center justify-center text-cyan-600">
-                        🤝
-                    </div>
-                    <h3 class="mt-4 font-semibold text-gray-800">
-                        Corporate Buyers
-                    </h3>
-                    <p class="text-sm text-gray-500 mt-2">
-                        Event Procurement
-                    </p>
-                </div>
-
-                <div class="bg-white rounded-2xl shadow hover:shadow-xl transition p-6 text-center">
-                    <div class="w-16 h-16 mx-auto bg-emerald-100 rounded-full flex items-center justify-center text-emerald-600">
-                        ✨
-                    </div>
-                    <h3 class="mt-4 font-semibold text-gray-800">
-                        Luxury Lifestyle
-                    </h3>
-                    <p class="text-sm text-gray-500 mt-2">
-                        Premium Buyers
-                    </p>
-                </div>
-
-            </div>
-
-        </div>
-    </section>
-
+        </section>
     @elseif($board == 'founding-partner')
         <section id="founding-partner-page" class="w-full max-w-[1280px] mx-auto bg-[#111111] text-white border-t border-white/15">
 
@@ -719,21 +718,21 @@
         </section>
 
     @elseif($board == 'exhibit')
-    <x-exhibit />
+      <x-exhibit />
     @elseif($board == 'whatis')
-    <x-whatis />
+      <x-whatis />
     @elseif($board == 'tickets')
-    <x-tickets />
+      <x-tickets />
     @elseif($board == 'howtogetthere')
-    <x-howtogetthere />
+      <x-howtogetthere />
     @elseif($board == 'planyourtrip')
-    <x-planyourtrip />    
+      <x-planyourtrip />    
     @elseif($board == 'exhibitorservice')
-    <x-exhibitorservice />
+      <x-exhibitorservice />
     @elseif($board == 'promoteyourbrand') 
-    <x-promoteyourbrand />
+      <x-promoteyourbrand />
     @elseif($board == 'subcategory')
-     <x-subcategory />
+      <x-subcategory />
     @elseif($board == 'exhibit-with-us')
       <x-exhibitwithus />
     @elseif($board == 'download-brochure')
