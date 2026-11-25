@@ -541,7 +541,7 @@
                         <!-- Column 4 -->
                         <div class="space-y-1">
                             <!-- Item 1: I want to Exhibit -->
-                            <a href="{{ route('event.intro', ['board' => 'book-a-stand']) }}" class="block">
+                            <a href="{{ route('exhibitor.service', ['board' => 'exhibit-with-us']) }}" class="block">
                                 <div class="group flex items-center gap-4 bg-red-700 hover:bg-red-800 text-white px-5 py-4 rounded-xl transition-all duration-300 hover:shadow-lg">
                                     <div class="w-12 h-12 rounded-lg bg-white flex items-center justify-center text-red-700 shrink-0 relative">
                                         <svg class="w-7 h-7" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24">
@@ -557,7 +557,7 @@
                             </a>
 
                             <!-- Item 2: Advertising & Sponsorship -->
-                            <a href="{{ route('event.intro', ['board' => 'advertising-sponsorship']) }}" class="block">
+                            <a href="{{route('exhibitor.service', ['board'=> 'advertising-sponsorship'])}}" class="block">
                                 <div class="group flex items-center gap-4 bg-red-700 hover:bg-red-800 text-white px-5 py-4 rounded-xl transition-all duration-300 hover:shadow-lg">
                                     <div class="w-12 h-12 rounded-lg bg-white flex items-center justify-center text-red-700 shrink-0 relative">
                                         <svg class="w-7 h-7" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24">
@@ -573,7 +573,7 @@
                             </a>
 
                             <!-- Item 3: Download Brochure -->
-                            <a href="{{ route('event.intro', ['board' => 'download-brochure']) }}" class="block">
+                            <a href="{{ route('exhibitor.service', ['board' => 'download-brochure']) }}" class="block">
                                 <div class="group flex items-center gap-4 bg-red-700 hover:bg-red-800 text-white px-5 py-4 rounded-xl transition-all duration-300 hover:shadow-lg">
                                     <div class="w-12 h-12 rounded-lg bg-white flex items-center justify-center text-red-700 shrink-0 relative">
                                         <svg class="w-7 h-7" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24">
