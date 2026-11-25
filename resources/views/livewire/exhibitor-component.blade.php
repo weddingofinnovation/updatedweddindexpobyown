@@ -2281,5 +2281,1289 @@
             </div>
 
         </section>
+    @elseif($board == 'bartender-india-expo')
+        <section id="bartender-india-expo" class="w-full max-w-[1280px] mx-auto bg-[#111111] text-white border-t border-white/15">
+
+            <!-- 1. Split-Horizon Hero Banner with Visual Showcase -->
+            <div class="relative bg-[#111111] border-b border-white/15 overflow-hidden">
+                <!-- Top White Horizon Band -->
+                <div class="hidden lg:block absolute top-0 inset-x-0 h-[112px] bg-white z-0"></div>
+
+                <!-- Subtle Warm Amber-Orange Radial Glow -->
+                <div class="absolute top-24 right-10 w-[520px] h-[340px] rounded-full bg-gradient-to-tr from-[#FF5500]/25 via-amber-500/10 to-transparent blur-[115px] pointer-events-none z-0"></div>
+
+                <div class="relative z-10 p-8 sm:p-12 lg:pt-7 lg:px-16 lg:pb-14">
+                    <div class="flex flex-wrap items-center justify-between gap-4 mb-8 lg:mb-12">
+                        <span class="bg-[#FF5500] text-white text-[11px] font-semibold tracking-widest uppercase px-5 py-2 rounded-full shadow-md">
+                            BARTENDER INDIA EXPO 2027 • THE WEDDING WINE & MIXOLOGY EXPERIENCE
+                        </span>
+                        <span class="text-xs font-semibold uppercase tracking-widest text-neutral-400 lg:text-[#0A0A0A]">
+                            05 – 07 MARCH 2027 • YASHOBHOOMI (IICC), DWARKA, NEW DELHI
+                        </span>
+                    </div>
+
+                    <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-end">
+                        <div class="lg:col-span-8">
+                            <h1 class="text-4xl sm:text-6xl font-medium tracking-[-0.035em] leading-[1.04]">
+                                <span class="block text-white lg:text-[#0A0A0A]">Bartender India</span>
+                                <span class="block text-white mt-1">Expo 2027.</span>
+                            </h1>
+                            <p class="text-sm sm:text-base text-neutral-300 mt-6 max-w-2xl leading-relaxed">
+                                India’s premier luxury bar, mixology, and beverage hospitality showcase—connecting <strong class="text-white">Celebrity Bartenders, Mobile Luxury Bar Operators, Craft Spirit & Wine Labels, Molecular Mixologists, and Barware Manufacturers</strong> directly with 15,000+ destination wedding planners, 5-star F&B directors, and HNI/NRI families at <strong class="text-white">Yashobhoomi (IICC), New Delhi</strong>.
+                            </p>
+                        </div>
+
+                        <!-- High-Contrast Exhibitor Stall Card with Craft Mixology Preview -->
+                        <div class="lg:col-span-4 bg-white text-[#0A0A0A] border-t-4 border-[#FF5500] overflow-hidden">
+                            <div class="relative h-40 overflow-hidden bg-neutral-900">
+                                <img
+                                    src="https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&w=900&q=80"
+                                    alt="Luxury Craft Cocktail Bar & Mixology Showcase"
+                                    class="w-full h-full object-cover object-center"
+                                />
+                                <span class="absolute bottom-3 left-3 bg-[#111111]/90 text-white text-[10px] font-bold uppercase tracking-widest px-3 py-1 rounded-full">
+                                    MIXOLOGY • WINE • LUXURY BARS
+                                </span>
+                            </div>
+
+                            <div class="p-6 sm:p-7">
+                                <span class="text-[10px] font-bold uppercase tracking-widest text-[#FF5500]">
+                                    BAR ISLANDS & TASTING LOUNGES
+                                </span>
+                                <div class="mt-1.5 flex items-baseline gap-2">
+                                    <span class="text-3xl sm:text-4xl font-bold tracking-tight">₹65,000</span>
+                                    <span class="text-xs font-bold uppercase tracking-wider text-neutral-600">Starting Tariff</span>
+                                </div>
+                                <p class="text-xs text-neutral-600 mt-2 leading-relaxed">
+                                    Includes dual footfall from <strong class="text-[#0A0A0A]">Wedding India Expo 2027</strong>, Hosted Planner Tasting Sessions & 2-Year Print Magazine visibility.
+                                </p>
+                                <a href="#bartender-exhibitor-booking" class="mt-5 group flex items-center justify-between w-full bg-[#111111] hover:bg-[#FF5500] text-white px-5 py-3.5 transition-colors duration-300">
+                                    <span class="text-xs font-bold uppercase tracking-wider">Reserve Bar Booth Or Lounge</span>
+                                    <svg class="w-4 h-4 text-[#FF5500] group-hover:text-white transition-colors" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M17 7L7 17M17 17H7V7"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Visual Gallery Strip: Flair Bartending, Sommelier Wine Tasting & Zero-Proof Botanical Bars -->
+                    <div class="mt-10 grid grid-cols-1 md:grid-cols-3 gap-5">
+                        <div class="group relative h-56 overflow-hidden border border-white/15">
+                            <img
+                                src="https://images.unsplash.com/photo-1551024709-8f23befc6f87?auto=format&fit=crop&w=900&q=80"
+                                alt="Luxury Mobile Wedding Bar & Smoked Cocktail Craft"
+                                class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                            />
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/85 via-black/25 to-transparent"></div>
+                            <div class="absolute bottom-4 left-4 right-4">
+                                <span class="text-[10px] font-bold uppercase tracking-widest text-[#FF5500]">01 • LUXURY MOBILE BARS & MIXOLOGY</span>
+                                <p class="text-sm font-semibold text-white mt-0.5">Bespoke Sangeet Bars, Molecular Cocktails & Flair Showcases</p>
+                            </div>
+                        </div>
+
+                        <div class="group relative h-56 overflow-hidden border border-white/15">
+                            <img
+                                src="https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?auto=format&fit=crop&w=900&q=80"
+                                alt="The Wedding Wine Experience & Sommelier Tasting"
+                                class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                            />
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/85 via-black/25 to-transparent"></div>
+                            <div class="absolute bottom-4 left-4 right-4">
+                                <span class="text-[10px] font-bold uppercase tracking-widest text-[#FF5500]">02 • THE WEDDING WINE EXPERIENCE</span>
+                                <p class="text-sm font-semibold text-white mt-0.5">Fine Wines, Champagne Towers, Craft Spirits & Sommeliers</p>
+                            </div>
+                        </div>
+
+                        <div class="group relative h-56 overflow-hidden border border-white/15">
+                            <img
+                                src="https://images.unsplash.com/photo-1536935338788-846bb9981813?auto=format&fit=crop&w=900&q=80"
+                                alt="Zero-Proof Botanical Mixology & Artisanal Ice"
+                                class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                            />
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/85 via-black/25 to-transparent"></div>
+                            <div class="absolute bottom-4 left-4 right-4">
+                                <span class="text-[10px] font-bold uppercase tracking-widest text-[#FF5500]">03 • ZERO-PROOF BOTANICALS & BARWARE</span>
+                                <p class="text-sm font-semibold text-white mt-0.5">Artisanal Ice, Craft Mixers, Crystal Glassware & Bar Tools</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 2. Market Reach & Buyer Numbers Strip -->
+            <div class="grid grid-cols-2 lg:grid-cols-4 border-b border-white/15 divide-y sm:divide-y-0 sm:divide-x divide-white/15">
+                <div class="p-8">
+                    <span class="text-xs font-mono font-bold text-[#FF5500]">01 / COMBINED BUYER FOOTFALL</span>
+                    <p class="text-3xl sm:text-4xl font-semibold mt-2">15,000+</p>
+                    <p class="text-xs text-neutral-400 mt-1 uppercase tracking-wider">Planners, Hoteliers & HNI/NRI Families</p>
+                </div>
+                <div class="p-8">
+                    <span class="text-xs font-mono font-bold text-[#FF5500]">02 / PLANNER EMPANELMENT</span>
+                    <p class="text-3xl sm:text-4xl font-semibold mt-2">3,000+</p>
+                    <p class="text-xs text-neutral-400 mt-1 uppercase tracking-wider">Wedding Planners & Sangeet Producers</p>
+                </div>
+                <div class="p-8">
+                    <span class="text-xs font-mono font-bold text-[#FF5500]">03 / DESTINATION HUBS</span>
+                    <p class="text-3xl sm:text-4xl font-semibold mt-2">28 States</p>
+                    <p class="text-xs text-neutral-400 mt-1 uppercase tracking-wider">& 18+ Global Destination Circuits</p>
+                </div>
+                <div class="p-8">
+                    <span class="text-xs font-mono font-bold text-[#FF5500]">04 / SHOW DATES</span>
+                    <p class="text-3xl sm:text-4xl font-semibold mt-2">5–7 Mar</p>
+                    <p class="text-xs text-neutral-400 mt-1 uppercase tracking-wider">2027 • Yashobhoomi (IICC), New Delhi</p>
+                </div>
+            </div>
+
+            <!-- 3. Why Bar Operators, Beverage Brands & Mixologists Exhibit Here (6 Cards with Visual Headers) -->
+            <div class="p-8 sm:p-12 lg:p-16 border-b border-white/15">
+                <div class="flex flex-col md:flex-row md:items-end justify-between mb-10 gap-4">
+                    <div>
+                        <span class="text-xs font-semibold uppercase tracking-widest text-[#FF5500]">High-Margin Wedding & Hospitality Contracts</span>
+                        <h2 class="text-2xl sm:text-4xl font-medium tracking-tight mt-1">Why Exhibit At Bartender India Expo 2027</h2>
+                    </div>
+                    <span class="text-xs uppercase tracking-widest text-neutral-400">Live Mixology Demos + Season Retainers</span>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+                    <!-- Card 1 -->
+                    <div class="bg-[#161616] border border-white/15 hover:border-[#FF5500] transition-colors overflow-hidden flex flex-col">
+                        <div class="relative h-44 overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&w=800&q=80" alt="Sangeet & Cocktail Night Bar Booking" class="w-full h-full object-cover" />
+                            <span class="absolute top-3 left-3 px-3 py-1 bg-[#FF5500] text-white text-[10px] font-bold uppercase tracking-wider rounded-full">01 / PLANNER RETAINERS</span>
+                        </div>
+                        <div class="p-7 flex-1">
+                            <h3 class="text-xl font-semibold">Direct Sangeet & Destination Bar Bookings</h3>
+                            <p class="text-sm text-neutral-400 mt-3 leading-relaxed">
+                                Pitch bespoke bar concepts—from welcome pool-party sundowners to high-energy Sangeet cocktail islands—directly to 3,000+ top wedding planners and HNI families.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Card 2 -->
+                    <div class="bg-[#161616] border border-white/15 hover:border-[#FF5500] transition-colors overflow-hidden flex flex-col">
+                        <div class="relative h-44 overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?auto=format&fit=crop&w=800&q=80" alt="The Wedding Wine Experience Tasting Sessions" class="w-full h-full object-cover" />
+                            <span class="absolute top-3 left-3 px-3 py-1 bg-[#FF5500] text-white text-[10px] font-bold uppercase tracking-wider rounded-full">02 / WINE & SPIRIT SHOWCASE</span>
+                        </div>
+                        <div class="p-7 flex-1">
+                            <h3 class="text-xl font-semibold">The Wedding Wine & Tasting Lounge</h3>
+                            <p class="text-sm text-neutral-400 mt-3 leading-relaxed">
+                                Host guided sommelier tastings, vineyard launches, and craft spirit pairings for luxury banquet buyers, hotel F&B heads, and wedding hosts.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Card 3 -->
+                    <div class="bg-[#161616] border border-white/15 hover:border-[#FF5500] transition-colors overflow-hidden flex flex-col">
+                        <div class="relative h-44 overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1536935338788-846bb9981813?auto=format&fit=crop&w=800&q=80" alt="Zero-Proof Mocktail & Botanical Beverage Bars" class="w-full h-full object-cover" />
+                            <span class="absolute top-3 left-3 px-3 py-1 bg-[#FF5500] text-white text-[10px] font-bold uppercase tracking-wider rounded-full">03 / ZERO-PROOF & BOTANICALS</span>
+                        </div>
+                        <div class="p-7 flex-1">
+                            <h3 class="text-xl font-semibold">High-Demand Zero-Proof Luxury Bars</h3>
+                            <p class="text-sm text-neutral-400 mt-3 leading-relaxed">
+                                Capture massive demand for non-alcoholic botanical elixirs, artisanal tonics, cold-pressed infusions, and traditional Indian sherbet bars across dry-state and family weddings.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Card 4 -->
+                    <div class="bg-[#161616] border border-white/15 hover:border-[#FF5500] transition-colors overflow-hidden flex flex-col">
+                        <div class="relative h-44 overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1551024709-8f23befc6f87?auto=format&fit=crop&w=800&q=80" alt="Live Mixology & Flair Championship Arena" class="w-full h-full object-cover" />
+                            <span class="absolute top-3 left-3 px-3 py-1 bg-white text-[#0A0A0A] text-[10px] font-bold uppercase tracking-wider rounded-full">04 / LIVE MIXOLOGY ARENA</span>
+                        </div>
+                        <div class="p-7 flex-1">
+                            <h3 class="text-xl font-semibold">Live Flair & Signature Cocktail Arena</h3>
+                            <p class="text-sm text-neutral-400 mt-3 leading-relaxed">
+                                Perform live molecular mixology, smoke-bubble presentations, and flair bartending battles in front of VIP buyers, hoteliers, and hospitality media.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Card 5 -->
+                    <div class="bg-[#161616] border border-white/15 hover:border-[#FF5500] transition-colors overflow-hidden flex flex-col">
+                        <div class="relative h-44 overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1575037614876-c38a4d44f5b8?auto=format&fit=crop&w=800&q=80" alt="Crystal Glassware, Artisanal Ice & Bar Equipment" class="w-full h-full object-cover" />
+                            <span class="absolute top-3 left-3 px-3 py-1 bg-white text-[#0A0A0A] text-[10px] font-bold uppercase tracking-wider rounded-full">05 / BARWARE & ICE TECH</span>
+                        </div>
+                        <div class="p-7 flex-1">
+                            <h3 class="text-xl font-semibold">Crystal Glassware, Ice & Bar Counters</h3>
+                            <p class="text-sm text-neutral-400 mt-3 leading-relaxed">
+                                Supply crystal stemware, custom monogrammed ice blocks, portable LED bar counters, and speed-rail equipment to caterers, clubs, and luxury hotels.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Card 6 -->
+                    <div class="bg-[#161616] border border-white/15 hover:border-[#FF5500] transition-colors overflow-hidden flex flex-col">
+                        <div class="relative h-44 overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&w=800&q=80" alt="Hospitality Awards, TV & Regional Roadshows" class="w-full h-full object-cover" />
+                            <span class="absolute top-3 left-3 px-3 py-1 bg-white text-[#0A0A0A] text-[10px] font-bold uppercase tracking-wider rounded-full">06 / AWARDS & ROADSHOWS</span>
+                        </div>
+                        <div class="p-7 flex-1">
+                            <h3 class="text-xl font-semibold">Mixology Honors, TV & Tasting Roadshows</h3>
+                            <p class="text-sm text-neutral-400 mt-3 leading-relaxed">
+                                Win national recognition at the <strong class="text-white">Global Excellence & Innovation Awards</strong>, feature on <strong class="text-white">Wedding India TV</strong> & Magazine, and pour at state roadshows.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- 4. Exhibitor Categories & Bar Pavilion Packages -->
+            <div class="grid grid-cols-1 lg:grid-cols-12 border-b border-white/15 divide-y lg:divide-y-0 lg:divide-x divide-white/15">
+
+                <!-- Left 6 Columns: Exhibitor Categories with Visual Header -->
+                <div class="lg:col-span-6 p-8 sm:p-12 lg:p-14 bg-[#111111] flex flex-col justify-between">
+                    <div>
+                        <div class="relative h-44 mb-6 overflow-hidden border border-white/15">
+                            <img
+                                src="https://images.unsplash.com/photo-1470337458703-46ad1756a187?auto=format&fit=crop&w=1000&q=80"
+                                alt="Luxury Bar & Beverage Hospitality Showcase"
+                                class="w-full h-full object-cover"
+                            />
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
+                            <span class="absolute bottom-3 left-4 text-xs font-bold uppercase tracking-widest text-white">
+                                WHO SHOULD EXHIBIT • BAR & BEVERAGE PAVILIONS
+                            </span>
+                        </div>
+
+                        <h3 class="text-2xl sm:text-3xl font-medium tracking-tight">
+                            Exhibitor Profile & Pavilion Zones
+                        </h3>
+                        <p class="text-sm text-neutral-400 mt-3 leading-relaxed">
+                            Dedicated mixology, wine, and bar hospitality zones at Yashobhoomi (IICC):
+                        </p>
+
+                        <ul class="mt-6 space-y-3.5 border-t border-white/10 pt-6 text-sm text-neutral-300">
+                            <li class="flex items-start gap-3">
+                                <span class="w-2 h-2 rounded-full bg-[#FF5500] mt-1.5 shrink-0"></span>
+                                <span><strong class="text-white">Luxury Wedding Bar & Mixology Agencies:</strong> Mobile cocktail bars, molecular mixologists, flair bartending troupes, and themed Sangeet bar setups.</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <span class="w-2 h-2 rounded-full bg-[#FF5500] mt-1.5 shrink-0"></span>
+                                <span><strong class="text-white">Fine Wine, Champagne & Craft Spirit Houses:</strong> Vineyards, importers, single-malt/gin distillers, and sommelier tasting lounges.</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <span class="w-2 h-2 rounded-full bg-[#FF5500] mt-1.5 shrink-0"></span>
+                                <span><strong class="text-white">Zero-Proof Mixers, Syrups & Botanical Brands:</strong> Artisanal tonic waters, cocktail bitters, dehydrated garnishes, and non-alcoholic spirit alternatives.</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <span class="w-2 h-2 rounded-full bg-[#FF5500] mt-1.5 shrink-0"></span>
+                                <span><strong class="text-white">Artisanal Ice, Crystal Glassware & Bar Tools:</strong> Crystal-clear ice sculptors, imported stemware, copper/brass barware, and smoking guns.</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <span class="w-2 h-2 rounded-full bg-[#FF5500] mt-1.5 shrink-0"></span>
+                                <span><strong class="text-white">Portable Bar Furniture & Bartending Academies:</strong> Modular LED/brass bar counters, commercial blenders/ice machines, and hospitality training institutes.</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Right 6 Columns: Bar Islands & Pavilion Packages with Visual Header -->
+                <div class="lg:col-span-6 p-8 sm:p-12 lg:p-14 bg-[#151515] flex flex-col justify-between">
+                    <div>
+                        <div class="relative h-44 mb-6 overflow-hidden border border-white/15">
+                            <img
+                                src="https://images.unsplash.com/photo-1511578314322-379afb476865?auto=format&fit=crop&w=1000&q=80"
+                                alt="Exhibition Pavilion & Bar Island Setup"
+                                class="w-full h-full object-cover"
+                            />
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
+                            <span class="absolute bottom-3 left-4 text-xs font-bold uppercase tracking-widest text-white">
+                                BAR ISLANDS & PAVILION PACKAGES
+                            </span>
+                        </div>
+
+                        <h3 class="text-2xl sm:text-3xl font-medium tracking-tight">
+                            Exhibitor Space & Founding Partner Plans
+                        </h3>
+
+                        <div class="mt-6 space-y-4">
+                            <div class="bg-[#111111] border border-white/15 p-5">
+                                <div class="flex items-center justify-between gap-2">
+                                    <span class="text-xs font-bold uppercase tracking-wider text-[#FF5500]">01 • BARWARE / MIXER TURNKEY STALL</span>
+                                    <span class="text-sm font-bold text-white">From ₹65,000</span>
+                                </div>
+                                <p class="text-xs text-neutral-400 mt-2 leading-relaxed">
+                                    Ready-to-exhibit booth with display shelving, counter, spotlights, fascia branding, power socket, and direct planner/hotelier lead access.
+                                </p>
+                            </div>
+
+                            <div class="bg-[#111111] border border-white/15 p-5">
+                                <div class="flex items-center justify-between gap-2">
+                                    <span class="text-xs font-bold uppercase tracking-wider text-[#FF5500]">02 • LIVE MIXOLOGY & WINE ISLAND (15–24 SQM)</span>
+                                    <span class="text-sm font-bold text-white">Custom Tariff</span>
+                                </div>
+                                <p class="text-xs text-neutral-400 mt-2 leading-relaxed">
+                                    Two-side open corner bar island with custom back-bar shelving, prep counter, power provision, and Hosted Planner tasting appointments.
+                                </p>
+                            </div>
+
+                            <div class="bg-white text-[#0A0A0A] border-l-4 border-[#FF5500] p-5">
+                                <div class="flex items-center justify-between gap-2">
+                                    <span class="text-xs font-bold uppercase tracking-wider text-[#FF5500]">03 • FOUNDING PARTNER PAVILION (36 SQM)</span>
+                                    <span class="text-xs font-bold bg-[#111111] text-white px-2.5 py-1 rounded-full">+ 9 SQM FREE NEXT YEAR</span>
+                                </div>
+                                <p class="text-xs text-neutral-700 mt-2 leading-relaxed">
+                                    Book 36 sqm at Founding Partner special rates and get <strong class="text-[#0A0A0A]">next year 9 sqm free</strong>, plus featured Podcast, Business Magazine profile, and Official Bar Partner stage spotlight.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mt-8 pt-4 border-t border-white/10 flex items-center justify-between">
+                        <span class="text-xs text-neutral-400">Help Center: <strong class="text-white">999-185-6776</strong></span>
+                        <a href="#bartender-exhibitor-booking" class="text-xs font-bold uppercase tracking-wider text-[#FF5500] hover:text-white transition">
+                            Request Floorplan & Tariff →
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- 5. Bartender India Expo Exhibitor Booking Form -->
+            <div id="bartender-exhibitor-booking" class="p-8 sm:p-12 lg:p-16">
+                <div class="max-w-5xl mx-auto bg-white text-[#0A0A0A] border-t-4 border-[#FF5500] p-8 sm:p-12">
+                    <div class="flex flex-wrap items-center justify-between gap-4 pb-6 border-b border-black/10">
+                        <div>
+                            <span class="text-xs font-bold uppercase tracking-widest text-[#FF5500]">BARTENDER INDIA EXPO 2027 • EXHIBITOR DESK</span>
+                            <h2 class="text-2xl sm:text-3xl font-bold tracking-tight mt-1">
+                                Book A Bar Island Or Exhibitor Stall
+                            </h2>
+                            <p class="text-xs sm:text-sm text-neutral-600 mt-1">
+                                Share your bar agency, beverage brand, or barware details—our team will send available island locations, floorplan maps, and Founding Partner rates.
+                            </p>
+                        </div>
+                        <span class="bg-[#111111] text-white text-xs font-bold px-4 py-2 rounded-full">
+                            Helpline: 999-185-6776
+                        </span>
+                    </div>
+
+                    <form method="POST" action="#" class="mt-8 space-y-6">
+                        @csrf
+                        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                            <div>
+                                <label class="block text-xs font-bold uppercase tracking-wider text-neutral-700 mb-2">Contact Person Name *</label>
+                                <input type="text" name="name" placeholder="Enter your full name" class="w-full bg-neutral-100 border border-black/15 px-4 py-3 text-sm focus:outline-none focus:border-[#FF5500]" required />
+                            </div>
+                            <div>
+                                <label class="block text-xs font-bold uppercase tracking-wider text-neutral-700 mb-2">Bar Brand / Beverage Company *</label>
+                                <input type="text" name="company" placeholder="Your bar agency or beverage label" class="w-full bg-neutral-100 border border-black/15 px-4 py-3 text-sm focus:outline-none focus:border-[#FF5500]" required />
+                            </div>
+                            <div>
+                                <label class="block text-xs font-bold uppercase tracking-wider text-neutral-700 mb-2">Phone / WhatsApp *</label>
+                                <input type="tel" name="phone" placeholder="+91 999-185-6776" class="w-full bg-neutral-100 border border-black/15 px-4 py-3 text-sm focus:outline-none focus:border-[#FF5500]" required />
+                            </div>
+                        </div>
+
+                        <div class="grid grid-cols-1 sm:grid-cols-3 gap-6">
+                            <div>
+                                <label class="block text-xs font-bold uppercase tracking-wider text-neutral-700 mb-2">Business Email *</label>
+                                <input type="email" name="email" placeholder="you@brand.com" class="w-full bg-neutral-100 border border-black/15 px-4 py-3 text-sm focus:outline-none focus:border-[#FF5500]" required />
+                            </div>
+                            <div>
+                                <label class="block text-xs font-bold uppercase tracking-wider text-neutral-700 mb-2">Bar / Beverage Category *</label>
+                                <select name="category" class="w-full bg-neutral-100 border border-black/15 px-4 py-3 text-sm font-medium focus:outline-none focus:border-[#FF5500]">
+                                    <option value="Luxury Wedding Bar & Mixology Agency">Luxury Wedding Bar & Mixology Agency</option>
+                                    <option value="Fine Wine, Champagne & Craft Spirits">Fine Wine, Champagne & Craft Spirits</option>
+                                    <option value="Zero-Proof Mixers, Syrups & Botanicals">Zero-Proof Mixers, Syrups & Botanicals</option>
+                                    <option value="Artisanal Ice, Crystal Glassware & Barware">Artisanal Ice, Crystal Glassware & Barware</option>
+                                    <option value="Portable Bar Counters & Bar Equipment">Portable Bar Counters & Bar Equipment</option>
+                                    <option value="Bartending Academy & Flair Performers">Bartending Academy & Flair Performers</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label class="block text-xs font-bold uppercase tracking-wider text-neutral-700 mb-2">Preferred Space Option *</label>
+                                <select name="booth_size" class="w-full bg-neutral-100 border border-black/15 px-4 py-3 text-sm font-medium focus:outline-none focus:border-[#FF5500]">
+                                    <option value="Turnkey Booth (Starting ₹65,000)">Turnkey Booth (Starting ₹65,000)</option>
+                                    <option value="15 sqm Two-Side Open Bar Island">15 sqm Two-Side Open Bar Island</option>
+                                    <option value="24 sqm Corner Wine & Mixology Lounge">24 sqm Corner Wine & Mixology Lounge</option>
+                                    <option value="36 sqm Founding Partner + 9 sqm Free Next Year">36 sqm Founding Partner + 9 sqm Free Next Year</option>
+                                    <option value="Send Floorplan & Brochure First">Send Floorplan & Brochure First</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div>
+                            <label class="block text-xs font-bold uppercase tracking-wider text-neutral-700 mb-2">
+                                City, Signature Bar Concept Or Live Arena Demo Interest
+                            </label>
+                            <textarea rows="3" name="notes" placeholder="Share your city, signature cocktail/wine concept, and whether you'd like to perform a live mixology session on stage..." class="w-full bg-neutral-100 border border-black/15 px-4 py-3 text-sm focus:outline-none focus:border-[#FF5500]"></textarea>
+                        </div>
+
+                        <div class="pt-4 flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-t border-black/10">
+                            <span class="text-xs text-neutral-600">
+                                05 – 07 March 2027 • Yashobhoomi (IICC), Dwarka, New Delhi • team@weddingindiaexpo.com
+                            </span>
+                            <button type="submit" class="inline-flex items-center justify-center gap-3 bg-[#111111] hover:bg-[#FF5500] text-white px-8 py-4 text-xs sm:text-sm font-bold uppercase tracking-wider transition-colors duration-300 cursor-pointer">
+                                <span>Request Bar Island & Floorplan →</span>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+        </section>
+    @elseif($board == 'customize-india-expo')
+        <section id="customize-india-expo" class="w-full max-w-[1280px] mx-auto bg-[#111111] text-white border-t border-white/15">
+
+            <!-- 1. Split-Horizon Hero Banner with Visual Showcase -->
+            <div class="relative bg-[#111111] border-b border-white/15 overflow-hidden">
+                <!-- Top White Horizon Band -->
+                <div class="hidden lg:block absolute top-0 inset-x-0 h-[112px] bg-white z-0"></div>
+
+                <!-- Subtle Warm Amber-Orange Radial Glow -->
+                <div class="absolute top-24 right-10 w-[520px] h-[340px] rounded-full bg-gradient-to-tr from-[#FF5500]/25 via-amber-500/10 to-transparent blur-[115px] pointer-events-none z-0"></div>
+
+                <div class="relative z-10 p-8 sm:p-12 lg:pt-7 lg:px-16 lg:pb-14">
+                    <div class="flex flex-wrap items-center justify-between gap-4 mb-8 lg:mb-12">
+                        <span class="bg-[#FF5500] text-white text-[11px] font-semibold tracking-widest uppercase px-5 py-2 rounded-full shadow-md">
+                            CUSTOMIZE INDIA EXPO 2027 • BESPOKE GIFTING, INVITATIONS & WEDDING PRODUCTION
+                        </span>
+                        <span class="text-xs font-semibold uppercase tracking-widest text-neutral-400 lg:text-[#0A0A0A]">
+                            05 – 07 MARCH 2027 • YASHOBHOOMI (IICC), DWARKA, NEW DELHI
+                        </span>
+                    </div>
+
+                    <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-end">
+                        <div class="lg:col-span-8">
+                            <h1 class="text-4xl sm:text-6xl font-medium tracking-[-0.035em] leading-[1.04]">
+                                <span class="block text-white lg:text-[#0A0A0A]">Customize India</span>
+                                <span class="block text-white mt-1">Expo 2027.</span>
+                            </h1>
+                            <p class="text-sm sm:text-base text-neutral-300 mt-6 max-w-2xl leading-relaxed">
+                                India’s premier bespoke wedding gifting, luxury stationery, monogrammed trousseau, and custom decor fabrication marketplace—connecting <strong class="text-white">Luxury Invitation Designers, Velvet & Brass Hamper Studios, Custom Neon/Set Fabricators, Monogrammed Merchandise Makers, and Artisanal Favor Brands</strong> directly with 15,000+ destination wedding planners, corporate gifting buyers, and HNI/NRI families at <strong class="text-white">Yashobhoomi (IICC), New Delhi</strong>.
+                            </p>
+                        </div>
+
+                        <!-- High-Contrast Exhibitor Stall Card with Luxury Custom Box Preview -->
+                        <div class="lg:col-span-4 bg-white text-[#0A0A0A] border-t-4 border-[#FF5500] overflow-hidden">
+                            <div class="relative h-40 overflow-hidden bg-neutral-900">
+                                <img
+                                    src="https://images.unsplash.com/photo-1549465220-1a8b9238cd48?auto=format&fit=crop&w=900&q=80"
+                                    alt="Luxury Custom Wedding Invitation Box & Velvet Gift Hamper"
+                                    class="w-full h-full object-cover object-center"
+                                />
+                                <span class="absolute bottom-3 left-3 bg-[#111111]/90 text-white text-[10px] font-bold uppercase tracking-widest px-3 py-1 rounded-full">
+                                    INVITATIONS • HAMPERS • BESPOKE CRAFT
+                                </span>
+                            </div>
+
+                            <div class="p-6 sm:p-7">
+                                <span class="text-[10px] font-bold uppercase tracking-widest text-[#FF5500]">
+                                    BESPOKE SHOWCASE BOOTHS & PAVILIONS
+                                </span>
+                                <div class="mt-1.5 flex items-baseline gap-2">
+                                    <span class="text-3xl sm:text-4xl font-bold tracking-tight">₹65,000</span>
+                                    <span class="text-xs font-bold uppercase tracking-wider text-neutral-600">Starting Tariff</span>
+                                </div>
+                                <p class="text-xs text-neutral-600 mt-2 leading-relaxed">
+                                    Includes dual footfall from <strong class="text-[#0A0A0A]">Wedding India Expo 2027</strong>, Hosted Planner B2B meetings & 2-Year Print Magazine visibility.
+                                </p>
+                                <a href="#customize-exhibitor-booking" class="mt-5 group flex items-center justify-between w-full bg-[#111111] hover:bg-[#FF5500] text-white px-5 py-3.5 transition-colors duration-300">
+                                    <span class="text-xs font-bold uppercase tracking-wider">Reserve Custom Showcase Stall</span>
+                                    <svg class="w-4 h-4 text-[#FF5500] group-hover:text-white transition-colors" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M17 7L7 17M17 17H7V7"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Visual Gallery Strip: Luxury Invitations, Custom Gift Hampers & Bespoke Event Props -->
+                    <div class="mt-10 grid grid-cols-1 md:grid-cols-3 gap-5">
+                        <div class="group relative h-56 overflow-hidden border border-white/15">
+                            <img
+                                src="https://images.unsplash.com/photo-1607344645866-009c320b63e0?auto=format&fit=crop&w=900&q=80"
+                                alt="Bespoke Wedding Invitations, Wax Seals & Acrylic Suites"
+                                class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                            />
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/85 via-black/25 to-transparent"></div>
+                            <div class="absolute bottom-4 left-4 right-4">
+                                <span class="text-[10px] font-bold uppercase tracking-widest text-[#FF5500]">01 • LUXURY INVITATIONS & STATIONERY</span>
+                                <p class="text-sm font-semibold text-white mt-0.5">Laser-Cut Boxes, Acrylic Suites, Wax Seals & E-Invites</p>
+                            </div>
+                        </div>
+
+                        <div class="group relative h-56 overflow-hidden border border-white/15">
+                            <img
+                                src="https://images.unsplash.com/photo-1513201099705-a9746e1e201f?auto=format&fit=crop&w=900&q=80"
+                                alt="Monogrammed Room Hampers & Trousseau Trunks"
+                                class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                            />
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/85 via-black/25 to-transparent"></div>
+                            <div class="absolute bottom-4 left-4 right-4">
+                                <span class="text-[10px] font-bold uppercase tracking-widest text-[#FF5500]">02 • CUSTOM HAMPERS & TROUSSEAU TRUNKS</span>
+                                <p class="text-sm font-semibold text-white mt-0.5">Velvet Gift Boxes, Brassware, Scented Candles & Favors</p>
+                            </div>
+                        </div>
+
+                        <div class="group relative h-56 overflow-hidden border border-white/15">
+                            <img
+                                src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&w=900&q=80"
+                                alt="Custom Wedding Props, Monograms & Event Installations"
+                                class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                            />
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/85 via-black/25 to-transparent"></div>
+                            <div class="absolute bottom-4 left-4 right-4">
+                                <span class="text-[10px] font-bold uppercase tracking-widest text-[#FF5500]">03 • BESPOKE PROPS & BRANDED MERCHANDISE</span>
+                                <p class="text-sm font-semibold text-white mt-0.5">Custom Monograms, Neon Signage, 3D Props & Guest Kits</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 2. Market Reach & Buyer Numbers Strip -->
+            <div class="grid grid-cols-2 lg:grid-cols-4 border-b border-white/15 divide-y sm:divide-y-0 sm:divide-x divide-white/15">
+                <div class="p-8">
+                    <span class="text-xs font-mono font-bold text-[#FF5500]">01 / COMBINED BUYER FOOTFALL</span>
+                    <p class="text-3xl sm:text-4xl font-semibold mt-2">15,000+</p>
+                    <p class="text-xs text-neutral-400 mt-1 uppercase tracking-wider">Planners, Corporate Buyers & NRI Families</p>
+                </div>
+                <div class="p-8">
+                    <span class="text-xs font-mono font-bold text-[#FF5500]">02 / PLANNER & STUDIO NETWORK</span>
+                    <p class="text-3xl sm:text-4xl font-semibold mt-2">3,000+</p>
+                    <p class="text-xs text-neutral-400 mt-1 uppercase tracking-wider">Wedding Planners & Design Agencies</p>
+                </div>
+                <div class="p-8">
+                    <span class="text-xs font-mono font-bold text-[#FF5500]">03 / DESTINATION HUBS</span>
+                    <p class="text-3xl sm:text-4xl font-semibold mt-2">28 States</p>
+                    <p class="text-xs text-neutral-400 mt-1 uppercase tracking-wider">& 18+ Global Wedding & Gifting Markets</p>
+                </div>
+                <div class="p-8">
+                    <span class="text-xs font-mono font-bold text-[#FF5500]">04 / SHOW DATES</span>
+                    <p class="text-3xl sm:text-4xl font-semibold mt-2">5–7 Mar</p>
+                    <p class="text-xs text-neutral-400 mt-1 uppercase tracking-wider">2027 • Yashobhoomi (IICC), New Delhi</p>
+                </div>
+            </div>
+
+            <!-- 3. Why Custom Gifting, Stationery & Production Studios Exhibit Here (6 Cards with Visual Headers) -->
+            <div class="p-8 sm:p-12 lg:p-16 border-b border-white/15">
+                <div class="flex flex-col md:flex-row md:items-end justify-between mb-10 gap-4">
+                    <div>
+                        <span class="text-xs font-semibold uppercase tracking-widest text-[#FF5500]">High-Volume Bulk & Bespoke Orders</span>
+                        <h2 class="text-2xl sm:text-4xl font-medium tracking-tight mt-1">Why Exhibit At Customize India Expo 2027</h2>
+                    </div>
+                    <span class="text-xs uppercase tracking-widest text-neutral-400">White-Label Bulk + HNI Custom Commissions</span>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+                    <!-- Card 1 -->
+                    <div class="bg-[#161616] border border-white/15 hover:border-[#FF5500] transition-colors overflow-hidden flex flex-col">
+                        <div class="relative h-44 overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1549465220-1a8b9238cd48?auto=format&fit=crop&w=800&q=80" alt="Bulk Wedding Invitation & Room Hamper Orders" class="w-full h-full object-cover" />
+                            <span class="absolute top-3 left-3 px-3 py-1 bg-[#FF5500] text-white text-[10px] font-bold uppercase tracking-wider rounded-full">01 / BULK INVITATION & HAMPER ORDERS</span>
+                        </div>
+                        <div class="p-7 flex-1">
+                            <h3 class="text-xl font-semibold">300–1,000+ Box Per-Wedding Orders</h3>
+                            <p class="text-sm text-neutral-400 mt-3 leading-relaxed">
+                                Connect directly with destination planners and HNI families ordering hundreds of custom invitation trunks, welcome room hampers, and return favors for single multi-day weddings.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Card 2 -->
+                    <div class="bg-[#161616] border border-white/15 hover:border-[#FF5500] transition-colors overflow-hidden flex flex-col">
+                        <div class="relative h-44 overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1513201099705-a9746e1e201f?auto=format&fit=crop&w=800&q=80" alt="White-Label Manufacturing For Planners & Hotels" class="w-full h-full object-cover" />
+                            <span class="absolute top-3 left-3 px-3 py-1 bg-[#FF5500] text-white text-[10px] font-bold uppercase tracking-wider rounded-full">02 / WHITE-LABEL & CORPORATE</span>
+                        </div>
+                        <div class="p-7 flex-1">
+                            <h3 class="text-xl font-semibold">White-Label Tie-Ups With Planners & Hotels</h3>
+                            <p class="text-sm text-neutral-400 mt-3 leading-relaxed">
+                                Become the backend custom packaging, monogrammed linen, or bespoke amenity supplier for 5-star hotel chains, boutique resorts, and luxury event agencies.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Card 3 -->
+                    <div class="bg-[#161616] border border-white/15 hover:border-[#FF5500] transition-colors overflow-hidden flex flex-col">
+                        <div class="relative h-44 overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&w=800&q=80" alt="Custom Decor Props & Set Fabrication" class="w-full h-full object-cover" />
+                            <span class="absolute top-3 left-3 px-3 py-1 bg-[#FF5500] text-white text-[10px] font-bold uppercase tracking-wider rounded-full">03 / CUSTOM DECOR & PROPS</span>
+                        </div>
+                        <div class="p-7 flex-1">
+                            <h3 class="text-xl font-semibold">Bespoke Stage Props, Brass & Fiber Art</h3>
+                            <p class="text-sm text-neutral-400 mt-3 leading-relaxed">
+                                Showcase custom-fabricated mandap sculptures, monogrammed dance floors, acrylic furniture, and architectural lighting installations to top wedding decorators.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Card 4 -->
+                    <div class="bg-[#161616] border border-white/15 hover:border-[#FF5500] transition-colors overflow-hidden flex flex-col">
+                        <div class="relative h-44 overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1607344645866-009c320b63e0?auto=format&fit=crop&w=800&q=80" alt="Live Engraving & Personalization Studio" class="w-full h-full object-cover" />
+                            <span class="absolute top-3 left-3 px-3 py-1 bg-white text-[#0A0A0A] text-[10px] font-bold uppercase tracking-wider rounded-full">04 / LIVE PERSONALIZATION</span>
+                        </div>
+                        <div class="p-7 flex-1">
+                            <h3 class="text-xl font-semibold">On-Site Calligraphy, Engraving & Perfume Bars</h3>
+                            <p class="text-sm text-neutral-400 mt-3 leading-relaxed">
+                                Pitch interactive live-customization experiences—custom perfume blending, leather embossing, block printing, and live calligraphy—for Mehendi and welcome lounges.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Card 5 -->
+                    <div class="bg-[#161616] border border-white/15 hover:border-[#FF5500] transition-colors overflow-hidden flex flex-col">
+                        <div class="relative h-44 overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&w=800&q=80" alt="NRI & International Export Gifting Buyers" class="w-full h-full object-cover" />
+                            <span class="absolute top-3 left-3 px-3 py-1 bg-white text-[#0A0A0A] text-[10px] font-bold uppercase tracking-wider rounded-full">05 / NRI & GLOBAL EXPORTS</span>
+                        </div>
+                        <div class="p-7 flex-1">
+                            <h3 class="text-xl font-semibold">Export Orders For Overseas Weddings</h3>
+                            <p class="text-sm text-neutral-400 mt-3 leading-relaxed">
+                                Meet NRI families and overseas wedding planners from UAE, UK, USA, and Europe sourcing authentic handcrafted Indian favors and luxury trousseau packaging.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Card 6 -->
+                    <div class="bg-[#161616] border border-white/15 hover:border-[#FF5500] transition-colors overflow-hidden flex flex-col">
+                        <div class="relative h-44 overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=800&q=80" alt="Awards, Magazine & Roadshow Visibility" class="w-full h-full object-cover" />
+                            <span class="absolute top-3 left-3 px-3 py-1 bg-white text-[#0A0A0A] text-[10px] font-bold uppercase tracking-wider rounded-full">06 / MEDIA & DESIGN AWARDS</span>
+                        </div>
+                        <div class="p-7 flex-1">
+                            <h3 class="text-xl font-semibold">Design Honors, Magazine & Roadshows</h3>
+                            <p class="text-sm text-neutral-400 mt-3 leading-relaxed">
+                                Gain recognition at the <strong class="text-white">Global Excellence & Innovation Awards</strong>, feature in <strong class="text-white">Wedding India Magazine</strong> & TV, and showcase at state roadshows.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- 4. Exhibitor Categories & Bespoke Pavilion Packages -->
+            <div class="grid grid-cols-1 lg:grid-cols-12 border-b border-white/15 divide-y lg:divide-y-0 lg:divide-x divide-white/15">
+
+                <!-- Left 6 Columns: Exhibitor Categories with Visual Header -->
+                <div class="lg:col-span-6 p-8 sm:p-12 lg:p-14 bg-[#111111] flex flex-col justify-between">
+                    <div>
+                        <div class="relative h-44 mb-6 overflow-hidden border border-white/15">
+                            <img
+                                src="https://images.unsplash.com/photo-1513201099705-a9746e1e201f?auto=format&fit=crop&w=1000&q=80"
+                                alt="Luxury Custom Wedding Packaging & Artisanal Gifting"
+                                class="w-full h-full object-cover"
+                            />
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
+                            <span class="absolute bottom-3 left-4 text-xs font-bold uppercase tracking-widest text-white">
+                                WHO SHOULD EXHIBIT • BESPOKE CRAFT & GIFTING PAVILIONS
+                            </span>
+                        </div>
+
+                        <h3 class="text-2xl sm:text-3xl font-medium tracking-tight">
+                            Exhibitor Profile & Pavilion Zones
+                        </h3>
+                        <p class="text-sm text-neutral-400 mt-3 leading-relaxed">
+                            Dedicated customization, luxury packaging, and bespoke fabrication zones at Yashobhoomi (IICC):
+                        </p>
+
+                        <ul class="mt-6 space-y-3.5 border-t border-white/10 pt-6 text-sm text-neutral-300">
+                            <li class="flex items-start gap-3">
+                                <span class="w-2 h-2 rounded-full bg-[#FF5500] mt-1.5 shrink-0"></span>
+                                <span><strong class="text-white">Luxury Wedding Invitations & Paper Craft Studios:</strong> Couture box invitations, foil stamping, acrylic/wood suites, wax seals, and digital RSVP experiences.</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <span class="w-2 h-2 rounded-full bg-[#FF5500] mt-1.5 shrink-0"></span>
+                                <span><strong class="text-white">Trousseau Trunks, Velvet Boxes & Rigid Packaging:</strong> Custom hamper boxes, embroidered potlis, bridal trousseau trunks, and brass/silver giftware.</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <span class="w-2 h-2 rounded-full bg-[#FF5500] mt-1.5 shrink-0"></span>
+                                <span><strong class="text-white">Artisanal Favors, Candles, Perfumes & Wellness Kits:</strong> Bespoke fragrances, handcrafted soy candles, organic skincare favors, and gourmet tea/coffee chests.</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <span class="w-2 h-2 rounded-full bg-[#FF5500] mt-1.5 shrink-0"></span>
+                                <span><strong class="text-white">Custom Decor Props, Neon & Set Fabricators:</strong> 3D fiber/brass installations, custom wedding crests, LED neon signage, and themed furniture studios.</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <span class="w-2 h-2 rounded-full bg-[#FF5500] mt-1.5 shrink-0"></span>
+                                <span><strong class="text-white">Monogrammed Merchandise & Live Event Artists:</strong> Embroidered guest robes/juttis, live caricature/calligraphy artists, and custom photo-booth creators.</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Right 6 Columns: Booth & Pavilion Packages with Visual Header -->
+                <div class="lg:col-span-6 p-8 sm:p-12 lg:p-14 bg-[#151515] flex flex-col justify-between">
+                    <div>
+                        <div class="relative h-44 mb-6 overflow-hidden border border-white/15">
+                            <img
+                                src="https://images.unsplash.com/photo-1511578314322-379afb476865?auto=format&fit=crop&w=1000&q=80"
+                                alt="Exhibition Pavilion & Bespoke Showcase Booth"
+                                class="w-full h-full object-cover"
+                            />
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
+                            <span class="absolute bottom-3 left-4 text-xs font-bold uppercase tracking-widest text-white">
+                                BOOTH & BESPOKE PAVILION PACKAGES
+                            </span>
+                        </div>
+
+                        <h3 class="text-2xl sm:text-3xl font-medium tracking-tight">
+                            Exhibitor Space & Founding Partner Plans
+                        </h3>
+
+                        <div class="mt-6 space-y-4">
+                            <div class="bg-[#111111] border border-white/15 p-5">
+                                <div class="flex items-center justify-between gap-2">
+                                    <span class="text-xs font-bold uppercase tracking-wider text-[#FF5500]">01 • BOUTIQUE GIFTING / INVITATION STALL</span>
+                                    <span class="text-sm font-bold text-white">From ₹65,000</span>
+                                </div>
+                                <p class="text-xs text-neutral-400 mt-2 leading-relaxed">
+                                    Ready-to-exhibit booth with display shelving, counter, spotlights, fascia branding, power socket, and direct planner/family lead access.
+                                </p>
+                            </div>
+
+                            <div class="bg-[#111111] border border-white/15 p-5">
+                                <div class="flex items-center justify-between gap-2">
+                                    <span class="text-xs font-bold uppercase tracking-wider text-[#FF5500]">02 • CORNER SHOWCASE PAVILION (15–24 SQM)</span>
+                                    <span class="text-sm font-bold text-white">Custom Tariff</span>
+                                </div>
+                                <p class="text-xs text-neutral-400 mt-2 leading-relaxed">
+                                    Two-side open corner layout with custom hamper display pedestals, private consultation table, and Hosted Buyer matchmaking priority.
+                                </p>
+                            </div>
+
+                            <div class="bg-white text-[#0A0A0A] border-l-4 border-[#FF5500] p-5">
+                                <div class="flex items-center justify-between gap-2">
+                                    <span class="text-xs font-bold uppercase tracking-wider text-[#FF5500]">03 • FOUNDING PARTNER PAVILION (36 SQM)</span>
+                                    <span class="text-xs font-bold bg-[#111111] text-white px-2.5 py-1 rounded-full">+ 9 SQM FREE NEXT YEAR</span>
+                                </div>
+                                <p class="text-xs text-neutral-700 mt-2 leading-relaxed">
+                                    Book 36 sqm at Founding Partner special rates and get <strong class="text-[#0A0A0A]">next year 9 sqm free</strong>, plus featured Podcast, Business Magazine profile, and VIP Welcome Hamper branding opportunity.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mt-8 pt-4 border-t border-white/10 flex items-center justify-between">
+                        <span class="text-xs text-neutral-400">Help Center: <strong class="text-white">999-185-6776</strong></span>
+                        <a href="#customize-exhibitor-booking" class="text-xs font-bold uppercase tracking-wider text-[#FF5500] hover:text-white transition">
+                            Request Floorplan & Tariff →
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- 5. Customize India Expo Exhibitor Booking Form -->
+            <div id="customize-exhibitor-booking" class="p-8 sm:p-12 lg:p-16">
+                <div class="max-w-5xl mx-auto bg-white text-[#0A0A0A] border-t-4 border-[#FF5500] p-8 sm:p-12">
+                    <div class="flex flex-wrap items-center justify-between gap-4 pb-6 border-b border-black/10">
+                        <div>
+                            <span class="text-xs font-bold uppercase tracking-widest text-[#FF5500]">CUSTOMIZE INDIA EXPO 2027 • EXHIBITOR DESK</span>
+                            <h2 class="text-2xl sm:text-3xl font-bold tracking-tight mt-1">
+                                Book Your Bespoke Showcase Stall Or Pavilion
+                            </h2>
+                            <p class="text-xs sm:text-sm text-neutral-600 mt-1">
+                                Share your brand, invitation studio, or custom fabrication details—our team will send available corner stalls, floorplan maps, and Founding Partner rates.
+                            </p>
+                        </div>
+                        <span class="bg-[#111111] text-white text-xs font-bold px-4 py-2 rounded-full">
+                            Helpline: 999-185-6776
+                        </span>
+                    </div>
+
+                    <form method="POST" action="#" class="mt-8 space-y-6">
+                        @csrf
+                        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                            <div>
+                                <label class="block text-xs font-bold uppercase tracking-wider text-neutral-700 mb-2">Contact Person Name *</label>
+                                <input type="text" name="name" placeholder="Enter your full name" class="w-full bg-neutral-100 border border-black/15 px-4 py-3 text-sm focus:outline-none focus:border-[#FF5500]" required />
+                            </div>
+                            <div>
+                                <label class="block text-xs font-bold uppercase tracking-wider text-neutral-700 mb-2">Studio / Brand / Company Name *</label>
+                                <input type="text" name="company" placeholder="Your gifting, invitation, or production brand" class="w-full bg-neutral-100 border border-black/15 px-4 py-3 text-sm focus:outline-none focus:border-[#FF5500]" required />
+                            </div>
+                            <div>
+                                <label class="block text-xs font-bold uppercase tracking-wider text-neutral-700 mb-2">Phone / WhatsApp *</label>
+                                <input type="tel" name="phone" placeholder="+91 999-185-6776" class="w-full bg-neutral-100 border border-black/15 px-4 py-3 text-sm focus:outline-none focus:border-[#FF5500]" required />
+                            </div>
+                        </div>
+
+                        <div class="grid grid-cols-1 sm:grid-cols-3 gap-6">
+                            <div>
+                                <label class="block text-xs font-bold uppercase tracking-wider text-neutral-700 mb-2">Business Email *</label>
+                                <input type="email" name="email" placeholder="you@brand.com" class="w-full bg-neutral-100 border border-black/15 px-4 py-3 text-sm focus:outline-none focus:border-[#FF5500]" required />
+                            </div>
+                            <div>
+                                <label class="block text-xs font-bold uppercase tracking-wider text-neutral-700 mb-2">Customization Category *</label>
+                                <select name="category" class="w-full bg-neutral-100 border border-black/15 px-4 py-3 text-sm font-medium focus:outline-none focus:border-[#FF5500]">
+                                    <option value="Luxury Wedding Invitations & Stationery">Luxury Wedding Invitations & Stationery</option>
+                                    <option value="Trousseau Trunks, Velvet Boxes & Rigid Packaging">Trousseau Trunks, Velvet Boxes & Rigid Packaging</option>
+                                    <option value="Artisanal Favors, Perfumes, Candles & Hampers">Artisanal Favors, Perfumes, Candles & Hampers</option>
+                                    <option value="Custom Decor Props, Brassware & Set Fabrication">Custom Decor Props, Brassware & Set Fabrication</option>
+                                    <option value="Monogrammed Merchandise & Live Event Artists">Monogrammed Merchandise & Live Event Artists</option>
+                                    <option value="Corporate & Hotel Amenity Gifting Manufacturer">Corporate & Hotel Amenity Gifting Manufacturer</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label class="block text-xs font-bold uppercase tracking-wider text-neutral-700 mb-2">Preferred Space Option *</label>
+                                <select name="booth_size" class="w-full bg-neutral-100 border border-black/15 px-4 py-3 text-sm font-medium focus:outline-none focus:border-[#FF5500]">
+                                    <option value="Turnkey Booth (Starting ₹65,000)">Turnkey Booth (Starting ₹65,000)</option>
+                                    <option value="15 sqm Two-Side Open Showcase Booth">15 sqm Two-Side Open Showcase Booth</option>
+                                    <option value="24 sqm Corner Bespoke Pavilion">24 sqm Corner Bespoke Pavilion</option>
+                                    <option value="36 sqm Founding Partner + 9 sqm Free Next Year">36 sqm Founding Partner + 9 sqm Free Next Year</option>
+                                    <option value="Send Floorplan & Brochure First">Send Floorplan & Brochure First</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div>
+                            <label class="block text-xs font-bold uppercase tracking-wider text-neutral-700 mb-2">
+                                City, Product Lineup Or Official Gift Partner Interest
+                            </label>
+                            <textarea rows="3" name="notes" placeholder="Share your city, signature bespoke products, and whether you're interested in supplying official VIP/Speaker welcome hampers..." class="w-full bg-neutral-100 border border-black/15 px-4 py-3 text-sm focus:outline-none focus:border-[#FF5500]"></textarea>
+                        </div>
+
+                        <div class="pt-4 flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-t border-black/10">
+                            <span class="text-xs text-neutral-600">
+                                05 – 07 March 2027 • Yashobhoomi (IICC), Dwarka, New Delhi • team@weddingindiaexpo.com
+                            </span>
+                            <button type="submit" class="inline-flex items-center justify-center gap-3 bg-[#111111] hover:bg-[#FF5500] text-white px-8 py-4 text-xs sm:text-sm font-bold uppercase tracking-wider transition-colors duration-300 cursor-pointer">
+                                <span>Request Stall Availability & Floorplan →</span>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+        </section>
+    @elseif($board == 'wedding-gift-expo')
+        <section id="wedding-gift-expo" class="w-full max-w-[1280px] mx-auto bg-[#111111] text-white border-t border-white/15">
+
+            <!-- 1. Split-Horizon Hero Banner with Visual Showcase -->
+            <div class="relative bg-[#111111] border-b border-white/15 overflow-hidden">
+                <!-- Top White Horizon Band -->
+                <div class="hidden lg:block absolute top-0 inset-x-0 h-[112px] bg-white z-0"></div>
+
+                <!-- Subtle Warm Amber-Orange Radial Glow -->
+                <div class="absolute top-24 right-10 w-[520px] h-[340px] rounded-full bg-gradient-to-tr from-[#FF5500]/25 via-amber-500/10 to-transparent blur-[115px] pointer-events-none z-0"></div>
+
+                <div class="relative z-10 p-8 sm:p-12 lg:pt-7 lg:px-16 lg:pb-14">
+                    <div class="flex flex-wrap items-center justify-between gap-4 mb-8 lg:mb-12">
+                        <span class="bg-[#FF5500] text-white text-[11px] font-semibold tracking-widest uppercase px-5 py-2 rounded-full shadow-md">
+                            WEDDING GIFT EXPO 2027 • LUXURY TROUSSEAU, HAMPERS & RETURN FAVORS
+                        </span>
+                        <span class="text-xs font-semibold uppercase tracking-widest text-neutral-400 lg:text-[#0A0A0A]">
+                            05 – 07 MARCH 2027 • YASHOBHOOMI (IICC), DWARKA, NEW DELHI
+                        </span>
+                    </div>
+
+                    <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-end">
+                        <div class="lg:col-span-8">
+                            <h1 class="text-4xl sm:text-6xl font-medium tracking-[-0.035em] leading-[1.04]">
+                                <span class="block text-white lg:text-[#0A0A0A]">Wedding Gift</span>
+                                <span class="block text-white mt-1">Expo 2027.</span>
+                            </h1>
+                            <p class="text-sm sm:text-base text-neutral-300 mt-6 max-w-2xl leading-relaxed">
+                                India’s premier luxury wedding gifting, trousseau packaging, and ceremonial favor showcase—connecting <strong class="text-white">Velvet & Brass Hamper Curators, Silverware & Heritage Gift Houses, Artisanal Mithai & Gourmet Confectioners, Bespoke Perfume & Wellness Brands, and Corporate Gifting Manufacturers</strong> directly with 15,000+ destination wedding planners, 5-star hotel procurement heads, and HNI/NRI families at <strong class="text-white">Yashobhoomi (IICC), New Delhi</strong>.
+                            </p>
+                        </div>
+
+                        <!-- High-Contrast Exhibitor Stall Card with Luxury Gift Box Preview -->
+                        <div class="lg:col-span-4 bg-white text-[#0A0A0A] border-t-4 border-[#FF5500] overflow-hidden">
+                            <div class="relative h-40 overflow-hidden bg-neutral-900">
+                                <img
+                                    src="https://images.unsplash.com/photo-1549465220-1a8b9238cd48?auto=format&fit=crop&w=900&q=80"
+                                    alt="Luxury Velvet Wedding Gift Hamper & Ceremonial Box"
+                                    class="w-full h-full object-cover object-center"
+                                />
+                                <span class="absolute bottom-3 left-3 bg-[#111111]/90 text-white text-[10px] font-bold uppercase tracking-widest px-3 py-1 rounded-full">
+                                    HAMPERS • SILVERWARE • FAVORS
+                                </span>
+                            </div>
+
+                            <div class="p-6 sm:p-7">
+                                <span class="text-[10px] font-bold uppercase tracking-widest text-[#FF5500]">
+                                    GIFTING PAVILIONS & SHOWCASE BOOTHS
+                                </span>
+                                <div class="mt-1.5 flex items-baseline gap-2">
+                                    <span class="text-3xl sm:text-4xl font-bold tracking-tight">₹65,000</span>
+                                    <span class="text-xs font-bold uppercase tracking-wider text-neutral-600">Starting Tariff</span>
+                                </div>
+                                <p class="text-xs text-neutral-600 mt-2 leading-relaxed">
+                                    Includes dual footfall from <strong class="text-[#0A0A0A]">Wedding India Expo 2027</strong>, Hosted Planner B2B meetings & 2-Year Print Magazine visibility.
+                                </p>
+                                <a href="#wedding-gift-exhibitor-booking" class="mt-5 group flex items-center justify-between w-full bg-[#111111] hover:bg-[#FF5500] text-white px-5 py-3.5 transition-colors duration-300">
+                                    <span class="text-xs font-bold uppercase tracking-wider">Reserve Gift Showcase Stall</span>
+                                    <svg class="w-4 h-4 text-[#FF5500] group-hover:text-white transition-colors" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M17 7L7 17M17 17H7V7"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Visual Gallery Strip: Velvet Gift Hampers, Silverware & Artisanal Favors -->
+                    <div class="mt-10 grid grid-cols-1 md:grid-cols-3 gap-5">
+                        <div class="group relative h-56 overflow-hidden border border-white/15">
+                            <img
+                                src="https://images.unsplash.com/photo-1513201099705-a9746e1e201f?auto=format&fit=crop&w=900&q=80"
+                                alt="Luxury Velvet Wedding Hampers & Trousseau Trunks"
+                                class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                            />
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/85 via-black/25 to-transparent"></div>
+                            <div class="absolute bottom-4 left-4 right-4">
+                                <span class="text-[10px] font-bold uppercase tracking-widest text-[#FF5500]">01 • WELCOME HAMPERS & TROUSSEAU TRUNKS</span>
+                                <p class="text-sm font-semibold text-white mt-0.5">Velvet Boxes, Embroidered Potlis & Hotel Room Baskets</p>
+                            </div>
+                        </div>
+
+                        <div class="group relative h-56 overflow-hidden border border-white/15">
+                            <img
+                                src="https://images.unsplash.com/photo-1606313564200-e75d5e30476c?auto=format&fit=crop&w=900&q=80"
+                                alt="Gourmet Mithai, Chocolates & Dry-Fruit Gift Chests"
+                                class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                            />
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/85 via-black/25 to-transparent"></div>
+                            <div class="absolute bottom-4 left-4 right-4">
+                                <span class="text-[10px] font-bold uppercase tracking-widest text-[#FF5500]">02 • GOURMET MITHAI & INVITATION BOXES</span>
+                                <p class="text-sm font-semibold text-white mt-0.5">Artisanal Sweets, Luxury Chocolates & Saffron/Nut Chests</p>
+                            </div>
+                        </div>
+
+                        <div class="group relative h-56 overflow-hidden border border-white/15">
+                            <img
+                                src="https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=900&q=80"
+                                alt="Silverware, Brass Artifacts, Perfumes & Luxury Favors"
+                                class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                            />
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/85 via-black/25 to-transparent"></div>
+                            <div class="absolute bottom-4 left-4 right-4">
+                                <span class="text-[10px] font-bold uppercase tracking-widest text-[#FF5500]">03 • SILVERWARE, PERFUMES & RETURN FAVORS</span>
+                                <p class="text-sm font-semibold text-white mt-0.5">Handcrafted Brass/Silver, Attar Perfumes & Scented Candles</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 2. Market Reach & Buyer Numbers Strip -->
+            <div class="grid grid-cols-2 lg:grid-cols-4 border-b border-white/15 divide-y sm:divide-y-0 sm:divide-x divide-white/15">
+                <div class="p-8">
+                    <span class="text-xs font-mono font-bold text-[#FF5500]">01 / COMBINED BUYER FOOTFALL</span>
+                    <p class="text-3xl sm:text-4xl font-semibold mt-2">15,000+</p>
+                    <p class="text-xs text-neutral-400 mt-1 uppercase tracking-wider">Planners, Corporate Buyers & NRI Families</p>
+                </div>
+                <div class="p-8">
+                    <span class="text-xs font-mono font-bold text-[#FF5500]">02 / PLANNER & STUDIO NETWORK</span>
+                    <p class="text-3xl sm:text-4xl font-semibold mt-2">3,000+</p>
+                    <p class="text-xs text-neutral-400 mt-1 uppercase tracking-wider">Destination Wedding Planners & Stylists</p>
+                </div>
+                <div class="p-8">
+                    <span class="text-xs font-mono font-bold text-[#FF5500]">03 / DESTINATION HUBS</span>
+                    <p class="text-3xl sm:text-4xl font-semibold mt-2">28 States</p>
+                    <p class="text-xs text-neutral-400 mt-1 uppercase tracking-wider">& 18+ International Wedding & Gifting Markets</p>
+                </div>
+                <div class="p-8">
+                    <span class="text-xs font-mono font-bold text-[#FF5500]">04 / SHOW DATES</span>
+                    <p class="text-3xl sm:text-4xl font-semibold mt-2">5–7 Mar</p>
+                    <p class="text-xs text-neutral-400 mt-1 uppercase tracking-wider">2027 • Yashobhoomi (IICC), New Delhi</p>
+                </div>
+            </div>
+
+            <!-- 3. Why Gifting Brands, Hamper Studios & Packaging Houses Exhibit Here (6 Cards with Visual Headers) -->
+            <div class="p-8 sm:p-12 lg:p-16 border-b border-white/15">
+                <div class="flex flex-col md:flex-row md:items-end justify-between mb-10 gap-4">
+                    <div>
+                        <span class="text-xs font-semibold uppercase tracking-widest text-[#FF5500]">High-Volume Bulk & Ceremonial Orders</span>
+                        <h2 class="text-2xl sm:text-4xl font-medium tracking-tight mt-1">Why Exhibit At Wedding Gift Expo 2027</h2>
+                    </div>
+                    <span class="text-xs uppercase tracking-widest text-neutral-400">300–1,000+ Unit Per-Wedding Orders</span>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+                    <!-- Card 1 -->
+                    <div class="bg-[#161616] border border-white/15 hover:border-[#FF5500] transition-colors overflow-hidden flex flex-col">
+                        <div class="relative h-44 overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1549465220-1a8b9238cd48?auto=format&fit=crop&w=800&q=80" alt="Bulk Invitation & Welcome Room Hampers" class="w-full h-full object-cover" />
+                            <span class="absolute top-3 left-3 px-3 py-1 bg-[#FF5500] text-white text-[10px] font-bold uppercase tracking-wider rounded-full">01 / BULK WEDDING ORDERS</span>
+                        </div>
+                        <div class="p-7 flex-1">
+                            <h3 class="text-xl font-semibold">High-Volume Hamper & Favor Contracts</h3>
+                            <p class="text-sm text-neutral-400 mt-3 leading-relaxed">
+                                Close bulk orders for 300–1,000+ invitation boxes, hotel welcome room baskets, Mehendi favors, and Baraat welcome kits per wedding directly with planners and HNI families.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Card 2 -->
+                    <div class="bg-[#161616] border border-white/15 hover:border-[#FF5500] transition-colors overflow-hidden flex flex-col">
+                        <div class="relative h-44 overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1519167758481-83f550bb49b3?auto=format&fit=crop&w=800&q=80" alt="5-Star Hotel & Resort Gifting Tie-Ups" class="w-full h-full object-cover" />
+                            <span class="absolute top-3 left-3 px-3 py-1 bg-[#FF5500] text-white text-[10px] font-bold uppercase tracking-wider rounded-full">02 / HOSPITALITY & CORPORATE</span>
+                        </div>
+                        <div class="p-7 flex-1">
+                            <h3 class="text-xl font-semibold">Hotel Amenity & Festive Corporate Deals</h3>
+                            <p class="text-sm text-neutral-400 mt-3 leading-relaxed">
+                                Partner with luxury resort groups, banquet venues, and corporate procurement heads looking for year-round VIP welcome hampers and festive gifting lines.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Card 3 -->
+                    <div class="bg-[#161616] border border-white/15 hover:border-[#FF5500] transition-colors overflow-hidden flex flex-col">
+                        <div class="relative h-44 overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1513201099705-a9746e1e201f?auto=format&fit=crop&w=800&q=80" alt="Bridal Trousseau Packing & Trunk Designers" class="w-full h-full object-cover" />
+                            <span class="absolute top-3 left-3 px-3 py-1 bg-[#FF5500] text-white text-[10px] font-bold uppercase tracking-wider rounded-full">03 / BRIDAL TROUSSEAU PACKING</span>
+                        </div>
+                        <div class="p-7 flex-1">
+                            <h3 class="text-xl font-semibold">Trousseau Trunks, Saree Covers & Potlis</h3>
+                            <p class="text-sm text-neutral-400 mt-3 leading-relaxed">
+                                Co-located with <strong class="text-white">Saree India Expo 2027</strong>—connecting trousseau packers and velvet box manufacturers directly with bridal boutiques and couture labels.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Card 4 -->
+                    <div class="bg-[#161616] border border-white/15 hover:border-[#FF5500] transition-colors overflow-hidden flex flex-col">
+                        <div class="relative h-44 overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=800&q=80" alt="Silverware, Brassware & Artisanal Perfumes" class="w-full h-full object-cover" />
+                            <span class="absolute top-3 left-3 px-3 py-1 bg-white text-[#0A0A0A] text-[10px] font-bold uppercase tracking-wider rounded-full">04 / HEIRLOOM & LUXURY FAVORS</span>
+                        </div>
+                        <div class="p-7 flex-1">
+                            <h3 class="text-xl font-semibold">Silverware, Brassware & Bespoke Fragrances</h3>
+                            <p class="text-sm text-neutral-400 mt-3 leading-relaxed">
+                                Showcase hallmarked silver articles, hand-beaten brassware, custom attar perfumes, crystal decor, and luxury wellness hampers to discerning bridal families.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Card 5 -->
+                    <div class="bg-[#161616] border border-white/15 hover:border-[#FF5500] transition-colors overflow-hidden flex flex-col">
+                        <div class="relative h-44 overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&w=800&q=80" alt="NRI & International Wedding Gifting Exports" class="w-full h-full object-cover" />
+                            <span class="absolute top-3 left-3 px-3 py-1 bg-white text-[#0A0A0A] text-[10px] font-bold uppercase tracking-wider rounded-full">05 / NRI & GLOBAL EXPORTS</span>
+                        </div>
+                        <div class="p-7 flex-1">
+                            <h3 class="text-xl font-semibold">International Destination Gifting Orders</h3>
+                            <p class="text-sm text-neutral-400 mt-3 leading-relaxed">
+                                Meet overseas wedding planners and NRI families from UAE, UK, USA, Singapore, and Europe sourcing lightweight, export-ready Indian wedding favors.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Card 6 -->
+                    <div class="bg-[#161616] border border-white/15 hover:border-[#FF5500] transition-colors overflow-hidden flex flex-col">
+                        <div class="relative h-44 overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=800&q=80" alt="Awards, Magazine & Roadshow Visibility" class="w-full h-full object-cover" />
+                            <span class="absolute top-3 left-3 px-3 py-1 bg-white text-[#0A0A0A] text-[10px] font-bold uppercase tracking-wider rounded-full">06 / MEDIA & GIFTING AWARDS</span>
+                        </div>
+                        <div class="p-7 flex-1">
+                            <h3 class="text-xl font-semibold">Gifting Excellence Honors & Media</h3>
+                            <p class="text-sm text-neutral-400 mt-3 leading-relaxed">
+                                Gain recognition at the <strong class="text-white">Global Excellence & Innovation Awards</strong>, feature in <strong class="text-white">Wedding India Magazine</strong> & TV, and join multi-city roadshows.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- 4. Exhibitor Categories & Gifting Pavilion Packages -->
+            <div class="grid grid-cols-1 lg:grid-cols-12 border-b border-white/15 divide-y lg:divide-y-0 lg:divide-x divide-white/15">
+
+                <!-- Left 6 Columns: Exhibitor Categories with Visual Header -->
+                <div class="lg:col-span-6 p-8 sm:p-12 lg:p-14 bg-[#111111] flex flex-col justify-between">
+                    <div>
+                        <div class="relative h-44 mb-6 overflow-hidden border border-white/15">
+                            <img
+                                src="https://images.unsplash.com/photo-1549465220-1a8b9238cd48?auto=format&fit=crop&w=1000&q=80"
+                                alt="Luxury Wedding Gift Hampers & Ceremonial Packaging"
+                                class="w-full h-full object-cover"
+                            />
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
+                            <span class="absolute bottom-3 left-4 text-xs font-bold uppercase tracking-widest text-white">
+                                WHO SHOULD EXHIBIT • GIFTING & TROUSSEAU PAVILIONS
+                            </span>
+                        </div>
+
+                        <h3 class="text-2xl sm:text-3xl font-medium tracking-tight">
+                            Exhibitor Profile & Pavilion Zones
+                        </h3>
+                        <p class="text-sm text-neutral-400 mt-3 leading-relaxed">
+                            Dedicated ceremonial gifting, trousseau packaging, and luxury favor zones at Yashobhoomi (IICC):
+                        </p>
+
+                        <ul class="mt-6 space-y-3.5 border-t border-white/10 pt-6 text-sm text-neutral-300">
+                            <li class="flex items-start gap-3">
+                                <span class="w-2 h-2 rounded-full bg-[#FF5500] mt-1.5 shrink-0"></span>
+                                <span><strong class="text-white">Luxury Gift Hampers & Trousseau Packaging Studios:</strong> Velvet & rigid boxes, trousseau trunks, embroidered potlis, and custom basket curators.</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <span class="w-2 h-2 rounded-full bg-[#FF5500] mt-1.5 shrink-0"></span>
+                                <span><strong class="text-white">Silverware, Brassware & Heritage Artifact Brands:</strong> Hallmarked silver gifts, Pichwai/Meenakari trays, marble inlay, and crystal decor pieces.</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <span class="w-2 h-2 rounded-full bg-[#FF5500] mt-1.5 shrink-0"></span>
+                                <span><strong class="text-white">Artisanal Mithai, Gourmet Chocolates & Dry-Fruit Chests:</strong> Luxury bhaji boxes, baklava/macaron assortments, saffron, honey, and organic tea chests.</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <span class="w-2 h-2 rounded-full bg-[#FF5500] mt-1.5 shrink-0"></span>
+                                <span><strong class="text-white">Perfumes, Scented Candles & Luxury Wellness Favors:</strong> Custom attar/perfume bars, botanical skincare sets, and aromatherapy wedding favors.</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <span class="w-2 h-2 rounded-full bg-[#FF5500] mt-1.5 shrink-0"></span>
+                                <span><strong class="text-white">Bespoke Invitations, Keepsakes & Return Favors:</strong> Couture box invitations, personalized luggage tags, shawls/stoles, and eco-friendly favor brands.</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Right 6 Columns: Booth & Pavilion Packages with Visual Header -->
+                <div class="lg:col-span-6 p-8 sm:p-12 lg:p-14 bg-[#151515] flex flex-col justify-between">
+                    <div>
+                        <div class="relative h-44 mb-6 overflow-hidden border border-white/15">
+                            <img
+                                src="https://images.unsplash.com/photo-1511578314322-379afb476865?auto=format&fit=crop&w=1000&q=80"
+                                alt="Exhibition Pavilion & Gift Showcase Booth"
+                                class="w-full h-full object-cover"
+                            />
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
+                            <span class="absolute bottom-3 left-4 text-xs font-bold uppercase tracking-widest text-white">
+                                BOOTH & GIFTING PAVILION PACKAGES
+                            </span>
+                        </div>
+
+                        <h3 class="text-2xl sm:text-3xl font-medium tracking-tight">
+                            Exhibitor Space & Founding Partner Plans
+                        </h3>
+
+                        <div class="mt-6 space-y-4">
+                            <div class="bg-[#111111] border border-white/15 p-5">
+                                <div class="flex items-center justify-between gap-2">
+                                    <span class="text-xs font-bold uppercase tracking-wider text-[#FF5500]">01 • BOUTIQUE GIFTING TURNKEY STALL</span>
+                                    <span class="text-sm font-bold text-white">From ₹65,000</span>
+                                </div>
+                                <p class="text-xs text-neutral-400 mt-2 leading-relaxed">
+                                    Ready-to-exhibit stall with display shelving, counter, spotlights, fascia branding, power socket, and direct planner/family lead access.
+                                </p>
+                            </div>
+
+                            <div class="bg-[#111111] border border-white/15 p-5">
+                                <div class="flex items-center justify-between gap-2">
+                                    <span class="text-xs font-bold uppercase tracking-wider text-[#FF5500]">02 • CORNER HAMPER GALLERY (15–24 SQM)</span>
+                                    <span class="text-sm font-bold text-white">Custom Tariff</span>
+                                </div>
+                                <p class="text-xs text-neutral-400 mt-2 leading-relaxed">
+                                    Two-side open corner pavilion with illuminated hamper display pedestals, private consultation table, and Hosted Buyer matchmaking priority.
+                                </p>
+                            </div>
+
+                            <div class="bg-white text-[#0A0A0A] border-l-4 border-[#FF5500] p-5">
+                                <div class="flex items-center justify-between gap-2">
+                                    <span class="text-xs font-bold uppercase tracking-wider text-[#FF5500]">03 • FOUNDING PARTNER PAVILION (36 SQM)</span>
+                                    <span class="text-xs font-bold bg-[#111111] text-white px-2.5 py-1 rounded-full">+ 9 SQM FREE NEXT YEAR</span>
+                                </div>
+                                <p class="text-xs text-neutral-700 mt-2 leading-relaxed">
+                                    Book 36 sqm at Founding Partner special rates and get <strong class="text-[#0A0A0A]">next year 9 sqm free</strong>, plus featured Podcast, Business Magazine profile, and VIP Speaker/Award Hamper branding.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mt-8 pt-4 border-t border-white/10 flex items-center justify-between">
+                        <span class="text-xs text-neutral-400">Help Center: <strong class="text-white">999-185-6776</strong></span>
+                        <a href="#wedding-gift-exhibitor-booking" class="text-xs font-bold uppercase tracking-wider text-[#FF5500] hover:text-white transition">
+                            Request Floorplan & Tariff →
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- 5. Wedding Gift Expo Exhibitor Booking Form -->
+            <div id="wedding-gift-exhibitor-booking" class="p-8 sm:p-12 lg:p-16">
+                <div class="max-w-5xl mx-auto bg-white text-[#0A0A0A] border-t-4 border-[#FF5500] p-8 sm:p-12">
+                    <div class="flex flex-wrap items-center justify-between gap-4 pb-6 border-b border-black/10">
+                        <div>
+                            <span class="text-xs font-bold uppercase tracking-widest text-[#FF5500]">WEDDING GIFT EXPO 2027 • EXHIBITOR DESK</span>
+                            <h2 class="text-2xl sm:text-3xl font-bold tracking-tight mt-1">
+                                Book Your Gifting Stall Or Corner Pavilion
+                            </h2>
+                            <p class="text-xs sm:text-sm text-neutral-600 mt-1">
+                                Share your hamper studio, silverware brand, or packaging company details—our team will send available corner stalls, floorplan maps, and Founding Partner rates.
+                            </p>
+                        </div>
+                        <span class="bg-[#111111] text-white text-xs font-bold px-4 py-2 rounded-full">
+                            Helpline: 999-185-6776
+                        </span>
+                    </div>
+
+                    <form method="POST" action="#" class="mt-8 space-y-6">
+                        @csrf
+                        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                            <div>
+                                <label class="block text-xs font-bold uppercase tracking-wider text-neutral-700 mb-2">Contact Person Name *</label>
+                                <input type="text" name="name" placeholder="Enter your full name" class="w-full bg-neutral-100 border border-black/15 px-4 py-3 text-sm focus:outline-none focus:border-[#FF5500]" required />
+                            </div>
+                            <div>
+                                <label class="block text-xs font-bold uppercase tracking-wider text-neutral-700 mb-2">Gifting Brand / Studio Name *</label>
+                                <input type="text" name="company" placeholder="Your gifting, hamper, or silverware brand" class="w-full bg-neutral-100 border border-black/15 px-4 py-3 text-sm focus:outline-none focus:border-[#FF5500]" required />
+                            </div>
+                            <div>
+                                <label class="block text-xs font-bold uppercase tracking-wider text-neutral-700 mb-2">Phone / WhatsApp *</label>
+                                <input type="tel" name="phone" placeholder="+91 999-185-6776" class="w-full bg-neutral-100 border border-black/15 px-4 py-3 text-sm focus:outline-none focus:border-[#FF5500]" required />
+                            </div>
+                        </div>
+
+                        <div class="grid grid-cols-1 sm:grid-cols-3 gap-6">
+                            <div>
+                                <label class="block text-xs font-bold uppercase tracking-wider text-neutral-700 mb-2">Business Email *</label>
+                                <input type="email" name="email" placeholder="you@brand.com" class="w-full bg-neutral-100 border border-black/15 px-4 py-3 text-sm focus:outline-none focus:border-[#FF5500]" required />
+                            </div>
+                            <div>
+                                <label class="block text-xs font-bold uppercase tracking-wider text-neutral-700 mb-2">Gifting / Product Category *</label>
+                                <select name="category" class="w-full bg-neutral-100 border border-black/15 px-4 py-3 text-sm font-medium focus:outline-none focus:border-[#FF5500]">
+                                    <option value="Luxury Gift Hampers & Trousseau Packaging">Luxury Gift Hampers & Trousseau Packaging</option>
+                                    <option value="Silverware, Brassware & Heritage Artifacts">Silverware, Brassware & Heritage Artifacts</option>
+                                    <option value="Artisanal Mithai, Chocolates & Dry-Fruit Chests">Artisanal Mithai, Chocolates & Dry-Fruit Chests</option>
+                                    <option value="Perfumes, Candles & Luxury Wellness Favors">Perfumes, Candles & Luxury Wellness Favors</option>
+                                    <option value="Bespoke Invitations, Keepsakes & Return Favors">Bespoke Invitations, Keepsakes & Return Favors</option>
+                                    <option value="Corporate & Hospitality Gifting Manufacturer">Corporate & Hospitality Gifting Manufacturer</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label class="block text-xs font-bold uppercase tracking-wider text-neutral-700 mb-2">Preferred Space Option *</label>
+                                <select name="booth_size" class="w-full bg-neutral-100 border border-black/15 px-4 py-3 text-sm font-medium focus:outline-none focus:border-[#FF5500]">
+                                    <option value="Turnkey Booth (Starting ₹65,000)">Turnkey Booth (Starting ₹65,000)</option>
+                                    <option value="15 sqm Two-Side Open Showcase Booth">15 sqm Two-Side Open Showcase Booth</option>
+                                    <option value="24 sqm Corner Hamper Gallery">24 sqm Corner Hamper Gallery</option>
+                                    <option value="36 sqm Founding Partner + 9 sqm Free Next Year">36 sqm Founding Partner + 9 sqm Free Next Year</option>
+                                    <option value="Send Floorplan & Brochure First">Send Floorplan & Brochure First</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div>
+                            <label class="block text-xs font-bold uppercase tracking-wider text-neutral-700 mb-2">
+                                City, Product Range Or Official VIP Hamper Partner Interest
+                            </label>
+                            <textarea rows="3" name="notes" placeholder="Share your city, signature gift collections, minimum order quantities, or interest in sponsoring official VIP/Speaker welcome hampers..." class="w-full bg-neutral-100 border border-black/15 px-4 py-3 text-sm focus:outline-none focus:border-[#FF5500]"></textarea>
+                        </div>
+
+                        <div class="pt-4 flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-t border-black/10">
+                            <span class="text-xs text-neutral-600">
+                                05 – 07 March 2027 • Yashobhoomi (IICC), Dwarka, New Delhi • team@weddingindiaexpo.com
+                            </span>
+                            <button type="submit" class="inline-flex items-center justify-center gap-3 bg-[#111111] hover:bg-[#FF5500] text-white px-8 py-4 text-xs sm:text-sm font-bold uppercase tracking-wider transition-colors duration-300 cursor-pointer">
+                                <span>Request Stall Availability & Floorplan →</span>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+        </section>
     @endif
 </main>
