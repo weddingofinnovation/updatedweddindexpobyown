@@ -510,19 +510,19 @@
                                 <a href="{{route('exhibitor.service', ['board'=> 'saree-india-expo'])}}" class="block text-gray-700 hover:text-red-600">
                                     Saree & Ethnic India Expo
                                 </a>
-                                <a href="{{route('HostedBuyerProgram.intro', ['board'=> 'hosted-buyer-meeting'])}}" class="block text-gray-700 hover:text-red-600">
+                                <a href="{{route('exhibitor.service', ['board'=> 'photography-videography-india-expo'])}}" class="block text-gray-700 hover:text-red-600">
                                     Photography & Videography  India Expo
                                 </a>
-                                <a href="{{route('HostedBuyerProgram.intro', ['board'=> 'hosted-buyer-meeting'])}}" class="block text-gray-700 hover:text-red-600">
+                                <a href="{{route('exhibitor.service', ['board'=> 'bartender-india-expo'])}}" class="block text-gray-700 hover:text-red-600">
                                     Bartender India Expo
                                 </a>
-                                <a href="{{route('HostedBuyerProgram.intro', ['board'=> 'hosted-buyer-meeting'])}}" class="block text-gray-700 hover:text-red-600">
+                                <a href="{{route('exhibitor.service', ['board'=> 'sweets-catering-india-expo'])}}" class="block text-gray-700 hover:text-red-600">
                                     Sweets & Catering India Expo
                                 </a>
-                                <a href="{{route('HostedBuyerProgram.intro', ['board'=> 'hosted-buyer-meeting'])}}" class="block text-gray-700 hover:text-red-600">
+                                <a href="{{route('exhibitor.service', ['board'=> 'customize-india-expo'])}}" class="block text-gray-700 hover:text-red-600">
                                     Customize India Expo
                                 </a>
-                                <a href="{{route('HostedBuyerProgram.intro', ['board'=> 'hosted-buyer-meeting'])}}" class="block text-gray-700 hover:text-red-600">
+                                <a href="{{route('exhibitor.service', ['board'=> 'wedding-gift-expo'])}}" class="block text-gray-700 hover:text-red-600">
                                     Wedding Gift Expo
                                 </a>
 
