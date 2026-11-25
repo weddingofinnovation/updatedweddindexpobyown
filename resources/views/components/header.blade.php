@@ -507,7 +507,7 @@
 
                             <div class="space-y-4 border-top">
                                
-                                <a href="{{route('HostedBuyerProgram.intro', ['board'=> 'hosted-buyer-meeting'])}}" class="block text-gray-700 hover:text-red-600">
+                                <a href="{{route('exhibitor.service', ['board'=> 'saree-india-expo'])}}" class="block text-gray-700 hover:text-red-600">
                                     Saree & Ethnic India Expo
                                 </a>
                                 <a href="{{route('HostedBuyerProgram.intro', ['board'=> 'hosted-buyer-meeting'])}}" class="block text-gray-700 hover:text-red-600">
