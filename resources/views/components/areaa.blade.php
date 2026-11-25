@@ -97,7 +97,7 @@
                             }
                         }"
             class="relative">
-            {{-- ==================== LEFT / PREVIOUS BUTTON ============================= --}}
+            {{-- == LEFT / PREVIOUS BUTTON ============================= --}}
             <button type="button" @click="prev" x-show="canPrev"
                 x-transition.opacity.duration.200ms class="absolute left-0 top-1/2 z-40 -translate-x-4 -translate-y-1/2 rounded-full bg-black p-3 text-xl leading-none text-white shadow-lg transition hover:scale-110 hover:bg-gray-800 lg:block"
                 aria-label="Previous"> ← </button>
@@ -106,37 +106,32 @@
             <div
                 x-ref="slider"
                 @scroll.debounce.50ms="checkScroll"
-                class="hide-scrollbar flex snap-x snap-mandatory gap-5 overflow-x-auto scroll-smooth px-1 pb-6"
-            >
+                class="hide-scrollbar flex snap-x snap-mandatory gap-5 overflow-x-auto scroll-smooth px-1 pb-6">
                 @foreach ($cards as $index => $card) 
-                {{--================= CARD============ --}}
-                <article
-                x-data="{ active: false }"
-                @mouseenter="active = true"
-                @mouseleave="active = false"
-                @click="active = !active"
-                class="group relative h-[300px] w-[82vw] shrink-0 snap-start sm:w-[60vw] md:w-[42vw] lg:w-[31%] transition-all duration-300 ease-out"
-                :class="active
-                                        ? 'z-30 scale-[1.08]'
-                                        : 'z-10 scale-100'">
-                {{-- ===================================== CARD BACKGROUND
-                ====================================== --}}
-                <div class="absolute inset-x-0 bottom-0 h-[215px] rounded-sm bg-[#e8b998] shadow-md transition-all duration-300":class="active ? 'shadow-2xl': 'shadow-md'"></div>
+                   {{-- CARD --}}
+                    <article
+                        x-data="{ active: false }"
+                        @mouseenter="active = true"
+                        @mouseleave="active = false"
+                        @click="active = !active"
+                        class="group relative h-[300px] w-[82vw] shrink-0 snap-start sm:w-[60vw] md:w-[42vw] lg:w-[31%] transition-all duration-300 ease-out"
+                        :class="active
+                                            ? 'z-30 scale-[1.08]'
+                                            : 'z-10 scale-100'">
+                        {{-- CARD BACKGROUND--}}
+                        <div class="absolute inset-x-0 bottom-0 h-[215px] rounded-sm bg-[#e8b998] shadow-md transition-all duration-300":class="active ? 'shadow-2xl': 'shadow-md'"></div>
 
-                {{-- ===================================== IMAGE
-                ====================================== --}}
-                
-                <img src="{{ asset($card['image']) }}" alt="{{ $card['title'] }}" class="absolute left-1/2 top-0 z-20 h-[190px] w-auto -translate-x-1/2 object-contain transition-transform duration-300":class="active? 'scale-110': 'scale-100'"/>
+                        {{--  IMAGE--}} 
+                        <img src="{{ asset($card['image']) }}" alt="{{ $card['title'] }}" class="absolute left-1/2 top-0 z-20 h-[190px] w-auto -translate-x-1/2 object-contain transition-transform duration-300":class="active? 'scale-110': 'scale-100'"/>
 
-                {{-- ================== TEXT
-                ================ --}}
-                <div class="absolute bottom-0 left-0 z-20 w-full p-6">
-                    <h3 class="max-w-[180px] text-2xl font-bold leading-tight text-gray-700">{{ $card['title'] }}</h3>
+                        {{--  TEXT--}}
+                        <div class="absolute bottom-0 left-0 z-20 w-full p-6">
+                            <h3 class="max-w-[180px] text-2xl font-bold leading-tight text-gray-700">{{ $card['title'] }}</h3>
 
-                    {{-- ============== HALL============ --}}
-                    <span class="mt-3 inline-flex rounded-full bg-white px-4 py-1.5 text-sm font-medium text-gray-700 shadow-sm">{{ $card['hall'] }}</span>
-                </div>
-                </article>
+                            {{--  HALL --}}
+                            <span class="mt-3 inline-flex rounded-full bg-white px-4 py-1.5 text-sm font-medium text-gray-700 shadow-sm">{{ $card['hall'] }}</span>
+                        </div>
+                    </article>
 
                 @endforeach
             </div>
