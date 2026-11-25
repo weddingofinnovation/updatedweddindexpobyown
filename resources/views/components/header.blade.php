@@ -400,13 +400,10 @@
                                         <h3 class="text-lg font-bold leading-tight">
                                             I want To Exhibit
                                         </h3>
-
-                                        
                                     </div>
-
                                 </a>
 
-                                <a href="{{ route('exhibit.plan', ['board' => 'exhibit-with-us']) }}" class="group flex items-center gap-4 bg-red-700 hover:bg-red-800 text-white px-5 py-4 rounded-xl transition-all duration-300 hover:shadow-lg">
+                                <a href="{{route('visitor.details', ['board'=> 'tickets-registration'])}}" class="group flex items-center gap-4 bg-red-700 hover:bg-red-800 text-white px-5 py-4 rounded-xl transition-all duration-300 hover:shadow-lg">
 
                                     <div class="w-12 h-12 rounded-lg bg-white flex items-center justify-center text-red-700 shrink-0 relative">
 
@@ -439,13 +436,6 @@
                                     </div>
 
                                 </a>
-
-                                <!--<a href="{{route('event.intro', ['board'=> 'advertising-sponsorship'])}}"-->
-                                <!--    class="bg-red-700 hover:bg-light-800 text-white font-bold py-4 px-6 rounded-lg text-center transition">-->
-                                <!--    Professional Registration-->
-                                <!--</a>-->
-
-
                             </div>
                        
                     
