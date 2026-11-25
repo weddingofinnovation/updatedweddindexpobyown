@@ -506,7 +506,26 @@
                             </h3>
 
                             <div class="space-y-4 border-top">
-                                
+                               
+                                <a href="{{route('HostedBuyerProgram.intro', ['board'=> 'hosted-buyer-meeting'])}}" class="block text-gray-700 hover:text-red-600">
+                                    Saree & Ethnic India Expo
+                                </a>
+                                <a href="{{route('HostedBuyerProgram.intro', ['board'=> 'hosted-buyer-meeting'])}}" class="block text-gray-700 hover:text-red-600">
+                                    Photography & Videography  India Expo
+                                </a>
+                                <a href="{{route('HostedBuyerProgram.intro', ['board'=> 'hosted-buyer-meeting'])}}" class="block text-gray-700 hover:text-red-600">
+                                    Bartender India Expo
+                                </a>
+                                <a href="{{route('HostedBuyerProgram.intro', ['board'=> 'hosted-buyer-meeting'])}}" class="block text-gray-700 hover:text-red-600">
+                                    Sweets & Catering India Expo
+                                </a>
+                                <a href="{{route('HostedBuyerProgram.intro', ['board'=> 'hosted-buyer-meeting'])}}" class="block text-gray-700 hover:text-red-600">
+                                    Customize India Expo
+                                </a>
+                                <a href="{{route('HostedBuyerProgram.intro', ['board'=> 'hosted-buyer-meeting'])}}" class="block text-gray-700 hover:text-red-600">
+                                    Wedding Gift Expo
+                                </a>
+
                             </div>
                         </div>
 
@@ -523,14 +542,9 @@
                                 <a href="{{route('Caterer.promo', ['board'=> 'wedding-caterer'])}}" class="block text-gray-700 hover:text-red-600">
                                     Dinning Catering Experience 
                                 </a>
-
                                
                                 <a href="{{route('exhibitor.service', ['board'=> 'founding-partner'])}}" class="block text-gray-700 hover:text-red-600">
                                     Founding Partner
-                                </a>
-
-                                <a href="{{route('event.intro', ['board'=> 'official-ride-partner'])}}" class="block text-gray-700 hover:text-red-600">
-                                    Official Partner
                                 </a>
 
                             </div>
