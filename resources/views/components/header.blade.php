@@ -284,7 +284,7 @@
                                     Join Community
                                 </a>
 
-                                <a href="{{route('event.intro', ['board'=> 'official-partner'])}}" class="block text-gray-700 hover:text-red-600">
+                                <a href="{{route('visitor.details', ['board'=> 'join-wedding-roadshows-community'])}}" class="block text-gray-700 hover:text-red-600">
                                     Join Regional Roadshows
                                 </a>
 
