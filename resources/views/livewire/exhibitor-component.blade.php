@@ -208,250 +208,315 @@
     </section>
 
     @elseif($board == 'founding-partner')
-    <section class="bg-gradient-to-br from-gray-900 via-black to-gray-900 text-white">
-        <div class="max-w-7xl mx-auto px-6 lg:px-8 py-20">
+    <section id="founding-partner-page" class="w-full max-w-[1280px] mx-auto bg-[#111111] text-white border-t border-white/15">
 
-            <div class="grid lg:grid-cols-2 gap-16 items-center">
+    <!-- 1. Split-Horizon Hero Banner: Founding Partner Privilege -->
+    <div class="relative bg-[#111111] border-b border-white/15 overflow-hidden">
+        <!-- Top White Horizon Band -->
+        <div class="hidden lg:block absolute top-0 inset-x-0 h-[112px] bg-white z-0"></div>
 
-                <!-- Left -->
-                <div>
+        <!-- Subtle Warm Amber-Orange Glow -->
+        <div class="absolute top-24 right-10 w-[520px] h-[340px] rounded-full bg-gradient-to-tr from-[#FF5500]/25 via-amber-500/10 to-transparent blur-[115px] pointer-events-none z-0"></div>
 
-                    <span class="inline-flex items-center rounded-full bg-red-600/20 border border-red-500 px-4 py-2 text-red-300 text-sm font-semibold">
-                        LIMITED FOUNDING PARTNER PROGRAM
-                    </span>
+        <div class="relative z-10 p-8 sm:p-12 lg:pt-7 lg:px-16 lg:pb-14">
+            <div class="flex flex-wrap items-center justify-between gap-4 mb-8 lg:mb-12">
+                <span class="bg-[#FF5500] text-white text-[11px] font-semibold tracking-widest uppercase px-5 py-2 rounded-full shadow-md">
+                    FOUNDING PARTNER PROGRAM • LIMITED PAVILION SLOTS
+                </span>
+                <span class="text-xs font-semibold uppercase tracking-widest text-neutral-400 lg:text-[#0A0A0A]">
+                    05 – 07 MARCH 2027 • YASHOBHOOMI (IICC), NEW DELHI
+                </span>
+            </div>
 
-                    <h1 class="mt-6 text-5xl lg:text-6xl font-bold leading-tight">
-                        Become a
-                        <span class="text-red-500">
-                            Founding Partner
-                        </span>
-                        of Wedding India Expo 2027
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-end">
+                <div class="lg:col-span-8">
+                    <h1 class="text-4xl sm:text-6xl font-medium tracking-[-0.035em] leading-[1.04]">
+                        <span class="block text-white lg:text-[#0A0A0A]">Become A Founding</span>
+                        <span class="block text-white mt-1">Partner Of WIE 2027.</span>
                     </h1>
-
-                    <p class="mt-8 text-lg text-gray-300 leading-8">
-                        Reserve a minimum <strong>18 SQM Stall</strong> today and receive
-                        an additional <strong>8 SQM Exhibition Space</strong> in the next edition,
-                        premium membership benefits, year-round business promotion, and qualified customer enquiries.
+                    <p class="text-sm sm:text-base text-neutral-300 mt-6 max-w-2xl leading-relaxed">
+                        Book a flagship <strong class="text-white">36 sqm Pavilion Space</strong> at <strong class="text-white">Wedding India Expo 2027</strong> (Yashobhoomi, Dwarka, New Delhi) at <strong class="text-white">Founding Partner Special Rates</strong>—and unlock a <strong class="text-[#FF5500]">Complimentary 9 sqm Booth Next Year</strong> plus year-round access to Podcasts, Business Magazines, Executive Interviews, and Premium B2B Deal Rooms.
                     </p>
-
-                    <div class="flex flex-wrap gap-4 mt-10">
-
-                        <a href="#"
-                            class="bg-red-600 hover:bg-red-700 px-8 py-4 rounded-xl font-semibold transition">
-                            Become a Founding Partner
-                        </a>
-
-                        <a href="#benefits"
-                            class="border border-white/30 hover:bg-white hover:text-black px-8 py-4 rounded-xl transition">
-                            View Benefits
-                        </a>
-
-                    </div>
-
                 </div>
 
-                <!-- Right -->
+                <!-- High-Contrast Founding Partner Flagship Offer Card -->
+                <div class="lg:col-span-4 bg-white text-[#0A0A0A] p-6 sm:p-8 border-t-4 border-[#FF5500]">
+                    <span class="text-[10px] font-bold uppercase tracking-widest text-[#FF5500]">
+                        BOOK 36 SQM • GET 9 SQM FREE NEXT YEAR
+                    </span>
+                    <div class="mt-2">
+                        <span class="text-2xl sm:text-3xl font-bold tracking-tight block">36 sqm + 9 sqm Free</span>
+                        <span class="text-xs font-bold uppercase tracking-wider text-neutral-600">
+                            Founding Partner Special Rates
+                        </span>
+                    </div>
+                    <p class="text-xs text-neutral-600 mt-3 leading-relaxed">
+                        Lock in prime anchor placement for 2027, receive a free 9 sqm exhibition stall in the 2028 edition, and get full media & hosted-buyer privileges.
+                    </p>
+                    <a href="#founding-partner-application" class="mt-5 group flex items-center justify-between w-full bg-[#111111] hover:bg-[#FF5500] text-white px-5 py-3.5 transition-colors duration-300">
+                        <span class="text-xs font-bold uppercase tracking-wider">Claim Founding Partner Slot</span>
+                        <svg class="w-4 h-4 text-[#FF5500] group-hover:text-white transition-colors" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M17 7L7 17M17 17H7V7"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
 
-                <div class="bg-white rounded-3xl p-10 text-black shadow-2xl">
+    <!-- 2. Core Founding Partner Value Strip (4 High-Impact Numbers) -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 border-b border-white/15 divide-y sm:divide-y-0 sm:divide-x divide-white/15">
+        <div class="p-8">
+            <span class="text-xs font-mono font-bold text-[#FF5500]">01 / FLAGSHIP PAVILION</span>
+            <p class="text-3xl sm:text-4xl font-semibold mt-2">36 sqm</p>
+            <p class="text-xs text-neutral-400 mt-1 uppercase tracking-wider">Prime Anchor Booth At Yashobhoomi</p>
+        </div>
+        <div class="p-8">
+            <span class="text-xs font-mono font-bold text-[#FF5500]">02 / NEXT-YEAR BONUS</span>
+            <p class="text-3xl sm:text-4xl font-semibold mt-2 text-[#FF5500]">9 sqm Free</p>
+            <p class="text-xs text-neutral-400 mt-1 uppercase tracking-wider">Complimentary Space In Next Edition</p>
+        </div>
+        <div class="p-8">
+            <span class="text-xs font-mono font-bold text-[#FF5500]">03 / PREFERENTIAL TARIFF</span>
+            <p class="text-3xl sm:text-4xl font-semibold mt-2">Special Rates</p>
+            <p class="text-xs text-neutral-400 mt-1 uppercase tracking-wider">Locked Founding Partner Pricing</p>
+        </div>
+        <div class="p-8">
+            <span class="text-xs font-mono font-bold text-[#FF5500]">04 / 365-DAY MEDIA</span>
+            <p class="text-3xl sm:text-4xl font-semibold mt-2">All-Access</p>
+            <p class="text-xs text-neutral-400 mt-1 uppercase tracking-wider">Podcast • Magazine • Interviews</p>
+        </div>
+    </div>
 
-                    <h2 class="text-3xl font-bold mb-8">
-                        Founding Partner Package
+    <!-- 3. Six Exclusive Founding Partner Privileges -->
+    <div class="p-8 sm:p-12 lg:p-16 border-b border-white/15">
+        <div class="flex flex-col md:flex-row md:items-end justify-between mb-10 gap-4">
+            <div>
+                <span class="text-xs font-semibold uppercase tracking-widest text-[#FF5500]">All-Inclusive Founding Partner Ecosystem</span>
+                <h2 class="text-2xl sm:text-4xl font-medium tracking-tight mt-1">What You Unlock As A Founding Partner</h2>
+            </div>
+            <span class="text-xs uppercase tracking-widest text-neutral-400">2027 Edition + 2028 Carry-Forward Benefits</span>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+            <!-- Privilege 1: 36 sqm Pavilion + Special Rates -->
+            <div class="bg-[#161616] border border-white/15 hover:border-[#FF5500] transition-colors flex flex-col justify-between overflow-hidden">
+                <div>
+                    <div class="relative h-20 bg-[#111111] border-b border-white/10 px-6 flex items-center justify-between">
+                        <div class="absolute top-0 inset-x-0 h-[40%] bg-white"></div>
+                        <span class="relative z-10 px-3 py-1 bg-[#FF5500] text-white text-[10px] font-bold uppercase tracking-wider rounded-full">
+                            01 • 36 SQM PAVILION
+                        </span>
+                        <span class="relative z-10 text-xs font-mono text-neutral-300">SPECIAL RATES</span>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold tracking-tight">36 sqm Flagship Space At Special Rates</h3>
+                        <p class="text-sm text-neutral-400 mt-3 leading-relaxed">
+                            Command high-footfall island or multi-side open pavilion space at <strong class="text-white">Yashobhoomi (IICC), New Delhi</strong> with preferential Founding Partner sq. mtr. tariffs and priority hall placement.
+                        </p>
+                    </div>
+                </div>
+                <div class="px-6 py-3.5 bg-[#111111] border-t border-white/10 text-xs font-semibold text-neutral-300">
+                    Prime Entrance & Main Aisle Visibility
+                </div>
+            </div>
+
+            <!-- Privilege 2: Next Year 9 sqm Free -->
+            <div class="bg-[#161616] border border-[#FF5500] flex flex-col justify-between overflow-hidden">
+                <div>
+                    <div class="relative h-20 bg-[#111111] border-b border-white/10 px-6 flex items-center justify-between">
+                        <div class="absolute top-0 inset-x-0 h-[40%] bg-white"></div>
+                        <span class="relative z-10 px-3 py-1 bg-[#FF5500] text-white text-[10px] font-bold uppercase tracking-wider rounded-full">
+                            02 • NEXT-YEAR GUARANTEE
+                        </span>
+                        <span class="relative z-10 text-xs font-mono text-[#FF5500] font-bold">₹0 SPACE FEE</span>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold tracking-tight">Get Next Year 9 mtr (9 sqm) Free</h3>
+                        <p class="text-sm text-neutral-400 mt-3 leading-relaxed">
+                            Every Founding Partner who books 36 sqm in 2027 automatically secures a <strong class="text-white">complimentary 9 sqm turnkey stall</strong> in the next annual Wedding India Expo edition—guaranteeing two consecutive years of show presence.
+                        </p>
+                    </div>
+                </div>
+                <div class="px-6 py-3.5 bg-[#111111] border-t border-white/10 text-xs font-semibold text-[#FF5500]">
+                    2-Edition Continuity Built Into One Booking
+                </div>
+            </div>
+
+            <!-- Privilege 3: Premium Business Opportunities -->
+            <div class="bg-[#161616] border border-white/15 hover:border-[#FF5500] transition-colors flex flex-col justify-between overflow-hidden">
+                <div>
+                    <div class="relative h-20 bg-[#111111] border-b border-white/10 px-6 flex items-center justify-between">
+                        <div class="absolute top-0 inset-x-0 h-[40%] bg-white"></div>
+                        <span class="relative z-10 px-3 py-1 bg-white text-[#0A0A0A] text-[10px] font-bold uppercase tracking-wider rounded-full">
+                            03 • B2B DEAL ACCESS
+                        </span>
+                        <span class="relative z-10 text-xs font-mono text-neutral-300">VIP BUYERS</span>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold tracking-tight">Premium Business Opportunities</h3>
+                        <p class="text-sm text-neutral-400 mt-3 leading-relaxed">
+                            Direct access to <strong class="text-white">Hosted Buyer Lounges, 1-on-1 B2B matchmaking</strong> with top destination wedding planners, NRI family offices, luxury hospitality chains, and state roadshow circuits.
+                        </p>
+                    </div>
+                </div>
+                <div class="px-6 py-3.5 bg-[#111111] border-t border-white/10 text-xs font-semibold text-neutral-300">
+                    Curated Decision-Maker Introductions
+                </div>
+            </div>
+
+            <!-- Privilege 4: Dedicated Podcast Episodes -->
+            <div class="bg-[#161616] border border-white/15 hover:border-[#FF5500] transition-colors flex flex-col justify-between overflow-hidden">
+                <div>
+                    <div class="relative h-20 bg-[#111111] border-b border-white/10 px-6 flex items-center justify-between">
+                        <div class="absolute top-0 inset-x-0 h-[40%] bg-white"></div>
+                        <span class="relative z-10 px-3 py-1 bg-[#FF5500] text-white text-[10px] font-bold uppercase tracking-wider rounded-full">
+                            04 • PODCAST & WEDDING TV
+                        </span>
+                        <span class="relative z-10 text-xs font-mono text-neutral-300">VIDEO SERIES</span>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold tracking-tight">Featured Podcast & Talk Show</h3>
+                        <p class="text-sm text-neutral-400 mt-3 leading-relaxed">
+                            Record an exclusive leadership podcast episode on <strong class="text-white">Wedding India TV & Smart Business Talk Show</strong>—distributed across YouTube, LinkedIn, Instagram, and B2B buyer networks.
+                        </p>
+                    </div>
+                </div>
+                <div class="px-6 py-3.5 bg-[#111111] border-t border-white/10 text-xs font-semibold text-neutral-300">
+                    Studio Production + Multi-Channel Distribution
+                </div>
+            </div>
+
+            <!-- Privilege 5: Business Magazine Cover & Editorial -->
+            <div class="bg-[#161616] border border-white/15 hover:border-[#FF5500] transition-colors flex flex-col justify-between overflow-hidden">
+                <div>
+                    <div class="relative h-20 bg-[#111111] border-b border-white/10 px-6 flex items-center justify-between">
+                        <div class="absolute top-0 inset-x-0 h-[40%] bg-white"></div>
+                        <span class="relative z-10 px-3 py-1 bg-white text-[#0A0A0A] text-[10px] font-bold uppercase tracking-wider rounded-full">
+                            05 • BUSINESS MAGAZINE
+                        </span>
+                        <span class="relative z-10 text-xs font-mono text-neutral-300">PRINT + DIGITAL</span>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold tracking-tight">Business Magazine Feature & Print Ad</h3>
+                        <p class="text-sm text-neutral-400 mt-3 leading-relaxed">
+                            Full-page brand profile and print advertisement across <strong class="text-white">Wedding India Magazine</strong> and <strong class="text-white">GTTC India</strong> diplomatic/tourism board editions for 2 years.
+                        </p>
+                    </div>
+                </div>
+                <div class="px-6 py-3.5 bg-[#111111] border-t border-white/10 text-xs font-semibold text-neutral-300">
+                    Circulated To Embassies, Tourism Boards & Planners
+                </div>
+            </div>
+
+            <!-- Privilege 6: Executive Interviews & Stage Authority -->
+            <div class="bg-[#161616] border border-white/15 hover:border-[#FF5500] transition-colors flex flex-col justify-between overflow-hidden">
+                <div>
+                    <div class="relative h-20 bg-[#111111] border-b border-white/10 px-6 flex items-center justify-between">
+                        <div class="absolute top-0 inset-x-0 h-[40%] bg-white"></div>
+                        <span class="relative z-10 px-3 py-1 bg-[#FF5500] text-white text-[10px] font-bold uppercase tracking-wider rounded-full">
+                            06 • EXECUTIVE INTERVIEWS
+                        </span>
+                        <span class="relative z-10 text-xs font-mono text-neutral-300">MEDIA DESK</span>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold tracking-tight">1-on-1 Interviews & Keynote Recognition</h3>
+                        <p class="text-sm text-neutral-400 mt-3 leading-relaxed">
+                            On-floor founder interviews, press releases, keynote panel seating, and VIP recognition at the <strong class="text-white">Global Excellence & Innovation Awards</strong> gala.
+                        </p>
+                    </div>
+                </div>
+                <div class="px-6 py-3.5 bg-[#111111] border-t border-white/10 text-xs font-semibold text-neutral-300">
+                    Official Founding Partner Plaque & Stage Honor
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- 4. Founding Partner Application & Special Rate Request Form -->
+    <div id="founding-partner-application" class="p-8 sm:p-12 lg:p-16">
+        <div class="max-w-5xl mx-auto bg-white text-[#0A0A0A] border-t-4 border-[#FF5500] p-8 sm:p-12">
+            <div class="flex flex-wrap items-center justify-between gap-4 pb-6 border-b border-black/10">
+                <div>
+                    <span class="text-xs font-bold uppercase tracking-widest text-[#FF5500]">PRIORITY ALLOCATION • FOUNDING PARTNER DESK</span>
+                    <h2 class="text-2xl sm:text-3xl font-bold tracking-tight mt-1">
+                        Apply For Founding Partner Special Rates (36 sqm + 9 sqm Free)
                     </h2>
+                    <p class="text-xs sm:text-sm text-neutral-600 mt-1">
+                        Share your details below—our leadership team will send the 36 sqm pavilion layout, Founding Partner tariff sheet, and podcast/magazine schedule.
+                    </p>
+                </div>
+                <span class="bg-[#111111] text-white text-xs font-bold px-4 py-2 rounded-full">
+                    Direct Line: 999-185-6776
+                </span>
+            </div>
 
-                    <div class="space-y-6">
-
-                        <div class="flex justify-between">
-                            <span>Minimum Stall Booking</span>
-                            <strong>18 SQM</strong>
-                        </div>
-
-                        <div class="flex justify-between">
-                            <span>Complimentary Space (2028)</span>
-                            <strong class="text-green-600">+8 SQM</strong>
-                        </div>
-
-                        <div class="flex justify-between">
-                            <span>Membership Value</span>
-                            <strong>₹20,000</strong>
-                        </div>
-
-                        <div class="flex justify-between">
-                            <span>Business Listing</span>
-                            <strong>Included</strong>
-                        </div>
-
-                        <div class="flex justify-between">
-                            <span>Business Enquiries</span>
-                            <strong>Unlimited*</strong>
-                        </div>
-
+            <form method="POST" action="#" class="mt-8 space-y-6">
+                @csrf
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <div>
+                        <label class="block text-xs font-bold uppercase tracking-wider text-neutral-700 mb-2">Founder / Director Name *</label>
+                        <input type="text" name="name" placeholder="Enter your full name" class="w-full bg-neutral-100 border border-black/15 px-4 py-3 text-sm focus:outline-none focus:border-[#FF5500]" required />
                     </div>
-
+                    <div>
+                        <label class="block text-xs font-bold uppercase tracking-wider text-neutral-700 mb-2">Brand / Company Name *</label>
+                        <input type="text" name="company" placeholder="Your organization name" class="w-full bg-neutral-100 border border-black/15 px-4 py-3 text-sm focus:outline-none focus:border-[#FF5500]" required />
+                    </div>
+                    <div>
+                        <label class="block text-xs font-bold uppercase tracking-wider text-neutral-700 mb-2">Phone / WhatsApp *</label>
+                        <input type="tel" name="phone" placeholder="+91 999-185-6776" class="w-full bg-neutral-100 border border-black/15 px-4 py-3 text-sm focus:outline-none focus:border-[#FF5500]" required />
+                    </div>
                 </div>
 
-            </div>
-
-        </div>
-    </section>
-
-    <!-- Benefits -->
-
-    <section id="benefits" class="py-24 bg-gray-50">
-
-        <div class="max-w-7xl mx-auto px-6">
-
-            <div class="text-center">
-
-                <h2 class="text-4xl font-bold">
-                    Why Become a Founding Partner?
-                </h2>
-
-                <p class="mt-4 text-gray-600 max-w-3xl mx-auto">
-                    More than an exhibition. Build your brand throughout the year with exclusive marketing support and premium visibility.
-                </p>
-
-            </div>
-
-            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mt-16">
-
-                <div class="bg-white rounded-2xl p-8 shadow hover:shadow-xl transition">
-                    <div class="text-5xl">🏢</div>
-                    <h3 class="mt-6 text-xl font-bold">18 SQM Premium Stall</h3>
-                    <p class="mt-3 text-gray-600">
-                        Secure premium exhibition space at Wedding India Expo 2027.
-                    </p>
+                <div class="grid grid-cols-1 sm:grid-cols-3 gap-6">
+                    <div>
+                        <label class="block text-xs font-bold uppercase tracking-wider text-neutral-700 mb-2">Official Email *</label>
+                        <input type="email" name="email" placeholder="founder@company.com" class="w-full bg-neutral-100 border border-black/15 px-4 py-3 text-sm focus:outline-none focus:border-[#FF5500]" required />
+                    </div>
+                    <div>
+                        <label class="block text-xs font-bold uppercase tracking-wider text-neutral-700 mb-2">Industry Vertical *</label>
+                        <select name="vertical" class="w-full bg-neutral-100 border border-black/15 px-4 py-3 text-sm font-medium focus:outline-none focus:border-[#FF5500]">
+                            <option value="Luxury Hotels, Palaces & Destination Venues">Luxury Hotels, Palaces & Destination Venues</option>
+                            <option value="Bridal Sarees, Couture & Heritage Jewelry">Bridal Sarees, Couture & Heritage Jewelry</option>
+                            <option value="Royal Wedding Caterers & Hospitality Groups">Royal Wedding Caterers & Hospitality Groups</option>
+                            <option value="National & International Tourism Boards">National & International Tourism Boards</option>
+                            <option value="Luxury Decor, Production & Event Architecture">Luxury Decor, Production & Event Architecture</option>
+                            <option value="Gifting, Banquets & Wedding Technology">Gifting, Banquets & Wedding Technology</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label class="block text-xs font-bold uppercase tracking-wider text-neutral-700 mb-2">Space & Media Package *</label>
+                        <select name="package" class="w-full bg-neutral-100 border border-black/15 px-4 py-3 text-sm font-medium focus:outline-none focus:border-[#FF5500]">
+                            <option value="Founding Partner 36 sqm + Next Year 9 sqm Free">Founding Partner 36 sqm + Next Year 9 sqm Free</option>
+                            <option value="Founding Partner 36 sqm + Podcast & Magazine Cover">Founding Partner 36 sqm + Podcast & Magazine Cover</option>
+                            <option value="Custom Pavilion (54 sqm / 72 sqm) + Next Year 9 sqm Free">Custom Pavilion (54 sqm / 72 sqm) + Next Year 9 sqm Free</option>
+                            <option value="Request Founding Partner Special Rate Card">Request Founding Partner Special Rate Card</option>
+                        </select>
+                    </div>
                 </div>
-
-                <div class="bg-white rounded-2xl p-8 shadow hover:shadow-xl transition">
-                    <div class="text-5xl">🎁</div>
-                    <h3 class="mt-6 text-xl font-bold">8 SQM FREE in 2028</h3>
-                    <p class="mt-3 text-gray-600">
-                        Receive additional exhibition space in the next edition.
-                    </p>
-                </div>
-
-                <div class="bg-white rounded-2xl p-8 shadow hover:shadow-xl transition">
-                    <div class="text-5xl">⭐</div>
-                    <h3 class="mt-6 text-xl font-bold">₹20,000 Membership</h3>
-                    <p class="mt-3 text-gray-600">
-                        Complimentary premium business membership with exclusive privileges.
-                    </p>
-                </div>
-
-                <div class="bg-white rounded-2xl p-8 shadow hover:shadow-xl transition">
-                    <div class="text-5xl">📞</div>
-                    <h3 class="mt-6 text-xl font-bold">Business Enquiries</h3>
-                    <p class="mt-3 text-gray-600">
-                        Receive qualified enquiries from customers, planners, and buyers throughout the year.
-                    </p>
-                </div>
-
-            </div>
-
-        </div>
-
-    </section>
-
-    <!-- Membership -->
-
-    <section class="py-24">
-
-        <div class="max-w-7xl mx-auto px-6">
-
-            <div class="grid lg:grid-cols-2 gap-16 items-center">
 
                 <div>
-
-                    <h2 class="text-4xl font-bold">
-                        Premium Membership Included
-                    </h2>
-
-                    <p class="mt-5 text-gray-600 leading-8">
-                        Every Founding Partner receives a complimentary Premium Membership worth ₹20,000.
-                    </p>
-
-                    <ul class="mt-10 space-y-4">
-
-                        <li>✅ Featured Business Listing</li>
-
-                        <li>✅ State-wise Business Directory</li>
-
-                        <li>✅ Company Profile Page</li>
-
-                        <li>✅ Website & WhatsApp Link</li>
-
-                        <li>✅ Unlimited Product Listings</li>
-
-                        <li>✅ Business Lead Generation</li>
-
-                        <li>✅ Priority Marketing Support</li>
-
-                        <li>✅ Digital Promotions</li>
-
-                    </ul>
-
+                    <label class="block text-xs font-bold uppercase tracking-wider text-neutral-700 mb-2">
+                        Preferred Hall Location, Podcast Topic Or Business Goals
+                    </label>
+                    <textarea rows="3" name="notes" placeholder="Let us know your preferred pavilion orientation, target buyers, or podcast/magazine interview focus..." class="w-full bg-neutral-100 border border-black/15 px-4 py-3 text-sm focus:outline-none focus:border-[#FF5500]"></textarea>
                 </div>
 
-                <div class="bg-red-600 rounded-3xl text-white p-12">
-
-                    <div class="text-6xl font-bold">
-                        ₹20,000
-                    </div>
-
-                    <p class="mt-2 text-xl">
-                        Premium Membership Included FREE
-                    </p>
-
-                    <hr class="my-8 border-white/20">
-
-                    <div class="space-y-5">
-
-                        <div>✔ Business Listing</div>
-
-                        <div>✔ Lead Generation</div>
-
-                        <div>✔ Marketing Support</div>
-
-                        <div>✔ SEO Profile</div>
-
-                        <div>✔ Exhibition Directory</div>
-
-                    </div>
-
+                <div class="pt-4 flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-t border-black/10">
+                    <span class="text-xs text-neutral-600">
+                        March 5–7, 2027 • Yashobhoomi (IICC), Dwarka, New Delhi • team@weddingindiaexpo.com
+                    </span>
+                    <button type="submit" class="inline-flex items-center justify-center gap-3 bg-[#111111] hover:bg-[#FF5500] text-white px-8 py-4 text-xs sm:text-sm font-bold uppercase tracking-wider transition-colors duration-300 cursor-pointer">
+                        <span>Request Founding Partner Special Rates →</span>
+                    </button>
                 </div>
-
-            </div>
-
+            </form>
         </div>
+    </div>
 
-    </section>
-
-    <!-- CTA -->
-
-    <section class="bg-black text-white py-24">
-
-        <div class="max-w-5xl mx-auto text-center px-6">
-
-            <h2 class="text-5xl font-bold">
-                Limited Founding Partner Opportunities
-            </h2>
-
-            <p class="mt-6 text-xl text-gray-300">
-                Reserve your 18 SQM stall today and unlock complimentary exhibition space, premium membership, and year-round business growth.
-            </p>
-
-            <div class="mt-12">
-
-                <a href="#"
-                    class="inline-block bg-red-600 hover:bg-red-700 px-12 py-5 rounded-xl text-lg font-semibold">
-                    Become a Founding Partner
-                </a>
-
-            </div>
-
-        </div>
-
-    </section>
+</section>
     @elseif($board == 'advertising-sponsorship')
         <section class="relative overflow-hidden bg-white border border-gray-200 rounded-xl p-10 md:p-14 min-h-[500px]">
 
@@ -672,265 +737,265 @@
     @elseif($board == 'exhibit-with-us')
       <x-exhibitwithus />
     @elseif($board == 'download-brochure')
-      <section id="download-brochure-page" class="w-full max-w-[1280px] mx-auto bg-[#111111] text-white border-t border-white/15">
+        <section id="download-brochure-page" class="w-full max-w-[1280px] mx-auto bg-[#111111] text-white border-t border-white/15">
 
-    <!-- 1. Split-Horizon Hero Banner: Download Official Exhibitor Brochure & Floorplan -->
-    <div class="relative bg-[#111111] border-b border-white/15 overflow-hidden">
-        <!-- Top White Horizon Band -->
-        <div class="hidden lg:block absolute top-0 inset-x-0 h-[112px] bg-white z-0"></div>
+            <!-- 1. Split-Horizon Hero Banner: Download Official Exhibitor Brochure & Floorplan -->
+            <div class="relative bg-[#111111] border-b border-white/15 overflow-hidden">
+                <!-- Top White Horizon Band -->
+                <div class="hidden lg:block absolute top-0 inset-x-0 h-[112px] bg-white z-0"></div>
 
-        <!-- Subtle Warm Amber-Orange Glow -->
-        <div class="absolute top-24 right-10 w-[500px] h-[320px] rounded-full bg-gradient-to-tr from-[#FF5500]/20 via-amber-500/10 to-transparent blur-[110px] pointer-events-none z-0"></div>
+                <!-- Subtle Warm Amber-Orange Glow -->
+                <div class="absolute top-24 right-10 w-[500px] h-[320px] rounded-full bg-gradient-to-tr from-[#FF5500]/20 via-amber-500/10 to-transparent blur-[110px] pointer-events-none z-0"></div>
 
-        <div class="relative z-10 p-8 sm:p-12 lg:pt-7 lg:px-16 lg:pb-14">
-            <div class="flex flex-wrap items-center justify-between gap-4 mb-8 lg:mb-12">
-                <span class="bg-[#FF5500] text-white text-[11px] font-semibold tracking-widest uppercase px-5 py-2 rounded-full shadow-md">
-                    OFFICIAL EXHIBITOR KIT • 2027 EDITION
-                </span>
-                <span class="text-xs font-semibold uppercase tracking-widest text-neutral-400 lg:text-[#0A0A0A]">
-                    05 – 07 MARCH 2027 • YASHOBHOOMI (IICC), NEW DELHI
-                </span>
-            </div>
-
-            <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-end">
-                <div class="lg:col-span-8">
-                    <h1 class="text-4xl sm:text-6xl font-medium tracking-[-0.035em] leading-[1.04]">
-                        <span class="block text-white lg:text-[#0A0A0A]">Download Official</span>
-                        <span class="block text-white mt-1">Brochure & Floorplan.</span>
-                    </h1>
-                    <p class="text-sm sm:text-base text-neutral-300 mt-6 max-w-2xl leading-relaxed">
-                        Get complete stall tariffs (starting from <strong class="text-white">₹65,000</strong>), hall layouts at <strong class="text-white">Yashobhoomi (IICC), Dwarka, New Delhi</strong>, buyer demographics, co-located <strong class="text-white">Wedding Saree Expo 2027</strong> pavilions, and sponsorship deliverables in one comprehensive PDF kit.
-                    </p>
-                </div>
-
-                <!-- High-Contrast Instant Kit Summary Card -->
-                <div class="lg:col-span-4 bg-white text-[#0A0A0A] p-6 sm:p-8 border-t-4 border-[#FF5500]">
-                    <span class="text-[10px] font-bold uppercase tracking-widest text-[#FF5500]">
-                        INSTANT PDF ACCESS • FREE DOWNLOAD
-                    </span>
-                    <h2 class="text-xl font-bold tracking-tight mt-1">
-                        WIE 2027 Exhibitor Dossier
-                    </h2>
-                    <p class="text-xs text-neutral-600 mt-2 leading-relaxed">
-                        Includes Shell Scheme & Bare Space specs, ₹100 Cr Catering Tasting Pods, and 2-Year Print Media benefits.
-                    </p>
-                    <a href="#brochure-download-form" class="mt-5 group flex items-center justify-between w-full bg-[#111111] hover:bg-[#FF5500] text-white px-5 py-3.5 transition-colors duration-300">
-                        <span class="text-xs font-bold uppercase tracking-wider">Unlock & Download PDF</span>
-                        <svg class="w-4 h-4 text-[#FF5500] group-hover:text-white transition-colors" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 4v12m0 0l-4-4m4 4l4-4M4 20h16"/>
-                        </svg>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- 2. Show Scale & Key Figures Strip -->
-    <div class="grid grid-cols-2 lg:grid-cols-4 border-b border-white/15 divide-y sm:divide-y-0 sm:divide-x divide-white/15">
-        <div class="p-8">
-            <span class="text-xs font-mono font-bold text-[#FF5500]">01 / EXHIBITION SPACE</span>
-            <p class="text-3xl sm:text-4xl font-semibold mt-2">250+</p>
-            <p class="text-xs text-neutral-400 mt-1 uppercase tracking-wider">Verified Wedding Brands & Venues</p>
-        </div>
-        <div class="p-8">
-            <span class="text-xs font-mono font-bold text-[#FF5500]">02 / TRADE BUYERS</span>
-            <p class="text-3xl sm:text-4xl font-semibold mt-2">15,000+</p>
-            <p class="text-xs text-neutral-400 mt-1 uppercase tracking-wider">Planners, Hoteliers & NRI Families</p>
-        </div>
-        <div class="p-8">
-            <span class="text-xs font-mono font-bold text-[#FF5500]">03 / GEOGRAPHIC REACH</span>
-            <p class="text-3xl sm:text-4xl font-semibold mt-2">28 States</p>
-            <p class="text-xs text-neutral-400 mt-1 uppercase tracking-wider">& 18+ International Wedding Hubs</p>
-        </div>
-        <div class="p-8">
-            <span class="text-xs font-mono font-bold text-[#FF5500]">04 / ENTRY TARIFF</span>
-            <p class="text-3xl sm:text-4xl font-semibold mt-2">₹65,000</p>
-            <p class="text-xs text-neutral-400 mt-1 uppercase tracking-wider">Starting Turnkey Stall Package</p>
-        </div>
-    </div>
-
-    <!-- 3. What's Inside The Brochure & Downloadable Documents Grid -->
-    <div class="p-8 sm:p-12 lg:p-16 border-b border-white/15">
-        <div class="flex flex-col md:flex-row md:items-end justify-between mb-10 gap-4">
-            <div>
-                <span class="text-xs font-semibold uppercase tracking-widest text-[#FF5500]">Complete Event Documentation</span>
-                <h3 class="text-2xl sm:text-4xl font-medium tracking-tight mt-1">What You Receive Inside The Exhibitor Kit</h3>
-            </div>
-            <span class="text-xs uppercase tracking-widest text-neutral-400">4 Ready-To-Download PDF Documents</span>
-        </div>
-
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-
-            <!-- Doc 1: Master Event Brochure -->
-            <div class="bg-[#161616] border border-white/15 hover:border-[#FF5500] transition-colors flex flex-col justify-between overflow-hidden">
-                <div>
-                    <div class="relative h-20 bg-[#111111] border-b border-white/10 px-5 flex items-center justify-between">
-                        <div class="absolute top-0 inset-x-0 h-[40%] bg-white"></div>
-                        <span class="relative z-10 px-3 py-1 bg-[#FF5500] text-white text-[10px] font-bold uppercase tracking-wider rounded-full">
-                            PDF 01 • MASTER DECK
+                <div class="relative z-10 p-8 sm:p-12 lg:pt-7 lg:px-16 lg:pb-14">
+                    <div class="flex flex-wrap items-center justify-between gap-4 mb-8 lg:mb-12">
+                        <span class="bg-[#FF5500] text-white text-[11px] font-semibold tracking-widest uppercase px-5 py-2 rounded-full shadow-md">
+                            OFFICIAL EXHIBITOR KIT • 2027 EDITION
                         </span>
-                        <span class="relative z-10 text-[11px] font-mono text-neutral-300">24 PAGES</span>
-                    </div>
-                    <div class="p-6">
-                        <h4 class="text-lg font-semibold tracking-tight">Exhibitor Brochure 2027</h4>
-                        <p class="text-xs sm:text-sm text-neutral-400 mt-3 leading-relaxed">
-                            Complete show overview, visitor profile breakdown, Hosted Buyer Program, and ROI highlights for Wedding India Expo 2027.
-                        </p>
-                    </div>
-                </div>
-                <div class="px-6 py-3.5 bg-[#111111] border-t border-white/10">
-                    <a href="#brochure-download-form" class="text-xs font-bold uppercase tracking-wider text-white hover:text-[#FF5500] transition">Download Brochure →</a>
-                </div>
-            </div>
-
-            <!-- Doc 2: Hall Floorplan & Booth Sizes -->
-            <div class="bg-[#161616] border border-white/15 hover:border-[#FF5500] transition-colors flex flex-col justify-between overflow-hidden">
-                <div>
-                    <div class="relative h-20 bg-[#111111] border-b border-white/10 px-5 flex items-center justify-between">
-                        <div class="absolute top-0 inset-x-0 h-[40%] bg-white"></div>
-                        <span class="relative z-10 px-3 py-1 bg-[#FF5500] text-white text-[10px] font-bold uppercase tracking-wider rounded-full">
-                            PDF 02 • FLOORPLAN
+                        <span class="text-xs font-semibold uppercase tracking-widest text-neutral-400 lg:text-[#0A0A0A]">
+                            05 – 07 MARCH 2027 • YASHOBHOOMI (IICC), NEW DELHI
                         </span>
-                        <span class="relative z-10 text-[11px] font-mono text-neutral-300">IICC HALL MAP</span>
                     </div>
-                    <div class="p-6">
-                        <h4 class="text-lg font-semibold tracking-tight">Yashobhoomi Hall Layout</h4>
-                        <p class="text-xs sm:text-sm text-neutral-400 mt-3 leading-relaxed">
-                            Detailed pavilion zoning for Venues, Bridal Couture & Saree Expo, ₹100 Cr Catering Pods, Decor, and Island/Corner Booths.
-                        </p>
+
+                    <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-end">
+                        <div class="lg:col-span-8">
+                            <h1 class="text-4xl sm:text-6xl font-medium tracking-[-0.035em] leading-[1.04]">
+                                <span class="block text-white lg:text-[#0A0A0A]">Download Official</span>
+                                <span class="block text-white mt-1">Brochure & Floorplan.</span>
+                            </h1>
+                            <p class="text-sm sm:text-base text-neutral-300 mt-6 max-w-2xl leading-relaxed">
+                                Get complete stall tariffs (starting from <strong class="text-white">₹65,000</strong>), hall layouts at <strong class="text-white">Yashobhoomi (IICC), Dwarka, New Delhi</strong>, buyer demographics, co-located <strong class="text-white">Wedding Saree Expo 2027</strong> pavilions, and sponsorship deliverables in one comprehensive PDF kit.
+                            </p>
+                        </div>
+
+                        <!-- High-Contrast Instant Kit Summary Card -->
+                        <div class="lg:col-span-4 bg-white text-[#0A0A0A] p-6 sm:p-8 border-t-4 border-[#FF5500]">
+                            <span class="text-[10px] font-bold uppercase tracking-widest text-[#FF5500]">
+                                INSTANT PDF ACCESS • FREE DOWNLOAD
+                            </span>
+                            <h2 class="text-xl font-bold tracking-tight mt-1">
+                                WIE 2027 Exhibitor Dossier
+                            </h2>
+                            <p class="text-xs text-neutral-600 mt-2 leading-relaxed">
+                                Includes Shell Scheme & Bare Space specs, ₹100 Cr Catering Tasting Pods, and 2-Year Print Media benefits.
+                            </p>
+                            <a href="#brochure-download-form" class="mt-5 group flex items-center justify-between w-full bg-[#111111] hover:bg-[#FF5500] text-white px-5 py-3.5 transition-colors duration-300">
+                                <span class="text-xs font-bold uppercase tracking-wider">Unlock & Download PDF</span>
+                                <svg class="w-4 h-4 text-[#FF5500] group-hover:text-white transition-colors" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 4v12m0 0l-4-4m4 4l4-4M4 20h16"/>
+                                </svg>
+                            </a>
+                        </div>
                     </div>
-                </div>
-                <div class="px-6 py-3.5 bg-[#111111] border-t border-white/10">
-                    <a href="#brochure-download-form" class="text-xs font-bold uppercase tracking-wider text-white hover:text-[#FF5500] transition">Download Floorplan →</a>
                 </div>
             </div>
 
-            <!-- Doc 3: Space Tariff & Shell Scheme Specs -->
-            <div class="bg-[#161616] border border-white/15 hover:border-[#FF5500] transition-colors flex flex-col justify-between overflow-hidden">
-                <div>
-                    <div class="relative h-20 bg-[#111111] border-b border-white/10 px-5 flex items-center justify-between">
-                        <div class="absolute top-0 inset-x-0 h-[40%] bg-white"></div>
-                        <span class="relative z-10 px-3 py-1 bg-white text-[#0A0A0A] text-[10px] font-bold uppercase tracking-wider rounded-full">
-                            PDF 03 • TARIFF CARD
+            <!-- 2. Show Scale & Key Figures Strip -->
+            <div class="grid grid-cols-2 lg:grid-cols-4 border-b border-white/15 divide-y sm:divide-y-0 sm:divide-x divide-white/15">
+                <div class="p-8">
+                    <span class="text-xs font-mono font-bold text-[#FF5500]">01 / EXHIBITION SPACE</span>
+                    <p class="text-3xl sm:text-4xl font-semibold mt-2">250+</p>
+                    <p class="text-xs text-neutral-400 mt-1 uppercase tracking-wider">Verified Wedding Brands & Venues</p>
+                </div>
+                <div class="p-8">
+                    <span class="text-xs font-mono font-bold text-[#FF5500]">02 / TRADE BUYERS</span>
+                    <p class="text-3xl sm:text-4xl font-semibold mt-2">15,000+</p>
+                    <p class="text-xs text-neutral-400 mt-1 uppercase tracking-wider">Planners, Hoteliers & NRI Families</p>
+                </div>
+                <div class="p-8">
+                    <span class="text-xs font-mono font-bold text-[#FF5500]">03 / GEOGRAPHIC REACH</span>
+                    <p class="text-3xl sm:text-4xl font-semibold mt-2">28 States</p>
+                    <p class="text-xs text-neutral-400 mt-1 uppercase tracking-wider">& 18+ International Wedding Hubs</p>
+                </div>
+                <div class="p-8">
+                    <span class="text-xs font-mono font-bold text-[#FF5500]">04 / ENTRY TARIFF</span>
+                    <p class="text-3xl sm:text-4xl font-semibold mt-2">₹65,000</p>
+                    <p class="text-xs text-neutral-400 mt-1 uppercase tracking-wider">Starting Turnkey Stall Package</p>
+                </div>
+            </div>
+
+            <!-- 3. What's Inside The Brochure & Downloadable Documents Grid -->
+            <div class="p-8 sm:p-12 lg:p-16 border-b border-white/15">
+                <div class="flex flex-col md:flex-row md:items-end justify-between mb-10 gap-4">
+                    <div>
+                        <span class="text-xs font-semibold uppercase tracking-widest text-[#FF5500]">Complete Event Documentation</span>
+                        <h3 class="text-2xl sm:text-4xl font-medium tracking-tight mt-1">What You Receive Inside The Exhibitor Kit</h3>
+                    </div>
+                    <span class="text-xs uppercase tracking-widest text-neutral-400">4 Ready-To-Download PDF Documents</span>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+
+                    <!-- Doc 1: Master Event Brochure -->
+                    <div class="bg-[#161616] border border-white/15 hover:border-[#FF5500] transition-colors flex flex-col justify-between overflow-hidden">
+                        <div>
+                            <div class="relative h-20 bg-[#111111] border-b border-white/10 px-5 flex items-center justify-between">
+                                <div class="absolute top-0 inset-x-0 h-[40%] bg-white"></div>
+                                <span class="relative z-10 px-3 py-1 bg-[#FF5500] text-white text-[10px] font-bold uppercase tracking-wider rounded-full">
+                                    PDF 01 • MASTER DECK
+                                </span>
+                                <span class="relative z-10 text-[11px] font-mono text-neutral-300">24 PAGES</span>
+                            </div>
+                            <div class="p-6">
+                                <h4 class="text-lg font-semibold tracking-tight">Exhibitor Brochure 2027</h4>
+                                <p class="text-xs sm:text-sm text-neutral-400 mt-3 leading-relaxed">
+                                    Complete show overview, visitor profile breakdown, Hosted Buyer Program, and ROI highlights for Wedding India Expo 2027.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="px-6 py-3.5 bg-[#111111] border-t border-white/10">
+                            <a href="#brochure-download-form" class="text-xs font-bold uppercase tracking-wider text-white hover:text-[#FF5500] transition">Download Brochure →</a>
+                        </div>
+                    </div>
+
+                    <!-- Doc 2: Hall Floorplan & Booth Sizes -->
+                    <div class="bg-[#161616] border border-white/15 hover:border-[#FF5500] transition-colors flex flex-col justify-between overflow-hidden">
+                        <div>
+                            <div class="relative h-20 bg-[#111111] border-b border-white/10 px-5 flex items-center justify-between">
+                                <div class="absolute top-0 inset-x-0 h-[40%] bg-white"></div>
+                                <span class="relative z-10 px-3 py-1 bg-[#FF5500] text-white text-[10px] font-bold uppercase tracking-wider rounded-full">
+                                    PDF 02 • FLOORPLAN
+                                </span>
+                                <span class="relative z-10 text-[11px] font-mono text-neutral-300">IICC HALL MAP</span>
+                            </div>
+                            <div class="p-6">
+                                <h4 class="text-lg font-semibold tracking-tight">Yashobhoomi Hall Layout</h4>
+                                <p class="text-xs sm:text-sm text-neutral-400 mt-3 leading-relaxed">
+                                    Detailed pavilion zoning for Venues, Bridal Couture & Saree Expo, ₹100 Cr Catering Pods, Decor, and Island/Corner Booths.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="px-6 py-3.5 bg-[#111111] border-t border-white/10">
+                            <a href="#brochure-download-form" class="text-xs font-bold uppercase tracking-wider text-white hover:text-[#FF5500] transition">Download Floorplan →</a>
+                        </div>
+                    </div>
+
+                    <!-- Doc 3: Space Tariff & Shell Scheme Specs -->
+                    <div class="bg-[#161616] border border-white/15 hover:border-[#FF5500] transition-colors flex flex-col justify-between overflow-hidden">
+                        <div>
+                            <div class="relative h-20 bg-[#111111] border-b border-white/10 px-5 flex items-center justify-between">
+                                <div class="absolute top-0 inset-x-0 h-[40%] bg-white"></div>
+                                <span class="relative z-10 px-3 py-1 bg-white text-[#0A0A0A] text-[10px] font-bold uppercase tracking-wider rounded-full">
+                                    PDF 03 • TARIFF CARD
+                                </span>
+                                <span class="relative z-10 text-[11px] font-mono text-neutral-300">FROM ₹65,000</span>
+                            </div>
+                            <div class="p-6">
+                                <h4 class="text-lg font-semibold tracking-tight">Booth Tariff & Inclusions</h4>
+                                <p class="text-xs sm:text-sm text-neutral-400 mt-3 leading-relaxed">
+                                    Pricing for 9 sqm, 15 sqm, 24 sqm & custom pavilions, Shell Scheme furniture lists, power specs, and early-bird discounts.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="px-6 py-3.5 bg-[#111111] border-t border-white/10">
+                            <a href="#brochure-download-form" class="text-xs font-bold uppercase tracking-wider text-white hover:text-[#FF5500] transition">Download Tariff Sheet →</a>
+                        </div>
+                    </div>
+
+                    <!-- Doc 4: Sponsorship, Awards & Media Kit -->
+                    <div class="bg-[#161616] border border-white/15 hover:border-[#FF5500] transition-colors flex flex-col justify-between overflow-hidden">
+                        <div>
+                            <div class="relative h-20 bg-[#111111] border-b border-white/10 px-5 flex items-center justify-between">
+                                <div class="absolute top-0 inset-x-0 h-[40%] bg-white"></div>
+                                <span class="relative z-10 px-3 py-1 bg-white text-[#0A0A0A] text-[10px] font-bold uppercase tracking-wider rounded-full">
+                                    PDF 04 • BRANDING
+                                </span>
+                                <span class="relative z-10 text-[11px] font-mono text-neutral-300">MEDIA + AWARDS</span>
+                            </div>
+                            <div class="p-6">
+                                <h4 class="text-lg font-semibold tracking-tight">Sponsorship & Media Kit</h4>
+                                <p class="text-xs sm:text-sm text-neutral-400 mt-3 leading-relaxed">
+                                    Title & Pavilion Sponsorships, Global Excellence Awards, Wedding India TV, GTTC India & 2-year free print magazine options.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="px-6 py-3.5 bg-[#111111] border-t border-white/10">
+                            <a href="#brochure-download-form" class="text-xs font-bold uppercase tracking-wider text-white hover:text-[#FF5500] transition">Download Media Kit →</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- 4. Lead-Capture Gate For Instant Brochure & Floorplan Download -->
+            <div id="brochure-download-form" class="p-8 sm:p-12 lg:p-16">
+                <div class="max-w-5xl mx-auto bg-white text-[#0A0A0A] border-t-4 border-[#FF5500] p-8 sm:p-12">
+                    <div class="flex flex-wrap items-center justify-between gap-4 pb-6 border-b border-black/10">
+                        <div>
+                            <span class="text-xs font-bold uppercase tracking-widest text-[#FF5500]">INSTANT DOWNLOAD • WEDDING INDIA EXPO 2027</span>
+                            <h3 class="text-2xl sm:text-3xl font-bold tracking-tight mt-1">
+                                Enter Your Details To Download Brochure & Floorplan
+                            </h3>
+                            <p class="text-xs sm:text-sm text-neutral-600 mt-1">
+                                We will unlock your PDF kit immediately and send a copy with available corner booths to your email & WhatsApp.
+                            </p>
+                        </div>
+                        <span class="bg-[#111111] text-white text-xs font-bold px-4 py-2 rounded-full">
+                            Help Center: 999-185-6776
                         </span>
-                        <span class="relative z-10 text-[11px] font-mono text-neutral-300">FROM ₹65,000</span>
                     </div>
-                    <div class="p-6">
-                        <h4 class="text-lg font-semibold tracking-tight">Booth Tariff & Inclusions</h4>
-                        <p class="text-xs sm:text-sm text-neutral-400 mt-3 leading-relaxed">
-                            Pricing for 9 sqm, 15 sqm, 24 sqm & custom pavilions, Shell Scheme furniture lists, power specs, and early-bird discounts.
-                        </p>
-                    </div>
-                </div>
-                <div class="px-6 py-3.5 bg-[#111111] border-t border-white/10">
-                    <a href="#brochure-download-form" class="text-xs font-bold uppercase tracking-wider text-white hover:text-[#FF5500] transition">Download Tariff Sheet →</a>
+
+                    <form method="POST" action="#" class="mt-8 space-y-6">
+                        @csrf
+                        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                            <div>
+                                <label class="block text-xs font-bold uppercase tracking-wider text-neutral-700 mb-2">Full Name *</label>
+                                <input type="text" name="name" placeholder="Enter your full name" class="w-full bg-neutral-100 border border-black/15 px-4 py-3 text-sm focus:outline-none focus:border-[#FF5500]" required />
+                            </div>
+                            <div>
+                                <label class="block text-xs font-bold uppercase tracking-wider text-neutral-700 mb-2">Company / Brand Name *</label>
+                                <input type="text" name="company" placeholder="Your brand or organization" class="w-full bg-neutral-100 border border-black/15 px-4 py-3 text-sm focus:outline-none focus:border-[#FF5500]" required />
+                            </div>
+                            <div>
+                                <label class="block text-xs font-bold uppercase tracking-wider text-neutral-700 mb-2">Phone / WhatsApp *</label>
+                                <input type="tel" name="phone" placeholder="+91 999-185-6776" class="w-full bg-neutral-100 border border-black/15 px-4 py-3 text-sm focus:outline-none focus:border-[#FF5500]" required />
+                            </div>
+                        </div>
+
+                        <div class="grid grid-cols-1 sm:grid-cols-3 gap-6">
+                            <div>
+                                <label class="block text-xs font-bold uppercase tracking-wider text-neutral-700 mb-2">Business Email *</label>
+                                <input type="email" name="email" placeholder="you@company.com" class="w-full bg-neutral-100 border border-black/15 px-4 py-3 text-sm focus:outline-none focus:border-[#FF5500]" required />
+                            </div>
+                            <div>
+                                <label class="block text-xs font-bold uppercase tracking-wider text-neutral-700 mb-2">Business Category *</label>
+                                <select name="category" class="w-full bg-neutral-100 border border-black/15 px-4 py-3 text-sm font-medium focus:outline-none focus:border-[#FF5500]">
+                                    <option value="Hotels, Resorts & Destination Venues">Hotels, Resorts & Destination Venues</option>
+                                    <option value="Bridal Sarees, Couture & Jewelry">Bridal Sarees, Couture & Jewelry</option>
+                                    <option value="Wedding Caterers, Chefs & Bar/Mixology">Wedding Caterers, Chefs & Bar/Mixology</option>
+                                    <option value="Wedding Planners & Event Designers">Wedding Planners & Event Designers</option>
+                                    <option value="Decor, Floral, Lighting & Production">Decor, Floral, Lighting & Production</option>
+                                    <option value="Tourism Boards & International Pavilions">Tourism Boards & International Pavilions</option>
+                                    <option value="Gifting, Sweets, Invitations & Hospitality Tech">Gifting, Sweets, Invitations & Hospitality Tech</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label class="block text-xs font-bold uppercase tracking-wider text-neutral-700 mb-2">Preferred Booth Size</label>
+                                <select name="booth_size" class="w-full bg-neutral-100 border border-black/15 px-4 py-3 text-sm font-medium focus:outline-none focus:border-[#FF5500]">
+                                    <option value="Standard Turnkey Booth (From ₹65,000)">Standard Turnkey Booth (From ₹65,000)</option>
+                                    <option value="15 sqm Two-Side Open Booth">15 sqm Two-Side Open Booth</option>
+                                    <option value="24 sqm Corner / Pavilion Space">24 sqm Corner / Pavilion Space</option>
+                                    <option value="Culinary Tasting Pod / Lounge">Culinary Tasting Pod / Lounge</option>
+                                    <option value="Title / Pavilion Sponsorship">Title / Pavilion Sponsorship</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="pt-4 flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-t border-black/10">
+                            <span class="text-xs text-neutral-600">
+                                March 5–7, 2027 • Yashobhoomi (IICC), Dwarka, New Delhi • team@weddingindiaexpo.com
+                            </span>
+                            <button type="submit" class="inline-flex items-center justify-center gap-3 bg-[#111111] hover:bg-[#FF5500] text-white px-8 py-4 text-xs sm:text-sm font-bold uppercase tracking-wider transition-colors duration-300 cursor-pointer">
+                                <span>Download Brochure & Floorplan PDF</span>
+                                <svg class="w-4 h-4 text-[#FF5500]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 4v12m0 0l-4-4m4 4l4-4M4 20h16"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </form>
                 </div>
             </div>
 
-            <!-- Doc 4: Sponsorship, Awards & Media Kit -->
-            <div class="bg-[#161616] border border-white/15 hover:border-[#FF5500] transition-colors flex flex-col justify-between overflow-hidden">
-                <div>
-                    <div class="relative h-20 bg-[#111111] border-b border-white/10 px-5 flex items-center justify-between">
-                        <div class="absolute top-0 inset-x-0 h-[40%] bg-white"></div>
-                        <span class="relative z-10 px-3 py-1 bg-white text-[#0A0A0A] text-[10px] font-bold uppercase tracking-wider rounded-full">
-                            PDF 04 • BRANDING
-                        </span>
-                        <span class="relative z-10 text-[11px] font-mono text-neutral-300">MEDIA + AWARDS</span>
-                    </div>
-                    <div class="p-6">
-                        <h4 class="text-lg font-semibold tracking-tight">Sponsorship & Media Kit</h4>
-                        <p class="text-xs sm:text-sm text-neutral-400 mt-3 leading-relaxed">
-                            Title & Pavilion Sponsorships, Global Excellence Awards, Wedding India TV, GTTC India & 2-year free print magazine options.
-                        </p>
-                    </div>
-                </div>
-                <div class="px-6 py-3.5 bg-[#111111] border-t border-white/10">
-                    <a href="#brochure-download-form" class="text-xs font-bold uppercase tracking-wider text-white hover:text-[#FF5500] transition">Download Media Kit →</a>
-                </div>
-            </div>
-
-        </div>
-    </div>
-
-    <!-- 4. Lead-Capture Gate For Instant Brochure & Floorplan Download -->
-    <div id="brochure-download-form" class="p-8 sm:p-12 lg:p-16">
-        <div class="max-w-5xl mx-auto bg-white text-[#0A0A0A] border-t-4 border-[#FF5500] p-8 sm:p-12">
-            <div class="flex flex-wrap items-center justify-between gap-4 pb-6 border-b border-black/10">
-                <div>
-                    <span class="text-xs font-bold uppercase tracking-widest text-[#FF5500]">INSTANT DOWNLOAD • WEDDING INDIA EXPO 2027</span>
-                    <h3 class="text-2xl sm:text-3xl font-bold tracking-tight mt-1">
-                        Enter Your Details To Download Brochure & Floorplan
-                    </h3>
-                    <p class="text-xs sm:text-sm text-neutral-600 mt-1">
-                        We will unlock your PDF kit immediately and send a copy with available corner booths to your email & WhatsApp.
-                    </p>
-                </div>
-                <span class="bg-[#111111] text-white text-xs font-bold px-4 py-2 rounded-full">
-                    Help Center: 999-185-6776
-                </span>
-            </div>
-
-            <form method="POST" action="#" class="mt-8 space-y-6">
-                @csrf
-                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-                    <div>
-                        <label class="block text-xs font-bold uppercase tracking-wider text-neutral-700 mb-2">Full Name *</label>
-                        <input type="text" name="name" placeholder="Enter your full name" class="w-full bg-neutral-100 border border-black/15 px-4 py-3 text-sm focus:outline-none focus:border-[#FF5500]" required />
-                    </div>
-                    <div>
-                        <label class="block text-xs font-bold uppercase tracking-wider text-neutral-700 mb-2">Company / Brand Name *</label>
-                        <input type="text" name="company" placeholder="Your brand or organization" class="w-full bg-neutral-100 border border-black/15 px-4 py-3 text-sm focus:outline-none focus:border-[#FF5500]" required />
-                    </div>
-                    <div>
-                        <label class="block text-xs font-bold uppercase tracking-wider text-neutral-700 mb-2">Phone / WhatsApp *</label>
-                        <input type="tel" name="phone" placeholder="+91 999-185-6776" class="w-full bg-neutral-100 border border-black/15 px-4 py-3 text-sm focus:outline-none focus:border-[#FF5500]" required />
-                    </div>
-                </div>
-
-                <div class="grid grid-cols-1 sm:grid-cols-3 gap-6">
-                    <div>
-                        <label class="block text-xs font-bold uppercase tracking-wider text-neutral-700 mb-2">Business Email *</label>
-                        <input type="email" name="email" placeholder="you@company.com" class="w-full bg-neutral-100 border border-black/15 px-4 py-3 text-sm focus:outline-none focus:border-[#FF5500]" required />
-                    </div>
-                    <div>
-                        <label class="block text-xs font-bold uppercase tracking-wider text-neutral-700 mb-2">Business Category *</label>
-                        <select name="category" class="w-full bg-neutral-100 border border-black/15 px-4 py-3 text-sm font-medium focus:outline-none focus:border-[#FF5500]">
-                            <option value="Hotels, Resorts & Destination Venues">Hotels, Resorts & Destination Venues</option>
-                            <option value="Bridal Sarees, Couture & Jewelry">Bridal Sarees, Couture & Jewelry</option>
-                            <option value="Wedding Caterers, Chefs & Bar/Mixology">Wedding Caterers, Chefs & Bar/Mixology</option>
-                            <option value="Wedding Planners & Event Designers">Wedding Planners & Event Designers</option>
-                            <option value="Decor, Floral, Lighting & Production">Decor, Floral, Lighting & Production</option>
-                            <option value="Tourism Boards & International Pavilions">Tourism Boards & International Pavilions</option>
-                            <option value="Gifting, Sweets, Invitations & Hospitality Tech">Gifting, Sweets, Invitations & Hospitality Tech</option>
-                        </select>
-                    </div>
-                    <div>
-                        <label class="block text-xs font-bold uppercase tracking-wider text-neutral-700 mb-2">Preferred Booth Size</label>
-                        <select name="booth_size" class="w-full bg-neutral-100 border border-black/15 px-4 py-3 text-sm font-medium focus:outline-none focus:border-[#FF5500]">
-                            <option value="Standard Turnkey Booth (From ₹65,000)">Standard Turnkey Booth (From ₹65,000)</option>
-                            <option value="15 sqm Two-Side Open Booth">15 sqm Two-Side Open Booth</option>
-                            <option value="24 sqm Corner / Pavilion Space">24 sqm Corner / Pavilion Space</option>
-                            <option value="Culinary Tasting Pod / Lounge">Culinary Tasting Pod / Lounge</option>
-                            <option value="Title / Pavilion Sponsorship">Title / Pavilion Sponsorship</option>
-                        </select>
-                    </div>
-                </div>
-
-                <div class="pt-4 flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-t border-black/10">
-                    <span class="text-xs text-neutral-600">
-                        March 5–7, 2027 • Yashobhoomi (IICC), Dwarka, New Delhi • team@weddingindiaexpo.com
-                    </span>
-                    <button type="submit" class="inline-flex items-center justify-center gap-3 bg-[#111111] hover:bg-[#FF5500] text-white px-8 py-4 text-xs sm:text-sm font-bold uppercase tracking-wider transition-colors duration-300 cursor-pointer">
-                        <span>Download Brochure & Floorplan PDF</span>
-                        <svg class="w-4 h-4 text-[#FF5500]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 4v12m0 0l-4-4m4 4l4-4M4 20h16"/>
-                        </svg>
-                    </button>
-                </div>
-            </form>
-        </div>
-    </div>
-
-</section>
+        </section>
     @endif
 </main>
