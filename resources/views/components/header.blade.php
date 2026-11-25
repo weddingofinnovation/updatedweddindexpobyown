@@ -488,11 +488,11 @@
                                     Advertising & Sponsorship
                                 </a>
                                 
-                                <a href="{{route('exhibitor.service', ['board'=> 'advertising-sponsorship'])}}" class="block text-gray-700 hover:text-red-600">
+                                <a href="{{route('exhibitor.service', ['board'=> 'promoteyourbrand'])}}" class="block text-gray-700 hover:text-red-600">
                                     Promote Your Brand
                                 </a>
                                 
-                                <a href="{{route('exhibitor.service', ['board'=> 'advertising-sponsorship'])}}" class="block text-gray-700 hover:text-red-600">
+                                <a href="{{route('exhibitor.service', ['board'=> 'exhibitorservice'])}}" class="block text-gray-700 hover:text-red-600">
                                     Exhibitor Services
                                 </a>
                                 
