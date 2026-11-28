@@ -42,7 +42,7 @@ class ExhibitorComponent extends Component
         $getdetails->booth_size = trim($this->booth_size);
         $getdetails->notes = trim($this->notes);
         $getdetails->save();
-        
+        dd($getdetails);
 
         // $buesinssemil = Mail::to($getdetails->email)->cc('team@weddingindiaexpo.com')
         //     ->send(new GiftingInquiryMail($getdetails->toArray()));
