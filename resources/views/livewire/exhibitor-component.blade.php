@@ -3506,21 +3506,25 @@
                                 <label class="block text-xs font-bold uppercase tracking-wider text-neutral-700 mb-2">check | Contact Person Name *</label>
                                 <input type="text" name="name" wire:model="name" placeholder="Enter your full name" class="w-full bg-neutral-100 border border-black/15 px-4 py-3 text-sm focus:outline-none focus:border-[#FF5500]" required />
                             </div>
+                            @error ('name') <span class="text-red-500 text-xs">{{ $message }}</span> @enderror
                             <div>
                                 <label class="block text-xs font-bold uppercase tracking-wider text-neutral-700 mb-2">Gifting Brand / Studio Name *</label>
                                 <input type="text" name="company" wire:model="company" placeholder="Your gifting, hamper, or silverware brand" class="w-full bg-neutral-100 border border-black/15 px-4 py-3 text-sm focus:outline-none focus:border-[#FF5500]" required />
                             </div>
+                            @error ('company') <span class="text-red-500 text-xs">{{ $message }}</span> @enderror
                             <div>
                                 <label class="block text-xs font-bold uppercase tracking-wider text-neutral-700 mb-2">Phone / WhatsApp *</label>
                                 <input type="tel" name="phone" wire:model="phone" placeholder="+91 999-185-6776" class="w-full bg-neutral-100 border border-black/15 px-4 py-3 text-sm focus:outline-none focus:border-[#FF5500]" required />
                             </div>
-                        </div>
-
-                        <div class="grid grid-cols-1 sm:grid-cols-3 gap-6">
+                            @error ('phone') <span class="text-red-500 text-xs">{{ $message }}</span> @enderror
                             <div>
                                 <label class="block text-xs font-bold uppercase tracking-wider text-neutral-700 mb-2">Business Email *</label>
                                 <input type="email" name="email" wire:model="email" placeholder="you@brand.com" class="w-full bg-neutral-100 border border-black/15 px-4 py-3 text-sm focus:outline-none focus:border-[#FF5500]" required />
                             </div>
+                            @error ('email') <span class="text-red-500 text-xs">{{ $message }}</span> @enderror
+                        </div>
+
+                        <div class="grid grid-cols-1 sm:grid-cols-3 gap-6"> 
                             <div>
                                 <label class="block text-xs font-bold uppercase tracking-wider text-neutral-700 mb-2">Gifting / Product Category *</label>
                                 <select name="category" wire:model="category" class="w-full bg-neutral-100 border border-black/15 px-4 py-3 text-sm font-medium focus:outline-none focus:border-[#FF5500]">
@@ -3532,6 +3536,7 @@
                                     <option value="Corporate & Hospitality Gifting Manufacturer">Corporate & Hospitality Gifting Manufacturer</option>
                                 </select>
                             </div>
+                            @error ('category') <span class="text-red-500 text-xs">{{ $message }}</span> @enderror
                             <div>
                                 <label class="block text-xs font-bold uppercase tracking-wider text-neutral-700 mb-2">Preferred Space Option *</label>
                                 <select name="booth_size" wire:model="booth_size" class="w-full bg-neutral-100 border border-black/15 px-4 py-3 text-sm font-medium focus:outline-none focus:border-[#FF5500]">
@@ -3542,6 +3547,7 @@
                                     <option value="Send Floorplan & Brochure First">Send Floorplan & Brochure First</option>
                                 </select>
                             </div>
+                            @error ('booth_size') <span class="text-red-500 text-xs">{{ $message }}</span> @enderror
                         </div>
 
                         <div>
@@ -3549,6 +3555,7 @@
                                 City, Product Range Or Official VIP Hamper Partner Interest
                             </label>
                             <textarea rows="3" name="notes" wire:model="notes" placeholder="Share your city, signature gift collections, minimum order quantities, or interest in sponsoring official VIP/Speaker welcome hampers..." class="w-full bg-neutral-100 border border-black/15 px-4 py-3 text-sm focus:outline-none focus:border-[#FF5500]"></textarea>
+                            @error ('notes') <span class="text-red-500 text-xs">{{ $message }}</span> @enderror
                         </div>
 
                         <div class="pt-4 flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-t border-black/10">
